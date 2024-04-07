@@ -8,7 +8,8 @@ enum AppPage {
 }
 class GlobalSettings: ObservableObject {
     @Published var checkIfPlaced: Bool = false
-    @Published var entries: [(bet: String, amount: String)] = []
+    @Published var betID: Int = 0
+    @Published var entries: [(id: Int, bet: String, amount: String)] = []
 }
 
 struct ContentView: View {
@@ -435,8 +436,9 @@ struct CurrentEntry: View {
                     Button("Confirm and Place") {
                         settings.checkIfPlaced = true
                         for player in printedPlayers {
-                            settings.entries.append((bet: player, amount: dollarAmount))
+                            settings.entries.append((id: settings.betID, bet: player, amount: dollarAmount))
                         }
+                        settings.betID = settings.betID + 1
                         presentationMode.wrappedValue.dismiss()
                     }
                     .padding()

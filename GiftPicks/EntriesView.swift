@@ -8,13 +8,15 @@ struct EntriesView: View {
         VStack {
             Text("Entries Page")
             
-            let groupedEntries = Dictionary(grouping: settings.entries, by: { $0.amount })
-            ForEach(groupedEntries.keys.sorted(), id: \.self) { amount in
+            let groupedEntries = Dictionary(grouping: settings.entries, by: { $0.id })
+            ForEach(groupedEntries.keys.sorted(by: >), id: \.self) { key in
                 VStack {
-                    ForEach(groupedEntries[amount] ?? [], id: \.bet) { entry in
+                    ForEach(groupedEntries[key] ?? [], id: \.bet) { entry in
                         Text("\(entry.bet)")
                     }
-                    Text("Bet Amount: \(amount)")
+                    if let firstEntry = groupedEntries[key]?.first {
+                        Text("Bet Amount: \(firstEntry.amount)")
+                    }
                 }
                 .padding() // Padding inside the box
                 .overlay(
