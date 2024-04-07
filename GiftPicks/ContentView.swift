@@ -1,17 +1,29 @@
 import SwiftUI
 
+enum AppPage {
+    case board
+    case entries
+    case account
+    case help
+}
+class GlobalSettings: ObservableObject {
+    @Published var checkIfPlaced: Bool = false
+    @Published var entries: [(bet: String, amount: String)] = []
+}
+
 struct ContentView: View {
+    @EnvironmentObject var settings: GlobalSettings
     
-    @Binding var isAuthenticated: Bool // Binding to the isAuthenticated state variable
-    // SPORTS AND STATS ---------------------------------------------------------------------------
+    
+    @Binding public var isAuthenticated: Bool
+    @State private var currentPage: AppPage = .board
+    
     @State private var selectedSport: String = "NBA"
     @State private var selectedStat: String = "NBA"
     @State private var sports: [String] = ["NBA", "MLB", "NFL", "Soccer", "Cricket", "Tennis"]
-
-    
     @State private var isScrolling: Bool = false
     @State private var highlightedPlayer: Int? = nil
-    @State private var isSecondWindowOpen = false
+    @State private var isEntryWindowOpen = false
     @State private var overUnder: String = ""
     @State private var playerEntryCount = 0
     
@@ -21,9 +33,8 @@ struct ContentView: View {
         "NFL": Array(repeating: "Christian McCaffrey", count: 30),
         "Soccer": Array(repeating: "Lionel Messi", count: 30),
         "Cricket": Array(repeating: "David Warner", count: 30),
-        "Tennis": Array(repeating: "Rafael Nadl", count: 30)
+        "Tennis": Array(repeating: "Rafael Nadal", count: 30)
     ]
-    
     @State private var sportsStats: [String: [String]] = [
         "NBA": ["Points", "Rebounds", "Assists", "PRA", "RA", "PR", "PA"],
         "MLB": ["Hits", "Bases", "Strikeouts", "PRA", "RA", "PR", "PA"],
@@ -32,7 +43,6 @@ struct ContentView: View {
         "Cricket": ["Runs", "Fours", "Sixes", "Wickets", "RA", "PR", "PA"],
         "Tennis": ["Aces", "Break Points", "Serves", "PRA", "RA", "PR", "PA"]
     ]
-    
     @State private var playerColors: [String: [Color]] = [
         "NBA": Array(repeating: .clear, count: 30),
         "MLB": Array(repeating: .clear, count: 30),
@@ -42,8 +52,12 @@ struct ContentView: View {
         "Tennis": Array(repeating: .clear, count: 30)
     ]
     
+
+
     
-    var body: some View {
+    
+    private func BoardView() ->  some View {
+        GeometryReader { geometry in
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
                 ScrollViewReader { scrollView in
@@ -62,20 +76,14 @@ struct ContentView: View {
                                     }
                                     scrollView.scrollTo(sport, anchor: .center)
                                     highlightedPlayer = nil
-                                    //clearAllHighlightedPlayers(playerColors: &playerColors[sport]!) // Clear highlights of other players
                                 }
                         }
                     }
                     .padding(.horizontal, 8)
                 }
-                .onChange(of: scrollViewOffset) { offset in
-                    isScrolling = offset != .zero
-                }
             }
-            
+
             HStack {
-                Spacer()
-                    .frame(width: 16) // Adjust spacing for buttons
                 Button(action: {
                     // Set player button color to red
                     if highlightedPlayer != nil{
@@ -91,6 +99,7 @@ struct ContentView: View {
                         .background(Color.red)
                         .cornerRadius(8)
                 }
+
                 Button(action: {
                     // Set player button color to green
                     if highlightedPlayer != nil{
@@ -106,6 +115,7 @@ struct ContentView: View {
                         .background(Color.green)
                         .cornerRadius(8)
                 }
+
                 Button(action: {
                     clearAllPlayerColors()
                     // Set all player buttons color to clear
@@ -120,93 +130,103 @@ struct ContentView: View {
                         .background(Color.gray)
                         .cornerRadius(8)
                 }
-            } // end HStack for buttons clear, over, under
+            }
             
-            
-            ZStack {
-                if let players = playerEntry[selectedSport], let stats = sportsStats[selectedSport]{
-                    generateSportsView(sport: selectedSport, stats: stats, players: players)
-                } else {
-                    Text("No players available")
-                }
+
+
+            if let players = playerEntry[selectedSport], let stats = sportsStats[selectedSport] {
+                generateSportsView(sport: selectedSport, stats: stats, players: players)
+            } else {
+                Text("No players available")
             }
             
             
             
-            
-            VStack {
-                HStack{
-                    Button(action: {
-                        isSecondWindowOpen.toggle()
-                    }) {
-                        Text("Player Entry")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 12)
-                            .background(Color.purple)
-                            .cornerRadius(8)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .offset(x: 150, y: 0)
-                    .background(Color.clear)
-                    .sheet(isPresented: $isSecondWindowOpen) {
-                        SecondView(playerColors: playerColors)
-                    }
-                    
-                    Button(action: {
-                        isAuthenticated = false
-                    }) {
-                        Text("Return to Login")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 12)
-                            .background(Color.purple)
-                            .cornerRadius(8)
-                    }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .offset(x: -160, y: 0)
-                    .background(Color.clear)
-                } // end hstack for return to login and player entry
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16) {
-                            ForEach(["Entries", "Board", "Account", "Live"], id: \.self) { entry in
-                                Button(action: {
-                                    // Handle button action
-                                }) {
-                                    Text(entry)
-                                        .font(.headline)
-                                        .padding(.horizontal, 12)
-                                        .padding(.vertical, 8)
-                                        .foregroundColor(.white)
-                                        .background(Color.purple)
-                                        .cornerRadius(8)
-                                }
-                            }
-                        }
-                        .padding(.horizontal, 16)
-                    }
-                .background(Color.black)
-            } // end vstack for PLAYER ENTRY BUTTON and BOTTOM LIST
-        } // end OG vstack
-    } // end view
+            VStack{
+                Button("Place Current Entry") {
+                    isEntryWindowOpen.toggle()
+                }
+                .frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.08)
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding(.vertical, 8)
+                .padding(.horizontal, 12)
+                .background(Color.purple)
+                .cornerRadius(8)
+                .sheet(isPresented: $isEntryWindowOpen) {
+                    CurrentEntry(playerColors: playerColors)
+                }
+                navigationBar(geometry: geometry)
+                }
+            .background(Color.purple.opacity(0.5))
+            .edgesIgnoringSafeArea(.all)
+            }
+        .frame(maxWidth: .infinity, alignment: .center)
+
+        }
+        .padding(.trailing, 13)
+        
+        
+    }
     
     
+    var body: some View {
+        GeometryReader { geometry in
+            VStack(spacing: 0) {
+                switch currentPage {
+                case .entries:
+                    EntriesView(changePage: { self.currentPage = .board })
+                case .board:
+                    BoardView()
+                case .account:
+                    AccountView(changePage: { self.currentPage = .board })
+                case .help:
+                    HelpView(changePage: { self.currentPage = .board })
+                }
+            }
+            // end vstack
+        }
+        .onReceive(settings.$checkIfPlaced) { checkIfPlaced in
+            if checkIfPlaced {
+                clearAllPlayerColors()
+                settings.checkIfPlaced = false // Reset the flag
+                
+            }
+        }// end geometry
+        
+    }
+    
+    
+    private func navigationBar(geometry: GeometryProxy) -> some View {
+        
+        HStack(spacing: 8) {
+            Button("Entries") { currentPage = .entries }
+            Button("Board") { currentPage = .board }
+            Button("Account") { currentPage = .account }
+            Button("Help") { currentPage = .help }
+        }
+        .frame(width: geometry.size.width, height: 50)
+        .font(.headline)
+        .foregroundColor(.white)
+        .padding(.vertical, 8)
+        .padding(.horizontal, 12)
+        .background(Color.purple)
+        .cornerRadius(8)
+    }
     
     
     private var scrollViewOffset: CGFloat {
         return UIScrollView.appearance().contentOffset.y
     }
+    
     private func printSelection() {
         if let playerIndex = highlightedPlayer, let playerName = playerEntry[selectedSport]?[playerIndex] {
             print("Highlighted Player: \(playerName), Selection: \(overUnder)")
         }
     }
-
     
-    func clearAllPlayerColors() {
+    
+    public func clearAllPlayerColors() {
         for sport in playerColors.keys {
             guard var sportColors = playerColors[sport] else {
                 continue // Skip if the sport is not found in the dictionary
@@ -330,61 +350,100 @@ struct ContentView: View {
                                 .cornerRadius(8)
                                 .overlay(
                                     RoundedRectangle(cornerRadius: 8)
-                                        .stroke(Color.black, lineWidth: 1) // Outline with black color and 1pt width
+                                        .stroke(Color.black, lineWidth: 2) // Outline with black color and 1pt width
                                 )
                         }
                         .buttonStyle(PlainButtonStyle()) // Remove button styling
                     }
                 }
-                .padding(.horizontal, 10) // Add horizontal padding to the grid
+                .padding(.horizontal, 10)
+                .padding(.trailing, 12) // Add horizontal padding to the grid
+                .padding(.vertical, 5)
             }
         }
     }
-} // end content view struct
+}
 
-struct SecondView: View {
+// Define your PrimaryButtonStyle for a consistent look across buttons
+struct PrimaryButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.purple)
+            .cornerRadius(8)
+    }
+}
+
+struct BottomButtons: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .font(.subheadline) // Adjust font size
+            .padding(.horizontal, 6) // Adjust horizontal padding
+            .padding(.vertical, 4) // Adjust vertical padding
+            .foregroundColor(.white)
+            .background(Color.purple)
+            .cornerRadius(6) // Adjust corner radius
+    }
+}
+struct CurrentEntry: View {
+    @EnvironmentObject var settings: GlobalSettings
+    @Environment(\.presentationMode) var presentationMode
+    var playerColors: [String: [Color]]
+
     @State private var playerEntry: [String: [String]] = [
         "NBA": Array(repeating: "Lebron James", count: 30),
         "MLB": Array(repeating: "Shohei Ohtani", count: 30),
         "NFL": Array(repeating: "Christian McCaffrey", count: 30),
         "Soccer": Array(repeating: "Lionel Messi", count: 30),
         "Cricket": Array(repeating: "David Warner", count: 30),
-        "Tennis": Array(repeating: "Rafael Nadl", count: 30)
+        "Tennis": Array(repeating: "Rafael Nadal", count: 30)
     ]
-    @Environment(\.presentationMode) var presentationMode
-    let playerColors: [String: [Color]]
+    @State private var printedPlayers: [String] = []
+    @State private var dollarAmount: String = ""
 
     var body: some View {
-        ZStack(alignment: .topTrailing) { // Align elements to the top trailing corner
-            
+        ZStack(alignment: .topTrailing) {
             VStack {
                 Text("Current Entry:")
                     .font(.headline)
                     .padding()
                 
                 ForEach(playerColors.keys.sorted(), id: \.self) { sport in
-                    if let colors = playerColors[sport], let players = playerEntry[sport]{
+                    if let colors = playerColors[sport], let players = playerEntry[sport] {
                         let coloredPlayers = colors.enumerated().filter { $0.element == .green || $0.element == .red }
                         ForEach(coloredPlayers, id: \.offset) { (offset, color) in
-                            Text("\(sport): \(players[offset]) - \(color == .green ? "Over" : "Under")")
+                            let player = "\(sport): \(players[offset]) - \(color == .green ? "Over" : "Under")"
+                            Text(player)
                                 .padding()
+                                .background(color == .green ? Color.green.opacity(0.2) : Color.red.opacity(0.2))
+                                .cornerRadius(10)
+                                .padding(.horizontal)
+                                .onAppear {
+                                    printedPlayers.append(player)
+                                }
                         }
                     }
                 }
-            }
-            
-            VStack {
-                Spacer()
-                Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                }) {
-                    Text("Return to Player Entries")
+
+                HStack {
+                    TextField("Dollar Amount", text: $dollarAmount)
+                        .keyboardType(.decimalPad)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                        .foregroundColor(.white)
-                        .background(Color.purple)
-                        .cornerRadius(10)
+
+                    Button("Confirm and Place") {
+                        settings.checkIfPlaced = true
+                        for player in printedPlayers {
+                            settings.entries.append((bet: player, amount: dollarAmount))
+                        }
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                    .padding()
+                    .foregroundColor(.white)
+                    .background(Color.green)
+                    .cornerRadius(10)
                 }
-                .padding(.trailing, 20) // Add trailing padding to move the button to the left
             }
             .padding()
         }
@@ -392,11 +451,7 @@ struct SecondView: View {
 }
 
 
-
-
-
-
-
+// Your other view structs like EntriesView, BoardView, etc...
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

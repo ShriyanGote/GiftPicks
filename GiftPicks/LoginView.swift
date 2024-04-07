@@ -1,4 +1,3 @@
-// LoginView.swift
 import SwiftUI
 
 struct LoginView: View {
@@ -7,7 +6,7 @@ struct LoginView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     @State private var isLoggedIn: Bool = false // Track login status
-    
+
     var body: some View {
         VStack {
             TextField("Username", text: $username)
@@ -15,11 +14,11 @@ struct LoginView: View {
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-            
+
             SecureField("Password", text: $password)
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-            
+
             Button(action: {
                 // Perform login validation here
                 // For now, simply set isAuthenticated to true for demonstration

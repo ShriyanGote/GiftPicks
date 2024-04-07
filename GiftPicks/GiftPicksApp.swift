@@ -11,13 +11,16 @@ import SwiftUI
 struct GiftPicksApp: App {
     // Add a state variable to track the user's authentication status
     @State private var isAuthenticated = false
+    @StateObject private var globalSettings = GlobalSettings()  // Initialize GlobalSettings here
+
 
     var body: some Scene {
         WindowGroup {
             if isAuthenticated {
-                ContentView(isAuthenticated: $isAuthenticated) // Display the main view if authenticated
-            } else {
-                LoginView(isAuthenticated: $isAuthenticated) // Pass isAuthenticated binding to LoginView
+                ContentView(isAuthenticated: $isAuthenticated).environmentObject(GlobalSettings())
+
+            } else{
+                LoginView(isAuthenticated: $isAuthenticated)// Pass isAuthenticated binding to LoginView
             }
         }
     }
