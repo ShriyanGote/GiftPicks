@@ -157,9 +157,9 @@ struct ContentView: View {
                 .sheet(isPresented: $isEntryWindowOpen) {
                     CurrentEntry(playerColors: playerColors)
                 }
-                navigationBar(geometry: geometry)
+                //navigationBar(geometry: geometry)
                 }
-            .background(Color.purple.opacity(0.5))
+            //.background(Color.purple.opacity(0.5))
             .edgesIgnoringSafeArea(.all)
             }
         .frame(maxWidth: .infinity, alignment: .center)
@@ -172,30 +172,38 @@ struct ContentView: View {
     
     
     var body: some View {
-        GeometryReader { geometry in
-            VStack(spacing: 0) {
-                switch currentPage {
-                case .entries:
-                    EntriesView(changePage: { self.currentPage = .board })
-                case .board:
-                    BoardView()
-                case .account:
-                    AccountView(changePage: { self.currentPage = .board })
-                case .help:
-                    HelpView(changePage: { self.currentPage = .board })
+            GeometryReader { geometry in
+                ZStack {
+                    VStack {
+                        //Spacer()
+                        
+                        // Content switcher
+                        switch currentPage {
+                        case .entries:
+                            EntriesView(changePage: { self.currentPage = .board })
+                        case .board:
+                            BoardView()
+                        case .account:
+                            AccountView(changePage: { self.currentPage = .board })
+                        case .help:
+                            HelpView(changePage: { self.currentPage = .board })
+                        }
+                    }
+                    
+                    VStack {
+                         // Pushes the navigation bar to the bottom
+                        navigationBar(geometry: geometry)
+                    }
                 }
             }
-            // end vstack
-        }
-        .onReceive(settings.$checkIfPlaced) { checkIfPlaced in
-            if checkIfPlaced {
-                clearAllPlayerColors()
-                settings.checkIfPlaced = false // Reset the flag
-                
+            //.edgesIgnoringSafeArea(.bottom) // Ensure the navigation bar can extend into the safe area if needed
+            .onReceive(settings.$checkIfPlaced) { checkIfPlaced in
+                if checkIfPlaced {
+                    clearAllPlayerColors()
+                    settings.checkIfPlaced = false
+                }
             }
-        }// end geometry
-        
-    }
+        }
     
     
     private func navigationBar(geometry: GeometryProxy) -> some View {
