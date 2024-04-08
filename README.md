@@ -1,8 +1,8 @@
-# Gift Picks
+# Stacks
 
 ## Overview
 
-**Gift Picks** is a sports betting and analytics app that provides users with data-driven insights for various sports, enabling informed decision-making for betting. The app integrates live sports data, offers betting simulations, and tracks user performance over time.
+**Stacks** is a sports betting and analytics app that provides users with data-driven insights for various sports, enabling informed decision-making for betting. The app integrates live sports data, offers betting simulations, and tracks user performance over time.
 
 ## Features
 
@@ -33,8 +33,8 @@
 
 ## Contributing
 
-We welcome contributions to the Gift Picks app. If you have suggestions or improvements, please fork the repository, make your changes, and submit a pull request.
+We welcome contributions to the Stacks app. If you have suggestions or improvements, please fork the repository, make your changes, and submit a pull request.
 
 ## License
 
-Gift Picks is available under the MIT license. See the LICENSE file for more info.
+Stacks is available under the MIT license. See the LICENSE file for more info.
