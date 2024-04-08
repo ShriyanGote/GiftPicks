@@ -38,11 +38,11 @@ struct ContentView: View {
     ]
     @State private var sportsStats: [String: [String]] = [
         "NBA": ["Points", "Rebounds", "Assists", "PRA", "RA", "PR", "PA"],
-        "MLB": ["Hits", "Bases", "Strikeouts", "PRA", "RA", "PR", "PA"],
-        "NFL": ["Catches", "Throwing", "Receiving", "Rushing", "RA", "PR", "PA"],
-        "Soccer": ["Passes", "Goals", "Assists", "Saves", "RA", "PR", "PA"],
-        "Cricket": ["Runs", "Fours", "Sixes", "Wickets", "RA", "PR", "PA"],
-        "Tennis": ["Aces", "Break Points", "Serves", "PRA", "RA", "PR", "PA"]
+        "MLB": ["Hits", "Bases", "Strikeouts", "PRA", "NRFI", "Score"],
+        "NFL": ["Catches", "Throwing", "Receiving", "Rushing", "Fantasy"],
+        "Soccer": ["Passes", "Goals", "Assists", "Saves", "Shots", "SOG"],
+        "Cricket": ["Runs", "Fours", "Sixes", "Wickets"],
+        "Tennis": ["Aces", "Break Points", "Serves"]
     ]
     @State private var playerColors: [String: [Color]] = [
         "NBA": Array(repeating: .clear, count: 30),
@@ -131,6 +131,21 @@ struct ContentView: View {
                         .background(Color.gray)
                         .cornerRadius(8)
                 }
+                
+                Button("Place Entry") {
+                    isEntryWindowOpen.toggle()
+                }
+                //.frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.08)
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .padding(.vertical, 8)
+                    .padding(.horizontal, 12)
+                    .background(Color.purple)
+                    .cornerRadius(8)
+                    .sheet(isPresented: $isEntryWindowOpen) {
+                        CurrentEntry(playerColors: playerColors)
+                    }
+
             }
             
 
@@ -142,32 +157,11 @@ struct ContentView: View {
             }
             
             
-            
-            VStack{
-                Button("Place Current Entry") {
-                    isEntryWindowOpen.toggle()
-                }
-                .frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.08)
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding(.vertical, 8)
-                .padding(.horizontal, 12)
-                .background(Color.purple)
-                .cornerRadius(8)
-                .sheet(isPresented: $isEntryWindowOpen) {
-                    CurrentEntry(playerColors: playerColors)
-                }
-                //navigationBar(geometry: geometry)
-                }
+            //navigationBar(geometry: geometry)
             //.background(Color.purple.opacity(0.5))
-            .edgesIgnoringSafeArea(.all)
-            .padding(Edge.Set.bottom, 50)
             }
-        .frame(maxWidth: .infinity, alignment: .center)
 
         }
-        .padding(.trailing, 13)
-        
         
     }
     
@@ -209,7 +203,7 @@ struct ContentView: View {
     
     private func navigationBar(geometry: GeometryProxy) -> some View {
         
-        HStack(spacing: 8) {
+        HStack(spacing: 30) {
             Button("Entries") { currentPage = .entries }
             Button("Board") { currentPage = .board }
             Button("Account") { currentPage = .account }
@@ -221,7 +215,7 @@ struct ContentView: View {
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
         .background(Color.purple)
-        .cornerRadius(8)
+        .padding(.trailing, 10)
     }
     
     
@@ -354,7 +348,7 @@ struct ContentView: View {
                             }
                         }) {
                             Text(players[index])
-                                .padding(20) // Adjust padding to make the squares taller
+                                .padding(40) // Adjust padding to make the squares taller
                                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                                 .background(getPlayerColor(sport: sport, playerIndex: index))
                                 .cornerRadius(8)
@@ -371,7 +365,8 @@ struct ContentView: View {
                 .padding(.vertical, 5)
             }
         }
-    }
+    } // end of generate sports view
+    
 }
 
 // Define your PrimaryButtonStyle for a consistent look across buttons

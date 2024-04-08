@@ -9,7 +9,7 @@ struct HelpView: View {
             Text("Help Page")
                 .frame(maxWidth: .infinity, alignment: .center)
                 
-            Button("Back to Home") {
+            Button("Back to Board") {
                 changePage()
             }
                 .padding()
@@ -20,5 +20,6 @@ struct HelpView: View {
             }
             Spacer()
         }
+        .padding(.trailing, 30)
     }
 }
