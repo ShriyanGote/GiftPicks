@@ -161,6 +161,7 @@ struct ContentView: View {
                 }
             //.background(Color.purple.opacity(0.5))
             .edgesIgnoringSafeArea(.all)
+            .padding(Edge.Set.bottom, 50)
             }
         .frame(maxWidth: .infinity, alignment: .center)
 
@@ -191,7 +192,7 @@ struct ContentView: View {
                     }
                     
                     VStack {
-                         // Pushes the navigation bar to the bottom
+                         Spacer()// Pushes the navigation bar to the bottom
                         navigationBar(geometry: geometry)
                     }
                 }

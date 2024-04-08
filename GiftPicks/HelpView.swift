@@ -18,6 +18,7 @@ struct HelpView: View {
                 .cornerRadius(10)
                 .frame(maxWidth: .infinity, alignment: .center)
             }
+            Spacer()
         }
     }
 }

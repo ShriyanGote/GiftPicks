@@ -39,5 +39,6 @@ struct EntriesView: View {
             }
 
         }
+        Spacer()
     }
 }
