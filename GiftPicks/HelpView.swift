@@ -5,17 +5,19 @@ struct HelpView: View {
 
     var body: some View {
         VStack {
+            HStack {
             Text("Help Page")
-            // Add more UI elements specific to the Entries page here
-
-            Button("Back to Board") {
-                changePage()  // Call the closure to change the page
+                .frame(maxWidth: .infinity, alignment: .center)
+                
+            Button("Back to Home") {
+                changePage()
             }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
-            .frame(maxWidth: .infinity, alignment: .center)
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                .frame(maxWidth: .infinity, alignment: .center)
+            }
         }
     }
 }

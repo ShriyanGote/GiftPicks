@@ -6,7 +6,19 @@ struct EntriesView: View {
 
     var body: some View {
         VStack {
+            HStack {
             Text("Entries Page")
+                .frame(maxWidth: .infinity, alignment: .center)
+                
+            Button("Back to Home") {
+                changePage()
+            }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                .frame(maxWidth: .infinity, alignment: .center)
+            }
             
             let groupedEntries = Dictionary(grouping: settings.entries, by: { $0.id })
             ForEach(groupedEntries.keys.sorted(by: >), id: \.self) { key in
@@ -26,14 +38,6 @@ struct EntriesView: View {
                 .padding(.horizontal) // Padding around the box to avoid touching the edges of the screen
             }
 
-            Button("Back to Home") {
-                changePage()
-            }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
-            .frame(maxWidth: .infinity, alignment: .center)
         }
     }
 }
