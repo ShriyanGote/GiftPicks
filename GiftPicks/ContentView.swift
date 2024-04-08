@@ -81,6 +81,7 @@ struct ContentView: View {
                         }
                     }
                     .padding(.horizontal, 8)
+                    .padding(.trailing, 30)
                 }
             }
 
@@ -147,6 +148,7 @@ struct ContentView: View {
                     }
 
             }
+            .padding(.trailing, 30)
             
 
 
@@ -209,13 +211,13 @@ struct ContentView: View {
             Button("Account") { currentPage = .account }
             Button("Help") { currentPage = .help }
         }
-        .frame(width: geometry.size.width, height: 50)
+        .frame(width: geometry.size.width * 0.95, height: 50)
         .font(.headline)
         .foregroundColor(.white)
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
         .background(Color.purple)
-        .padding(.trailing, 10)
+        .padding(.trailing, 30)
     }
     
     
@@ -361,7 +363,7 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, 10)
-                .padding(.trailing, 12) // Add horizontal padding to the grid
+                .padding(.trailing, 32) // Add horizontal padding to the grid
                 .padding(.vertical, 5)
             }
         }
