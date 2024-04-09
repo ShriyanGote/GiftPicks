@@ -361,6 +361,7 @@ struct ContentView: View {
                         }
                         .buttonStyle(PlainButtonStyle()) // Remove button styling
                     }
+                    
                 }
                 .padding(.horizontal, 10)
                 .padding(.trailing, 32) // Add horizontal padding to the grid
