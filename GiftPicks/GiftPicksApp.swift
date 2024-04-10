@@ -17,7 +17,7 @@ struct GiftPicksApp: App {
     var body: some Scene {
         WindowGroup {
             if isAuthenticated {
-                ContentView(isAuthenticated: $isAuthenticated).environmentObject(GlobalSettings())
+                ContentView(isAuthenticated: $isAuthenticated, settings: globalSettings).environmentObject(GlobalSettings())
 
             } else{
                 LoginView(isAuthenticated: $isAuthenticated)// Pass isAuthenticated binding to LoginView

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CC56A2D2BC5EE970080FB26 /* ParseTempCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56A2C2BC5EE970080FB26 /* ParseTempCSV.swift */; };
+		3CC56A332BC5F8750080FB26 /* 2024-04-09_All_Odds.csv in Resources */ = {isa = PBXBuildFile; fileRef = 3CC56A322BC5F8750080FB26 /* 2024-04-09_All_Odds.csv */; };
 		3CF649102BC0F9CF0013EDCE /* GiftPicksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6490F2BC0F9CF0013EDCE /* GiftPicksApp.swift */; };
 		3CF649122BC0F9CF0013EDCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF649112BC0F9CF0013EDCE /* ContentView.swift */; };
 		3CF649142BC0F9D10013EDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF649132BC0F9D10013EDCE /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CC56A2C2BC5EE970080FB26 /* ParseTempCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseTempCSV.swift; sourceTree = "<group>"; };
+		3CC56A322BC5F8750080FB26 /* 2024-04-09_All_Odds.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "2024-04-09_All_Odds.csv"; path = "../../2024-04-09_All_Odds.csv"; sourceTree = "<group>"; };
 		3CF6490C2BC0F9CF0013EDCE /* GiftPicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftPicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF6490F2BC0F9CF0013EDCE /* GiftPicksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftPicksApp.swift; sourceTree = "<group>"; };
 		3CF649112BC0F9CF0013EDCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3CF6490F2BC0F9CF0013EDCE /* GiftPicksApp.swift */,
+				3CC56A2C2BC5EE970080FB26 /* ParseTempCSV.swift */,
 				3CF649112BC0F9CF0013EDCE /* ContentView.swift */,
+				3CC56A322BC5F8750080FB26 /* 2024-04-09_All_Odds.csv */,
 				3CF6491D2BC0FA4C0013EDCE /* LoginView.swift */,
 				3CF6491F2BC112FA0013EDCE /* EntriesView.swift */,
 				3CF649232BC1E5C60013EDCE /* AccountView.swift */,
@@ -138,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF649172BC0F9D10013EDCE /* Preview Assets.xcassets in Resources */,
+				3CC56A332BC5F8750080FB26 /* 2024-04-09_All_Odds.csv in Resources */,
 				3CF649142BC0F9D10013EDCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +162,7 @@
 				3CF649202BC112FA0013EDCE /* EntriesView.swift in Sources */,
 				3CF649122BC0F9CF0013EDCE /* ContentView.swift in Sources */,
 				3CF649102BC0F9CF0013EDCE /* GiftPicksApp.swift in Sources */,
+				3CC56A2D2BC5EE970080FB26 /* ParseTempCSV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct LoginView: View {
+    let settings = GlobalSettings()
     @Binding public var isAuthenticated: Bool // Binding to the isAuthenticated state variable
 
     @State private var username: String = ""
@@ -32,7 +33,7 @@ struct LoginView: View {
             }
             .padding()
             .fullScreenCover(isPresented: $isLoggedIn) {
-                ContentView(isAuthenticated: $isAuthenticated) // Navigate to main page upon successful login
+                ContentView(isAuthenticated: $isAuthenticated, settings: settings) // Navigate to main page upon successful login
             }
         }
         .padding()

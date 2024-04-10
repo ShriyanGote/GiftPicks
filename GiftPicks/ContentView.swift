@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 enum AppPage {
     case board
@@ -6,10 +7,21 @@ enum AppPage {
     case account
     case help
 }
+
 class GlobalSettings: ObservableObject {
     @Published var checkIfPlaced: Bool = false
     @Published var betID: Int = 0
     @Published var entries: [(id: Int, bet: String, amount: String)] = []
+    @Published var playerEntries: [PlayerEntry] = []
+
+    init() {
+        loadCSVData()
+    }
+
+    private func loadCSVData() {
+        let csvService = CSVParserService()
+        self.playerEntries = csvService.loadCSVData(fileName: "2024-04-09_All_Odds")
+    }
 }
 
 struct ContentView: View {
@@ -18,40 +30,46 @@ struct ContentView: View {
     
     @Binding public var isAuthenticated: Bool
     @State private var currentPage: AppPage = .board
-    
-    @State private var selectedSport: String = "NBA"
-    @State private var selectedStat: String = "NBA"
-    @State private var sports: [String] = ["NBA", "MLB", "NFL", "Soccer", "Cricket", "Tennis"]
     @State private var isScrolling: Bool = false
     @State private var highlightedPlayer: Int? = nil
     @State private var isEntryWindowOpen = false
     @State private var overUnder: String = ""
     @State private var playerEntryCount = 0
+
+    private var sports: [String] {
+        Set(settings.playerEntries.map { $0.sport }).sorted()
+    }
     
-    @State private var playerEntry: [String: [String]] = [
-        "NBA": Array(repeating: "Lebron James", count: 30),
-        "MLB": Array(repeating: "Shohei Ohtani", count: 30),
-        "NFL": Array(repeating: "Christian McCaffrey", count: 30),
-        "Soccer": Array(repeating: "Lionel Messi", count: 30),
-        "Cricket": Array(repeating: "David Warner", count: 30),
-        "Tennis": Array(repeating: "Rafael Nadal", count: 30)
-    ]
-    @State private var sportsStats: [String: [String]] = [
-        "NBA": ["Points", "Rebounds", "Assists", "PRA", "RA", "PR", "PA"],
-        "MLB": ["Hits", "Bases", "Strikeouts", "PRA", "NRFI", "Score"],
-        "NFL": ["Catches", "Throwing", "Receiving", "Rushing", "Fantasy"],
-        "Soccer": ["Passes", "Goals", "Assists", "Saves", "Shots", "SOG"],
-        "Cricket": ["Runs", "Fours", "Sixes", "Wickets"],
-        "Tennis": ["Aces", "Break Points", "Serves"]
-    ]
-    @State private var playerColors: [String: [Color]] = [
-        "NBA": Array(repeating: .clear, count: 30),
-        "MLB": Array(repeating: .clear, count: 30),
-        "NFL": Array(repeating: .clear, count: 30),
-        "Soccer": Array(repeating: .clear, count: 30),
-        "Cricket": Array(repeating: .clear, count: 30),
-        "Tennis": Array(repeating: .clear, count: 30)
-    ]
+    private var playerEntry: [String: [String]] {
+        Dictionary(grouping: settings.playerEntries, by: { $0.sport })
+            .mapValues { entries in
+                entries.map { $0.name }.sorted()
+        }
+    }
+    private var sportsStats: [String: [String]] {
+        Dictionary(grouping: settings.playerEntries, by: { $0.sport })
+            .mapValues { entries in
+                Set(entries.map { $0.statType }).sorted()
+            }
+    }
+    @State private var playerColors: [String: [Color]]
+
+    init(isAuthenticated: Binding<Bool>, settings: GlobalSettings) {
+        self._isAuthenticated = isAuthenticated
+            // Initialize playerColors based on the player entries in settings
+        var initialColors = [String: [Color]]()
+        let playersBySport = Dictionary(grouping: settings.playerEntries, by: { $0.sport })
+        for (sport, players) in playersBySport {
+            initialColors[sport] = Array(repeating: Color.clear, count: players.count)
+        }
+        self._playerColors = State(initialValue: initialColors)
+    }
+    @State private var selectedSport: String = "NBA" {
+            didSet {
+                selectedStat = sportsStats[selectedSport]?.first
+            }
+        }
+    @State private var selectedStat: String?
     
 
 
@@ -152,11 +170,12 @@ struct ContentView: View {
             
 
 
-            if let players = playerEntry[selectedSport], let stats = sportsStats[selectedSport] {
-                generateSportsView(sport: selectedSport, stats: stats, players: players)
+            if playerEntry[selectedSport] != nil && sportsStats[selectedSport] != nil {
+                generateSportsView(sport: selectedSport)
             } else {
-                Text("No players available")
+                Text("No players or statistics available for \(selectedSport)")
             }
+
             
             
             //navigationBar(geometry: geometry)
@@ -231,144 +250,127 @@ struct ContentView: View {
         }
     }
     
-    
     public func clearAllPlayerColors() {
-        for sport in playerColors.keys {
-            guard var sportColors = playerColors[sport] else {
-                continue // Skip if the sport is not found in the dictionary
-            }
-            
-            for i in 0..<sportColors.count {
-                sportColors[i] = .clear
-            }
-            playerColors[sport] = sportColors
+        for (sport, _) in playerColors {
+            playerColors[sport] = Array(repeating: .clear, count: playerColors[sport]?.count ?? 0)
         }
     }
 
     func changePlayerColor(sport: String, playerIndex: Int, color: Color) {
-        guard var sportColors = playerColors[sport] else {
-            return // Sport not found in the dictionary
+        guard playerIndex >= 0, let sportColors = playerColors[sport], playerIndex < sportColors.count else {
+            return
         }
         
-        guard playerIndex >= 0 && playerIndex < sportColors.count else {
-            return // Player index out of bounds
-        }
-        sportColors[playerIndex] = color
-        playerColors[sport] = sportColors
+        playerColors[sport]?[playerIndex] = color
     }
 
     func getPlayerColor(sport: String, playerIndex: Int) -> Color? {
-        guard let sportColors = playerColors[sport] else {
-            return nil // Sport not found in the dictionary
-        }
-        
-        guard playerIndex >= 0 && playerIndex < sportColors.count else {
-            return nil // Player index out of bounds
+        guard playerIndex >= 0, let sportColors = playerColors[sport], playerIndex < sportColors.count else {
+            return nil
         }
         
         return sportColors[playerIndex]
     }
 
     func clearHighlightedPlayersSport(playerColors: inout [Color]) {
-        for (index, color) in playerColors.enumerated() {
-            if color == .gray {
+        for index in playerColors.indices {
+            if playerColors[index] == .gray {
                 playerColors[index] = .clear
             }
         }
     }
-    
-    func checkIfGrayedPlayer(playerColors: inout [Color]) -> Bool{
-        for (_, color) in playerColors.enumerated(){
-            if color == .gray{
-                return true
-            }
-        }
-        return false
+
+    func checkIfGrayedPlayer(playerColors: inout [Color]) -> Bool {
+        playerColors.contains { $0 == .gray }
     }
-    
+
     func clearAllHighlightedPlayers() {
-        for sport in playerColors.keys {
-            guard var sportColors = playerColors[sport] else {
-                continue // Skip if the sport is not found in the dictionary
-            }
-            
-            for i in 0..<sportColors.count {
-                if sportColors[i] == .gray {
-                    sportColors[i] = .clear
-                }
-            }
-            playerColors[sport] = sportColors
+        for (sport, _) in playerColors {
+            playerColors[sport] = playerColors[sport]?.map { $0 == .gray ? .clear : $0 }
         }
     }
 
-    
-    func generateSportsView(sport: String, stats: [String], players: [String]) -> some View {
-        VStack {
-            ScrollView(.horizontal, showsIndicators: false) {
-                ScrollViewReader { scrollView in
-                    HStack(spacing: 8) {
-                        ForEach(stats, id: \.self) { stat in
-                            Text(stat)
-                                .font(.headline)
-                                .padding(.horizontal, 12)
-                                .padding(.vertical, 6)
-                                .foregroundColor(selectedStat == stat ? .blue : .black)
-                                .background(selectedSport == stat ? Color.yellow : Color.clear)
-                                .cornerRadius(8)
-                                .onTapGesture {
-                                    withAnimation {
-                                        selectedStat = stat
+
+    func generateSportsView(sport: String) -> some View {
+        let players = playerEntry[sport] ?? []
+        let stats = sportsStats[sport] ?? []
+        let playerEntries = settings.playerEntries.filter { $0.sport == sport && (selectedStat == nil || $0.statType == selectedStat) }
+
+        return VStack {
+                ScrollView(.horizontal, showsIndicators: false) {
+                    ScrollViewReader { scrollView in
+                        HStack(spacing: 8) {
+                            ForEach(stats, id: \.self) { stat in
+                                Text(stat)
+                                    .font(.headline)
+                                    .padding(.horizontal, 12)
+                                    .padding(.vertical, 6)
+                                    .foregroundColor(selectedStat == stat ? .blue : .black)
+                                    .background(selectedStat == stat ? Color.yellow : Color.clear)
+                                    .cornerRadius(8)
+                                    .onTapGesture {
+                                        withAnimation {
+                                            selectedStat = (selectedStat == stat) ? nil : stat
+                                            scrollView.scrollTo(stat, anchor: .center)
                                     }
-                                    scrollView.scrollTo(stat, anchor: .center)
                                 }
+                            }
                         }
+                        .padding(.horizontal, 8)
                     }
-                    .padding(.horizontal, 8)
                 }
-                .onChange(of: scrollViewOffset) { offset in
-                    isScrolling = offset != .zero
-                }
-            }
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
-                    ForEach(players.indices, id: \.self) { index in
+                    ForEach(playerEntries, id: \.id) { entry in
                         Button(action: {
-                            let colorCheck = getPlayerColor(sport: sport, playerIndex: index)
+                            let playerIndex = players.firstIndex(of: entry.name) ?? 0
+                            let colorCheck = getPlayerColor(sport: sport, playerIndex: playerIndex)
                             clearHighlightedPlayersSport(playerColors: &playerColors[sport]!)
                             if highlightedPlayer == nil && colorCheck == .clear {
                                 clearAllHighlightedPlayers()
-                                changePlayerColor(sport: sport, playerIndex: index, color: .gray)
-                                highlightedPlayer = index
+                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .gray)
+                                highlightedPlayer = playerIndex
                             }
                             else if colorCheck == .gray || colorCheck == .red || colorCheck == .green {
-                                changePlayerColor(sport: sport, playerIndex: index, color: .clear)
+                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .clear)
                                 highlightedPlayer = nil
                             }
                             else {
-                                changePlayerColor(sport: sport, playerIndex: index, color: .gray)
-                                highlightedPlayer = index
+                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .gray)
+                                highlightedPlayer = playerIndex
                             }
                         }) {
-                            Text(players[index])
-                                .padding(40) // Adjust padding to make the squares taller
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                                .background(getPlayerColor(sport: sport, playerIndex: index))
-                                .cornerRadius(8)
-                                .overlay(
-                                    RoundedRectangle(cornerRadius: 8)
-                                        .stroke(Color.black, lineWidth: 2) // Outline with black color and 1pt width
-                                )
+                            VStack {
+                                    Text("\(entry.team) - \(entry.position)")
+                                        .font(.caption)
+                                        .padding(.bottom, 0.5)
+                                    Text(entry.name)
+                                        .font(.headline)
+                                        .padding(.bottom, 1)
+                                    Text("\(entry.statType) - \(entry.lineScore)")
+                                        .font(.caption)
+                                        .padding(.top, 1)
+                                    Text("vs \(entry.opponent)")
+                                        .font(.caption)
+                                        .padding(.top, 1)
+                                }
+                            .padding()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .background(getPlayerColor(sport: sport, playerIndex: players.firstIndex(of: entry.name) ?? 0))
+                            .cornerRadius(8)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .stroke(Color.black, lineWidth: 2)
+                            ) // end overlay
                         }
-                        .buttonStyle(PlainButtonStyle()) // Remove button styling
+                        .buttonStyle(PlainButtonStyle())
                     }
-                    
                 }
                 .padding(.horizontal, 10)
-                .padding(.trailing, 32) // Add horizontal padding to the grid
                 .padding(.vertical, 5)
             }
         }
-    } // end of generate sports view
+    } // end genreate sports
     
 }
 
@@ -399,14 +401,12 @@ struct CurrentEntry: View {
     @Environment(\.presentationMode) var presentationMode
     var playerColors: [String: [Color]]
 
-    @State private var playerEntry: [String: [String]] = [
-        "NBA": Array(repeating: "Lebron James", count: 30),
-        "MLB": Array(repeating: "Shohei Ohtani", count: 30),
-        "NFL": Array(repeating: "Christian McCaffrey", count: 30),
-        "Soccer": Array(repeating: "Lionel Messi", count: 30),
-        "Cricket": Array(repeating: "David Warner", count: 30),
-        "Tennis": Array(repeating: "Rafael Nadal", count: 30)
-    ]
+    private var playerEntry: [String: [String]] {
+        Dictionary(grouping: settings.playerEntries, by: { $0.sport })
+            .mapValues { entries in
+                entries.map { $0.name }.sorted()
+        }
+    }
     @State private var printedPlayers: [String] = []
     @State private var dollarAmount: String = ""
 
@@ -461,9 +461,10 @@ struct CurrentEntry: View {
 
 
 // Your other view structs like EntriesView, BoardView, etc...
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(isAuthenticated: .constant(false))
+        let settings = GlobalSettings()
+        ContentView(isAuthenticated: .constant(false), settings: settings)
     }
 }
+
