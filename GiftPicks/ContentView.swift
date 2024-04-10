@@ -52,18 +52,25 @@ struct ContentView: View {
                 Set(entries.map { $0.statType }).sorted()
             }
     }
-    @State private var playerColors: [String: [Color]]
+    @State private var playerColors: [String: [String: [Color]]]
 
     init(isAuthenticated: Binding<Bool>, settings: GlobalSettings) {
         self._isAuthenticated = isAuthenticated
-            // Initialize playerColors based on the player entries in settings
-        var initialColors = [String: [Color]]()
-        let playersBySport = Dictionary(grouping: settings.playerEntries, by: { $0.sport })
-        for (sport, players) in playersBySport {
-            initialColors[sport] = Array(repeating: Color.clear, count: players.count)
+
+        // Initialize playerColors based on the player entries in settings
+        var initialColors = [String: [String: [Color]]]()
+        for entry in settings.playerEntries {
+            if initialColors[entry.sport] == nil {
+                initialColors[entry.sport] = [String: [Color]]()
+            }
+            if initialColors[entry.sport]?[entry.statType] == nil {
+                let count = settings.playerEntries.filter { $0.sport == entry.sport && $0.statType == entry.statType }.count
+                initialColors[entry.sport]?[entry.statType] = Array(repeating: Color.clear, count: count)
+            }
         }
         self._playerColors = State(initialValue: initialColors)
     }
+    
     @State private var selectedSport: String = "NBA" {
             didSet {
                 selectedStat = sportsStats[selectedSport]?.first
@@ -106,8 +113,9 @@ struct ContentView: View {
             HStack {
                 Button(action: {
                     // Set player button color to red
-                    if highlightedPlayer != nil{
-                        playerColors[selectedSport]![highlightedPlayer ?? 0] = .red}
+                    if let index = highlightedPlayer {
+                        playerColors[selectedSport]?[selectedStat!]?[index] = .red
+                    }
                     overUnder = "Under"
                     printSelection()
                 }) {
@@ -122,8 +130,9 @@ struct ContentView: View {
 
                 Button(action: {
                     // Set player button color to green
-                    if highlightedPlayer != nil{
-                        playerColors[selectedSport]![highlightedPlayer ?? 0] = .green}
+                    if let index = highlightedPlayer {
+                        playerColors[selectedSport]?[selectedStat!]?[index] = .green
+                    }
                     overUnder = "Over"
                     printSelection()
                 }) {
@@ -251,44 +260,50 @@ struct ContentView: View {
     }
     
     public func clearAllPlayerColors() {
-        for (sport, _) in playerColors {
-            playerColors[sport] = Array(repeating: .clear, count: playerColors[sport]?.count ?? 0)
-        }
-    }
-
-    func changePlayerColor(sport: String, playerIndex: Int, color: Color) {
-        guard playerIndex >= 0, let sportColors = playerColors[sport], playerIndex < sportColors.count else {
-            return
-        }
-        
-        playerColors[sport]?[playerIndex] = color
-    }
-
-    func getPlayerColor(sport: String, playerIndex: Int) -> Color? {
-        guard playerIndex >= 0, let sportColors = playerColors[sport], playerIndex < sportColors.count else {
-            return nil
-        }
-        
-        return sportColors[playerIndex]
-    }
-
-    func clearHighlightedPlayersSport(playerColors: inout [Color]) {
-        for index in playerColors.indices {
-            if playerColors[index] == .gray {
-                playerColors[index] = .clear
+        for (sport, statTypes) in playerColors {
+            for (statType, colors) in statTypes {
+                playerColors[sport]?[statType] = Array(repeating: .clear, count: colors.count)
             }
         }
     }
 
-    func checkIfGrayedPlayer(playerColors: inout [Color]) -> Bool {
-        playerColors.contains { $0 == .gray }
+
+    func changePlayerColor(sport: String, statType: String, playerIndex: Int, color: Color) {
+        guard playerIndex >= 0, let statColors = playerColors[sport]?[statType], playerIndex < statColors.count else {
+            return
+        }
+        playerColors[sport]?[statType]?[playerIndex] = color
     }
 
-    func clearAllHighlightedPlayers() {
-        for (sport, _) in playerColors {
-            playerColors[sport] = playerColors[sport]?.map { $0 == .gray ? .clear : $0 }
+
+    func getPlayerColor(sport: String, statType: String, playerIndex: Int) -> Color? {
+        guard playerIndex >= 0, let statColors = playerColors[sport]?[statType], playerIndex < statColors.count else {
+            return nil
+        }
+        return statColors[playerIndex]
+    }
+
+
+    func clearHighlightedPlayersSport(sport: String, statType: String) {
+        if let playerColorsForStat = playerColors[sport]?[statType] {
+            playerColors[sport]?[statType] = playerColorsForStat.map { $0 == .gray ? .clear : $0 }
         }
     }
+
+
+    func checkIfGrayedPlayer(sport: String, statType: String) -> Bool {
+        return playerColors[sport]?[statType]?.contains(.gray) ?? false
+    }
+
+
+    func clearAllHighlightedPlayers() {
+        for (sport, statTypes) in playerColors {
+            for (statType, _) in statTypes {
+                clearHighlightedPlayersSport(sport: sport, statType: statType)
+            }
+        }
+    }
+
 
 
     func generateSportsView(sport: String) -> some View {
@@ -318,25 +333,28 @@ struct ContentView: View {
                         }
                         .padding(.horizontal, 8)
                     }
-                }
+                } .padding(.trailing, 30)
             ScrollView {
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)], spacing: 10) {
                     ForEach(playerEntries, id: \.id) { entry in
                         Button(action: {
                             let playerIndex = players.firstIndex(of: entry.name) ?? 0
-                            let colorCheck = getPlayerColor(sport: sport, playerIndex: playerIndex)
-                            clearHighlightedPlayersSport(playerColors: &playerColors[sport]!)
+                            let colorCheck = getPlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex)
+                            clearHighlightedPlayersSport(sport: sport, statType: entry.statType)
                             if highlightedPlayer == nil && colorCheck == .clear {
+                                print("hello? - everything is cleared")
                                 clearAllHighlightedPlayers()
-                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .gray)
+                                changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
                                 highlightedPlayer = playerIndex
                             }
                             else if colorCheck == .gray || colorCheck == .red || colorCheck == .green {
-                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .clear)
+                                print("hello - unhighlighting")
+                                changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .clear)
                                 highlightedPlayer = nil
                             }
                             else {
-                                changePlayerColor(sport: sport, playerIndex: playerIndex, color: .gray)
+                                print("hello - there was something highlighted")
+                                changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
                                 highlightedPlayer = playerIndex
                             }
                         }) {
@@ -356,7 +374,7 @@ struct ContentView: View {
                                 }
                             .padding()
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            .background(getPlayerColor(sport: sport, playerIndex: players.firstIndex(of: entry.name) ?? 0))
+                            .background(getPlayerColor(sport: sport, statType: entry.statType,playerIndex: players.firstIndex(of: entry.name) ?? 0))
                             .cornerRadius(8)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 8)
@@ -368,6 +386,7 @@ struct ContentView: View {
                 }
                 .padding(.horizontal, 10)
                 .padding(.vertical, 5)
+                .padding(.trailing, 35)
             }
         }
     } // end genreate sports
@@ -396,19 +415,29 @@ struct BottomButtons: ButtonStyle {
             .cornerRadius(6) // Adjust corner radius
     }
 }
+
+
 struct CurrentEntry: View {
     @EnvironmentObject var settings: GlobalSettings
     @Environment(\.presentationMode) var presentationMode
-    var playerColors: [String: [Color]]
+    var playerColors: [String: [String: [Color]]]
 
-    private var playerEntry: [String: [String]] {
-        Dictionary(grouping: settings.playerEntries, by: { $0.sport })
-            .mapValues { entries in
-                entries.map { $0.name }.sorted()
+    @State private var printedPlayers: [(sport: String, name: String, statType: String, color: Color)] = []
+    @State private var dollarAmount: String = ""
+
+    private var coloredPlayers: [(sport: String, player: PlayerEntry, color: Color)] {
+        settings.playerEntries.compactMap { player in
+            guard let statTypeColors = playerColors[player.sport]?[player.statType],
+                  let playerIndex = settings.playerEntries.firstIndex(where: { $0.id == player.id }) else {
+                return nil
+            }
+
+            let color = statTypeColors[playerIndex]
+            return color == .green || color == .red ? (player.sport, player, color) : nil
         }
     }
-    @State private var printedPlayers: [String] = []
-    @State private var dollarAmount: String = ""
+
+
 
     var body: some View {
         ZStack(alignment: .topTrailing) {
@@ -416,22 +445,17 @@ struct CurrentEntry: View {
                 Text("Current Entry:")
                     .font(.headline)
                     .padding()
-                
-                ForEach(playerColors.keys.sorted(), id: \.self) { sport in
-                    if let colors = playerColors[sport], let players = playerEntry[sport] {
-                        let coloredPlayers = colors.enumerated().filter { $0.element == .green || $0.element == .red }
-                        ForEach(coloredPlayers, id: \.offset) { (offset, color) in
-                            let player = "\(sport): \(players[offset]) - \(color == .green ? "Over" : "Under")"
-                            Text(player)
-                                .padding()
-                                .background(color == .green ? Color.green.opacity(0.2) : Color.red.opacity(0.2))
-                                .cornerRadius(10)
-                                .padding(.horizontal)
-                                .onAppear {
-                                    printedPlayers.append(player)
-                                }
+
+                ForEach(coloredPlayers, id: \.player.id) { entry in
+                    let displayText = "\(entry.player.name) (\(entry.player.statType)) - \(entry.color == .green ? "Over" : "Under")"
+                    Text(displayText)
+                        .padding()
+                        .background(entry.color == .green ? Color.green.opacity(0.2) : Color.red.opacity(0.2))
+                        .cornerRadius(10)
+                        .padding(.horizontal)
+                        .onAppear {
+                            printedPlayers.append((sport: entry.sport, name: entry.player.name, statType: entry.player.statType, color: entry.color))
                         }
-                    }
                 }
 
                 HStack {
@@ -443,9 +467,9 @@ struct CurrentEntry: View {
                     Button("Confirm and Place") {
                         settings.checkIfPlaced = true
                         for player in printedPlayers {
-                            settings.entries.append((id: settings.betID, bet: player, amount: dollarAmount))
+                            settings.entries.append((id: settings.betID, bet: "\(player.sport): \(player.name) - \(player.statType)", amount: dollarAmount))
                         }
-                        settings.betID = settings.betID + 1
+                        settings.betID += 1
                         presentationMode.wrappedValue.dismiss()
                     }
                     .padding()
@@ -458,6 +482,7 @@ struct CurrentEntry: View {
         }
     }
 }
+
 
 
 // Your other view structs like EntriesView, BoardView, etc...
