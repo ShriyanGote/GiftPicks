@@ -446,16 +446,21 @@ struct CurrentEntry: View {
 
     private var coloredPlayers: [(sport: String, player: PlayerEntry, color: Color)] {
         settings.playerEntries.compactMap { player in
-            guard let statTypeColors = playerColors[player.sport]?[player.statType],
-                  let tempIndex = settings.playerEntries.firstIndex(where: { $0.id == player.id }) else {
+            guard let statTypeColors = playerColors[player.sport]?[player.statType] else {
                 return nil
             }
             
-            print(tempIndex)
-            let color = statTypeColors[tempIndex]
+            // Find the index of the player in the list for the specific sport and stat type
+            let playersForSportAndStat = settings.playerEntries.filter { $0.sport == player.sport && $0.statType == player.statType }
+            guard let playerIndex = playersForSportAndStat.firstIndex(where: { $0.id == player.id }) else {
+                return nil
+            }
+
+            let color = statTypeColors[playerIndex]
             return color == .green || color == .red ? (player.sport, player, color) : nil
         }
     }
+
 
 
 
