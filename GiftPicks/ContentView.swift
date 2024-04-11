@@ -40,12 +40,16 @@ struct ContentView: View {
         Set(settings.playerEntries.map { $0.sport }).sorted()
     }
     
-    private var playerEntry: [String: [String]] {
-        Dictionary(grouping: settings.playerEntries, by: { $0.sport })
-            .mapValues { entries in
-                entries.map { $0.name }.sorted()
+    private var playerEntry: [String: [String: [String]]] {
+        settings.playerEntries.reduce(into: [String: [String: [String]]]()) { result, entry in
+            result[entry.sport, default: [String: [String]]()][entry.statType, default: [String]()].append(entry.name)
+        }.mapValues { statDict in
+            statDict.mapValues { names in
+                names.sorted()
+            }
         }
     }
+
     private var sportsStats: [String: [String]] {
         Dictionary(grouping: settings.playerEntries, by: { $0.sport })
             .mapValues { entries in
@@ -254,7 +258,7 @@ struct ContentView: View {
     }
     
     private func printSelection() {
-        if let playerIndex = highlightedPlayer, let playerName = playerEntry[selectedSport]?[playerIndex] {
+        if let playerIndex = highlightedPlayer, let playerName = playerEntry[selectedSport]?[selectedStat ?? "IDK"] {
             print("Highlighted Player: \(playerName), Selection: \(overUnder)")
         }
     }
@@ -269,10 +273,14 @@ struct ContentView: View {
 
 
     func changePlayerColor(sport: String, statType: String, playerIndex: Int, color: Color) {
+        print(playerIndex)
+        let statColors = playerColors[sport]?[statType]
+        print(statColors?.count ?? "Idk" as Any)
         guard playerIndex >= 0, let statColors = playerColors[sport]?[statType], playerIndex < statColors.count else {
             return
         }
         playerColors[sport]?[statType]?[playerIndex] = color
+        print(playerColors[sport]?[statType]?[playerIndex] ?? "Not found!" as Any)
     }
 
 
@@ -307,8 +315,15 @@ struct ContentView: View {
 
 
     func generateSportsView(sport: String) -> some View {
-        let players = playerEntry[sport] ?? []
+        let players: [String]
+        if let statsDict = playerEntry[selectedSport], let names = statsDict[selectedStat ?? "IDK"] {
+            players = names
+        } else {
+            players = []
+        }
+
         let stats = sportsStats[sport] ?? []
+        print(players, stats)
         let playerEntries = settings.playerEntries.filter { $0.sport == sport && (selectedStat == nil || $0.statType == selectedStat) }
 
         return VStack {
@@ -342,19 +357,22 @@ struct ContentView: View {
                             let colorCheck = getPlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex)
                             clearHighlightedPlayersSport(sport: sport, statType: entry.statType)
                             if highlightedPlayer == nil && colorCheck == .clear {
-                                print("hello? - everything is cleared")
+                                print("everything is cleared before")
                                 clearAllHighlightedPlayers()
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
+                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = playerIndex
                             }
                             else if colorCheck == .gray || colorCheck == .red || colorCheck == .green {
-                                print("hello - unhighlighting")
+                                print("unhighlighting")
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .clear)
+                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = nil
                             }
                             else {
-                                print("hello - there was something highlighted")
+                                print("there was/is something highlighted before")
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
+                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = playerIndex
                             }
                         }) {
@@ -387,6 +405,7 @@ struct ContentView: View {
                 .padding(.horizontal, 10)
                 .padding(.vertical, 5)
                 .padding(.trailing, 35)
+                .padding(.bottom, 75)
             }
         }
     } // end genreate sports
@@ -428,11 +447,12 @@ struct CurrentEntry: View {
     private var coloredPlayers: [(sport: String, player: PlayerEntry, color: Color)] {
         settings.playerEntries.compactMap { player in
             guard let statTypeColors = playerColors[player.sport]?[player.statType],
-                  let playerIndex = settings.playerEntries.firstIndex(where: { $0.id == player.id }) else {
+                  let tempIndex = settings.playerEntries.firstIndex(where: { $0.id == player.id }) else {
                 return nil
             }
-
-            let color = statTypeColors[playerIndex]
+            
+            print(tempIndex)
+            let color = statTypeColors[tempIndex]
             return color == .green || color == .red ? (player.sport, player, color) : nil
         }
     }
