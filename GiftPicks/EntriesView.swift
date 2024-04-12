@@ -5,6 +5,7 @@ struct EntriesView: View {
     var changePage: () -> Void
 
     var body: some View {
+        
         VStack {
             HStack {
                 Text("Entries Page")

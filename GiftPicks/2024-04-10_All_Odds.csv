@@ -1,0 +1,1203 @@
+Player_ID,Name,Position,Team,League,Opponent,Game_ID,Line_Score,Stat_Type,Start_Time
+152088,Diego Gómez,Midfielder,Inter Miami,SOCCER,Monterrey,MTYMIA123,1.5,Shots,2024-04-10T22:30:00-04:00
+151978,Drake Callender,Goalkeeper,Inter Miami,SOCCER,Monterrey,MTYMIA123,3.0,Goalie Saves,2024-04-10T22:30:00-04:00
+152085,Jordi Alba,Defender,Inter Miami,SOCCER,Monterrey,MTYMIA123,0.5,Shots,2024-04-10T22:30:00-04:00
+16672,Julian Gressel,Midfielder,Inter Miami,SOCCER,Monterrey,MTYMIA123,0.5,Shots,2024-04-10T22:30:00-04:00
+151821,Lionel Messi,Attacker,Inter Miami,SOCCER,Monterrey,MTYMIA123,4.0,Shots,2024-04-10T22:30:00-04:00
+151821,Lionel Messi,Attacker,Inter Miami,SOCCER,Monterrey,MTYMIA123,2.0,Shots On Target,2024-04-10T22:30:00-04:00
+188308,Luis Suárez,Attacker,Inter Miami,SOCCER,Monterrey,MTYMIA123,3.0,Shots,2024-04-10T22:30:00-04:00
+188308,Luis Suárez,Attacker,Inter Miami,SOCCER,Monterrey,MTYMIA123,1.5,Shots Assisted,2024-04-10T22:30:00-04:00
+66286,Marcelo Weigandt,Defender,Inter Miami,SOCCER,Monterrey,MTYMIA123,36.5,Passes Attempted,2024-04-10T22:30:00-04:00
+66286,Marcelo Weigandt,Defender,Inter Miami,SOCCER,Monterrey,MTYMIA123,0.5,Shots,2024-04-10T22:30:00-04:00
+44044,Nicolás Freire,Defender,Inter Miami,SOCCER,Monterrey,MTYMIA123,3.0,Clearances,2024-04-10T22:30:00-04:00
+152089,Sergio Busquets,Midfielder,Inter Miami,SOCCER,Monterrey,MTYMIA123,2.0,Tackles,2024-04-10T22:30:00-04:00
+185966,Brandon Vazquez,Attacker,Monterrey,SOCCER,Inter Miami,MTYMIA123,2.5,Shots,2024-04-10T22:30:00-04:00
+151738,Esteban Andrada,Goalkeeper,Monterrey,SOCCER,Inter Miami,MTYMIA123,3.0,Goalie Saves,2024-04-10T22:30:00-04:00
+151736,Héctor Moreno,Defender,Monterrey,SOCCER,Inter Miami,MTYMIA123,3.0,Clearances,2024-04-10T22:30:00-04:00
+149443,Jesús Gallardo,Defender,Monterrey,SOCCER,Inter Miami,MTYMIA123,0.5,Shots Assisted,2024-04-10T22:30:00-04:00
+185409,Jorge Rodríguez,Midfielder,Monterrey,SOCCER,Inter Miami,MTYMIA123,0.5,Shots,2024-04-10T22:30:00-04:00
+151731,Maximiliano Meza,Midfielder,Monterrey,SOCCER,Inter Miami,MTYMIA123,0.5,Shots On Target,2024-04-10T22:30:00-04:00
+151733,Sergio Canales,Midfielder,Monterrey,SOCCER,Inter Miami,MTYMIA123,0.5,Shots On Target,2024-04-10T22:30:00-04:00
+152061,Victor Guzmán,Defender,Monterrey,SOCCER,Inter Miami,MTYMIA123,39.5,Passes Attempted,2024-04-10T22:30:00-04:00
+151735,Érick Aguirre,Midfielder,Monterrey,SOCCER,Inter Miami,MTYMIA123,2.5,Tackles,2024-04-10T22:30:00-04:00
+171358,Filip Hronek,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:30:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:30:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Points,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57755,Clayton Keller,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,19.25,Time On Ice,2024-04-10T22:38:00-04:00
+87479,Connor Ingram,G,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,28.5,Goalie Saves,2024-04-10T22:38:00-04:00
+87725,Dylan Guenther,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+87725,Dylan Guenther,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+87725,Dylan Guenther,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+87725,Dylan Guenther,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+89327,Josh Brown,D,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Blocked Shots,2024-04-10T22:38:00-04:00
+58318,Lawson Crouse,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+58318,Lawson Crouse,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+58318,Lawson Crouse,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+58318,Lawson Crouse,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58318,Lawson Crouse,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+87732,Liam O'Brien,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.0,Hits,2024-04-10T22:38:00-04:00
+172367,Logan Cooley,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+172367,Logan Cooley,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+172367,Logan Cooley,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+172367,Logan Cooley,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+172367,Logan Cooley,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+92568,Matias Maccelli,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57758,Nick Schmaltz,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57758,Nick Schmaltz,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+57758,Nick Schmaltz,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+57758,Nick Schmaltz,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57758,Nick Schmaltz,F,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+172387,Sean Durzi,D,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+172387,Sean Durzi,D,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Blocked Shots,2024-04-10T22:38:00-04:00
+172387,Sean Durzi,D,ARI,NHL,VAN,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+123925,Arturs Silovs,G,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,24.5,Goalie Saves,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Points,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57905,Brock Boeser,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57886,Conor Garland,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57886,Conor Garland,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+57886,Conor Garland,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57886,Conor Garland,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,4.5,Shots On Goal,2024-04-10T22:38:00-04:00
+87248,Dakota Joshua,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+87248,Dakota Joshua,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,4.5,Hits,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Points,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58181,Elias Pettersson,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.5,Shots On Goal,2024-04-10T22:38:00-04:00
+171358,Filip Hronek,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+171358,Filip Hronek,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+171358,Filip Hronek,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+172629,Ian Cole,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Blocked Shots,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Assists,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Points,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+57912,J.T. Miller,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58183,Nils Hoglander,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+58183,Nils Hoglander,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58183,Nils Hoglander,F,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Assists,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Goals,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Points,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,0.5,Points,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,2.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,3.5,Shots On Goal,2024-04-10T22:38:00-04:00
+58184,Quinn Hughes,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,24.25,Time On Ice,2024-04-10T22:38:00-04:00
+62376,Tyler Myers,D,VAN,NHL,ARI,fa9b522a-0f31-4ca9-a3ec-4fd7acc0fb47,1.5,Blocked Shots,2024-04-10T22:38:00-04:00
+3828,Ivica Zubac,C,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,13.5,Points,2024-04-10T22:40:00-04:00
+3828,Ivica Zubac,C,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,15.5,Pts+Asts,2024-04-10T22:40:00-04:00
+3828,Ivica Zubac,C,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,23.5,Pts+Rebs,2024-04-10T22:40:00-04:00
+3828,Ivica Zubac,C,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,12.5,Rebs+Asts,2024-04-10T22:40:00-04:00
+3828,Ivica Zubac,C,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,1.5,Turnovers,2024-04-10T22:40:00-04:00
+55430,Terance Mann,G-F,LAC,NBA1H,PHX 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,6.5,Points,2024-04-10T22:40:00-04:00
+10765,Terance Mann,G-F,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,13.5,Points,2024-04-10T22:40:00-04:00
+10765,Terance Mann,G-F,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,16.5,Pts+Asts,2024-04-10T22:40:00-04:00
+10765,Terance Mann,G-F,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,18.5,Pts+Rebs,2024-04-10T22:40:00-04:00
+10765,Terance Mann,G-F,LAC,NBA,PHX,f9998a42-9c4e-41b4-bd98-0c30012b331c,20.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+55430,Terance Mann,G-F,LAC,NBA1H,PHX 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,10.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,1.5,3-PT Made,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,5.0,Assists,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,16.5,Points,2024-04-10T22:40:00-04:00
+173574,Bradley Beal,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,8.5,Points,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,21.5,Pts+Asts,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,20.5,Pts+Rebs,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,25.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+173574,Bradley Beal,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,13.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+172380,Bradley Beal,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,9.5,Rebs+Asts,2024-04-10T22:40:00-04:00
+58496,Devin Booker,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,7.0,Assists,2024-04-10T22:40:00-04:00
+55176,Devin Booker,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,13.5,Points,2024-04-10T22:40:00-04:00
+58496,Devin Booker,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,26.5,Points,2024-04-10T22:40:00-04:00
+64168,Devin Booker,G,PHX,NBA1Q,LAC 1Q,f9998a42-9c4e-41b4-bd98-0c30012b331c,8.0,Points,2024-04-10T22:40:00-04:00
+58496,Devin Booker,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,33.5,Pts+Asts,2024-04-10T22:40:00-04:00
+55176,Devin Booker,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,19.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+58496,Devin Booker,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,38.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+58496,Devin Booker,G,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,11.5,Rebs+Asts,2024-04-10T22:40:00-04:00
+174044,Grayson Allen,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,13.0,Fantasy Score,2024-04-10T22:40:00-04:00
+174044,Grayson Allen,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,7.0,Points,2024-04-10T22:40:00-04:00
+174044,Grayson Allen,G,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,10.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,10.5,Points,2024-04-10T22:40:00-04:00
+173577,Jusuf Nurkic,C,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,6.0,Points,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,14.5,Pts+Asts,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,23.5,Pts+Rebs,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,26.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+173577,Jusuf Nurkic,C,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,14.0,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,12.5,Rebounds,2024-04-10T22:40:00-04:00
+172381,Jusuf Nurkic,C,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,16.0,Rebs+Asts,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,4.0,Assists,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,25.5,Points,2024-04-10T22:40:00-04:00
+125201,Kevin Durant,F,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,12.5,Points,2024-04-10T22:40:00-04:00
+173729,Kevin Durant,F,PHX,NBA1Q,LAC 1Q,f9998a42-9c4e-41b4-bd98-0c30012b331c,5.5,Points,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,19.5,Points,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,29.5,Points,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,29.5,Pts+Asts,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,31.5,Pts+Rebs,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,35.5,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+125201,Kevin Durant,F,PHX,NBA1H,LAC 1st Half,f9998a42-9c4e-41b4-bd98-0c30012b331c,18.0,Pts+Rebs+Asts,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,6.5,Rebounds,2024-04-10T22:40:00-04:00
+96335,Kevin Durant,F,PHX,NBA,LAC,f9998a42-9c4e-41b4-bd98-0c30012b331c,10.5,Rebs+Asts,2024-04-10T22:40:00-04:00
+162537,Seong Chan Hong,T,Seong Chan Hong,TENNIS,M. Lajal (Busan),No Game ID,16.5,Fantasy Score,2024-04-10T23:15:00-04:00
+162537,Seong Chan Hong,T,Seong Chan Hong,TENNIS,M. Lajal (Busan),No Game ID,22.5,Total Games,2024-04-10T23:15:00-04:00
+44503,Yasutaka Uchiyama,T,Yasutaka Uchiyama,TENNIS,D. Sweeny (Busan),No Game ID,14.5,Fantasy Score,2024-04-10T23:15:00-04:00
+44503,Yasutaka Uchiyama,T,Yasutaka Uchiyama,TENNIS,D. Sweeny (Busan),No Game ID,22.5,Total Games,2024-04-10T23:15:00-04:00
+55189,Aaron Gordon,F,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,6.5,Points,2024-04-11T00:00:00-04:00
+55189,Aaron Gordon,F,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,11.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+87435,Jamal Murray,G,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,8.5,Points,2024-04-11T00:00:00-04:00
+87435,Jamal Murray,G,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,14.0,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+87405,Kentavious Caldwell-Pope,G,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,5.0,Points,2024-04-11T00:00:00-04:00
+55187,Michael Porter Jr.,F,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,8.5,Points,2024-04-11T00:00:00-04:00
+55187,Michael Porter Jr.,F,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,12.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+55185,Nikola Jokic,C,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,13.5,Points,2024-04-11T00:00:00-04:00
+55185,Nikola Jokic,C,DEN,NBA2H,MIN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,24.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+55120,Anthony Edwards,G,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,13.0,Points,2024-04-11T00:00:00-04:00
+55120,Anthony Edwards,G,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,18.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+55418,Jaden McDaniels,F,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,4.5,Points,2024-04-11T00:00:00-04:00
+96483,Mike Conley,G,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,5.0,Points,2024-04-11T00:00:00-04:00
+96483,Mike Conley,G,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,9.0,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+56963,Naz Reid,C,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,9.0,Points,2024-04-11T00:00:00-04:00
+56963,Naz Reid,C,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,13.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+125592,Nickeil Alexander-Walker,G,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,4.5,Points,2024-04-11T00:00:00-04:00
+87389,Rudy Gobert,C,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,6.5,Points,2024-04-11T00:00:00-04:00
+87389,Rudy Gobert,C,MIN,NBA2H,DEN 2nd Half,a891c88e-97de-4629-8f6f-2445e8f0fe52,13.5,Pts+Rebs+Asts,2024-04-11T00:00:00-04:00
+193295,EXUS,G,PGE Turow,CS2,Sampi,No Game ID,11.5,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+193295,EXUS,G,PGE Turow,CS2,Sampi,No Game ID,23.0,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+168043,Markoś,G,PGE Turow,CS2,Sampi,No Game ID,9.5,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+168043,Markoś,G,PGE Turow,CS2,Sampi,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+193294,Sobol,G,PGE Turow,CS2,Sampi,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+193294,Sobol,G,PGE Turow,CS2,Sampi,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+168683,darko,G,PGE Turow,CS2,Sampi,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+168683,darko,G,PGE Turow,CS2,Sampi,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+167220,kadziu,G,PGE Turow,CS2,Sampi,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+167220,kadziu,G,PGE Turow,CS2,Sampi,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+168431,The eLiVe,G,Sampi,CS2,PGE Turow,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+168431,The eLiVe,G,Sampi,CS2,PGE Turow,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+168971,ZEDKO,G,Sampi,CS2,PGE Turow,No Game ID,19.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+168971,ZEDKO,G,Sampi,CS2,PGE Turow,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+167118,fino,G,Sampi,CS2,PGE Turow,No Game ID,9.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+167118,fino,G,Sampi,CS2,PGE Turow,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+188110,manguss,G,Sampi,CS2,PGE Turow,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+188110,manguss,G,Sampi,CS2,PGE Turow,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+168362,sAvana1,G,Sampi,CS2,PGE Turow,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T04:00:00-04:00
+168362,sAvana1,G,Sampi,CS2,PGE Turow,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T04:00:00-04:00
+726,Alex De Minaur,T,Alex De Minaur,TENNIS,A. Popyrin (Monte Carlo),No Game ID,2.5,Aces,2024-04-11T05:00:00-04:00
+726,Alex De Minaur,T,Alex De Minaur,TENNIS,A. Popyrin (Monte Carlo),No Game ID,3.0,Break Points Won,2024-04-11T05:00:00-04:00
+726,Alex De Minaur,T,Alex De Minaur,TENNIS,A. Popyrin (Monte Carlo),No Game ID,20.5,Fantasy Score,2024-04-11T05:00:00-04:00
+726,Alex De Minaur,T,Alex De Minaur,TENNIS,A. Popyrin (Monte Carlo),No Game ID,22.0,Total Games,2024-04-11T05:00:00-04:00
+696,Daniil Medvedev,T,Daniil Medvedev,TENNIS,K. Khachanov (Monte Carlo),No Game ID,4.0,Aces,2024-04-11T05:00:00-04:00
+696,Daniil Medvedev,T,Daniil Medvedev,TENNIS,K. Khachanov (Monte Carlo),No Game ID,3.5,Break Points Won,2024-04-11T05:00:00-04:00
+696,Daniil Medvedev,T,Daniil Medvedev,TENNIS,K. Khachanov (Monte Carlo),No Game ID,18.5,Fantasy Score,2024-04-11T05:00:00-04:00
+696,Daniil Medvedev,T,Daniil Medvedev,TENNIS,K. Khachanov (Monte Carlo),No Game ID,22.5,Total Games,2024-04-11T05:00:00-04:00
+167963,Demho,G,Enterprise,CS2,Espionage,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+167963,Demho,G,Enterprise,CS2,Espionage,No Game ID,27.0,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168941,TOAO,G,Enterprise,CS2,Espionage,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168941,TOAO,G,Enterprise,CS2,Espionage,No Game ID,23.0,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+167816,bajmi,G,Enterprise,CS2,Espionage,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+167816,bajmi,G,Enterprise,CS2,Espionage,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+166664,ex1st,G,Enterprise,CS2,Espionage,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+166664,ex1st,G,Enterprise,CS2,Espionage,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168103,fr3nd,G,Enterprise,CS2,Espionage,No Game ID,11.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168103,fr3nd,G,Enterprise,CS2,Espionage,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168873,Cabbi,G,Espionage,CS2,Enterprise,No Game ID,17.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168873,Cabbi,G,Espionage,CS2,Enterprise,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168972,IceBerg,G,Espionage,CS2,Enterprise,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168972,IceBerg,G,Espionage,CS2,Enterprise,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168568,MistR,G,Espionage,CS2,Enterprise,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168568,MistR,G,Espionage,CS2,Enterprise,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+168422,kwezz,G,Espionage,CS2,Enterprise,No Game ID,18.0,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+168422,kwezz,G,Espionage,CS2,Enterprise,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+169057,lucky,G,Espionage,CS2,Enterprise,No Game ID,15.5,MAPS 1-2 Headshots,2024-04-11T05:00:00-04:00
+169057,lucky,G,Espionage,CS2,Enterprise,No Game ID,31.5,MAPS 1-2 Kills,2024-04-11T05:00:00-04:00
+183791,Rudolf Molleker,T,Rudolf Molleker,TENNIS,M. Kukushkin (Madrid),No Game ID,16.5,Fantasy Score,2024-04-11T05:00:00-04:00
+183791,Rudolf Molleker,T,Rudolf Molleker,TENNIS,M. Kukushkin (Madrid),No Game ID,22.0,Total Games,2024-04-11T05:00:00-04:00
+73814,Brandon Waddell,SP,Doosan Bears,KBO,HANWHA,KBO,5.0,Hits Allowed,2024-04-11T05:30:00-04:00
+73814,Brandon Waddell,SP,Doosan Bears,KBO,HANWHA,KBO,5.5,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+73814,Brandon Waddell,SP,Doosan Bears,KBO,HANWHA,KBO,17.5,Pitching Outs,2024-04-11T05:30:00-04:00
+69673,Heo Kyoung-Min,3B,Doosan Bears,KBO,HANWHA,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+192269,An Chi-hong,INF,Hanwha Eagles,KBO,DOOSAN,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+191995,Ryu Hyun-jin,P,Hanwha Eagles,KBO,DOOSAN,KBO,5.5,Hits Allowed,2024-04-11T05:30:00-04:00
+191995,Ryu Hyun-jin,P,Hanwha Eagles,KBO,DOOSAN,KBO,4.5,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+192010,Yonathan Perlaza,OF,Hanwha Eagles,KBO,DOOSAN,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+193908,Cheon Seong-ho,2B,KT Wiz,KBO,NC,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+192008,Mel Rojas Jr.,RF,KT Wiz,KBO,NC,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+15678, Kim Sun-bin,SS,Kia Tigers,KBO,LG,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+191997,William Crowe,P,Kia Tigers,KBO,LG,KBO,5.0,Hits Allowed,2024-04-11T05:30:00-04:00
+191997,William Crowe,P,Kia Tigers,KBO,LG,KBO,4.5,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+69676,Kim Hye-seong,2B,Kiwoom Heroes,KBO,SSG,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+147478,Ronnie Dawson,DH,Kiwoom Heroes,KBO,SSG,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+139514,Austin Dean,1B,LG Twins,KBO,KIA,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+70930,Hong Chang-ki,OF,LG Twins,KBO,KIA,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+67210,Im Chan-kyu,P,LG Twins,KBO,KIA,KBO,5.5,Hits Allowed,2024-04-11T05:30:00-04:00
+67210,Im Chan-kyu,P,LG Twins,KBO,KIA,KBO,4.0,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+67210,Im Chan-kyu,P,LG Twins,KBO,KIA,KBO,15.5,Pitching Outs,2024-04-11T05:30:00-04:00
+192012,Víctor Reyes,OF,Lotte Giants,KBO,SAMSUNG,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+193787,Yoon Dong-hee,RF,Lotte Giants,KBO,SAMSUNG,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+144920,Ho-cheol Seo,3B,NC Dinos,KBO,KT,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+192007,Matthew Davidson,INF,NC Dinos,KBO,KT,KBO,2.5,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+127821,Shin Min-hyeok,SP,NC Dinos,KBO,KT,KBO,5.0,Hits Allowed,2024-04-11T05:30:00-04:00
+127821,Shin Min-hyeok,SP,NC Dinos,KBO,KT,KBO,4.5,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+127821,Shin Min-hyeok,SP,NC Dinos,KBO,KT,KBO,16.5,Pitching Outs,2024-04-11T05:30:00-04:00
+69669,Choi Ji-Hoon,CF,SSG Landers,KBO,KIWOOM,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+137907,Guillermo Heredia,LF,SSG Landers,KBO,KIWOOM,KBO,2.5,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+142010,Roenis Elías,SP,SSG Landers,KBO,KIWOOM,KBO,5.5,Hits Allowed,2024-04-11T05:30:00-04:00
+142010,Roenis Elías,SP,SSG Landers,KBO,KIWOOM,KBO,4.5,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+15715, Koo Ja-wook,RF,Samsung Lions,KBO,LOTTE,KBO,1.5,Total Bases,2024-04-11T05:30:00-04:00
+192009,David McKinnon,IF,Samsung Lions,KBO,LOTTE,KBO,2.0,Hits+Runs+RBIs,2024-04-11T05:30:00-04:00
+192090,Denyi Reyes,P,Samsung Lions,KBO,LOTTE,KBO,5.5,Hits Allowed,2024-04-11T05:30:00-04:00
+192090,Denyi Reyes,P,Samsung Lions,KBO,LOTTE,KBO,4.0,Pitcher Strikeouts,2024-04-11T05:30:00-04:00
+126285,Charlie Cameron,Medium F,Brisbane,AFL,Melbourne,full,1.5,Goals,2024-04-11T05:30:00-04:00
+41383,Hugh McCluggage,MF,Brisbane,AFL,Melbourne,full,24.5,Disposals,2024-04-11T05:30:00-04:00
+126286,Joe Daniher,Key F,Brisbane,AFL,Melbourne,full,1.5,Goals,2024-04-11T05:30:00-04:00
+126388,Josh Dunkley,MF,Brisbane,AFL,Melbourne,full,25.5,Disposals,2024-04-11T05:30:00-04:00
+194110,Kai Lohmann,Medium F,Brisbane,AFL,Melbourne,full,0.5,Goals,2024-04-11T05:30:00-04:00
+41389,Lachie Neale,MF,Brisbane,AFL,Melbourne,full,27.0,Disposals,2024-04-11T05:30:00-04:00
+41609,Ben Brown,Forward,Melbourne,AFL,Brisbane,full,1.5,Goals,2024-04-11T05:30:00-04:00
+41404,Christian Petracca,MF,Melbourne,AFL,Brisbane,full,27.0,Disposals,2024-04-11T05:30:00-04:00
+41379,Clayton Oliver,Midfielder,Melbourne,AFL,Brisbane,full,27.0,Disposals,2024-04-11T05:30:00-04:00
+126795,Jack Viney,MF,Melbourne,AFL,Brisbane,full,23.5,Disposals,2024-04-11T05:30:00-04:00
+40923,Bin,TOP,BLG,LoL,TES,BLGTES45393.25,7.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+40756,Elk,BOT,BLG,LoL,TES,BLGTES45393.25,13.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+40926,ON,SUP,BLG,LoL,TES,BLGTES45393.25,2.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+40778,Xun,JNG,BLG,LoL,TES,BLGTES45393.25,7.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+14992,knight,MID,BLG,LoL,TES,BLGTES45393.25,11.5,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+58614,369,TOP,TES,LoL,BLG,BLGTES45393.25,7.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+40783,Creme,MID,TES,LoL,BLG,BLGTES45393.25,8.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+21155,JackeyLove,BOT,TES,LoL,BLG,BLGTES45393.25,11.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+41508,Meiko,SUP,TES,LoL,BLG,BLGTES45393.25,1.5,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+40918,Tian,JNG,TES,LoL,BLG,BLGTES45393.25,6.0,MAPS 1-3 Kills,2024-04-11T06:00:00-04:00
+160079,S. Bolelli/A. Vavassori,T,S. Bolelli/A. Vavassori,TENNIS,M. Gonzalez/A. Molteni (Monte Carlo Doubles),No Game ID,2.0,Break Points Won,2024-04-11T06:00:00-04:00
+160079,S. Bolelli/A. Vavassori,T,S. Bolelli/A. Vavassori,TENNIS,M. Gonzalez/A. Molteni (Monte Carlo Doubles),No Game ID,11.0,Fantasy Score,2024-04-11T06:00:00-04:00
+160079,S. Bolelli/A. Vavassori,T,S. Bolelli/A. Vavassori,TENNIS,M. Gonzalez/A. Molteni (Monte Carlo Doubles),No Game ID,20.5,Total Games,2024-04-11T06:00:00-04:00
+93,Albert Ramos-Vinolas,T,Albert Ramos-Vinolas,TENNIS,O. Roca Batalla (Madrid),No Game ID,20.5,Fantasy Score,2024-04-11T06:15:00-04:00
+93,Albert Ramos-Vinolas,T,Albert Ramos-Vinolas,TENNIS,O. Roca Batalla (Madrid),No Game ID,21.5,Total Games,2024-04-11T06:15:00-04:00
+168438,HENU,G,ENCE Academy,CS2,Secret,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168438,HENU,G,ENCE Academy,CS2,Secret,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+167281,S1rva,G,ENCE Academy,CS2,Secret,No Game ID,11.5,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+167281,S1rva,G,ENCE Academy,CS2,Secret,No Game ID,22.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+167711,myltsi,G,ENCE Academy,CS2,Secret,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+167711,myltsi,G,ENCE Academy,CS2,Secret,No Game ID,27.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+194092,podi,G,ENCE Academy,CS2,Secret,No Game ID,10.0,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+194092,podi,G,ENCE Academy,CS2,Secret,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+194093,teme,G,ENCE Academy,CS2,Secret,No Game ID,11.5,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+194093,teme,G,ENCE Academy,CS2,Secret,No Game ID,21.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+168484,Kind0,G,Secret,CS2,ENCE Academy,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168484,Kind0,G,Secret,CS2,ENCE Academy,No Game ID,27.0,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+168136,Maze,G,Secret,CS2,ENCE Academy,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168136,Maze,G,Secret,CS2,ENCE Academy,No Game ID,25.0,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+168758,NOPEEJ,G,Secret,CS2,ENCE Academy,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168758,NOPEEJ,G,Secret,CS2,ENCE Academy,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+168369,Tauson,G,Secret,CS2,ENCE Academy,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168369,Tauson,G,Secret,CS2,ENCE Academy,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+168747,anarkez,G,Secret,CS2,ENCE Academy,No Game ID,9.5,MAPS 1-2 Headshots,2024-04-11T06:30:00-04:00
+168747,anarkez,G,Secret,CS2,ENCE Academy,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T06:30:00-04:00
+101,Alexander Zverev,T,Alexander Zverev,TENNIS,S. Tsitsipas (Monte Carlo),No Game ID,4.0,Aces,2024-04-11T07:00:00-04:00
+101,Alexander Zverev,T,Alexander Zverev,TENNIS,S. Tsitsipas (Monte Carlo),No Game ID,2.0,Break Points Won,2024-04-11T07:00:00-04:00
+101,Alexander Zverev,T,Alexander Zverev,TENNIS,S. Tsitsipas (Monte Carlo),No Game ID,11.5,Fantasy Score,2024-04-11T07:00:00-04:00
+101,Alexander Zverev,T,Alexander Zverev,TENNIS,S. Tsitsipas (Monte Carlo),No Game ID,25.0,Total Games,2024-04-11T07:00:00-04:00
+116,Novak Djokovic,T,Novak Djokovic,TENNIS,L. Musetti (Monte Carlo),No Game ID,3.0,Aces,2024-04-11T07:00:00-04:00
+116,Novak Djokovic,T,Novak Djokovic,TENNIS,L. Musetti (Monte Carlo),No Game ID,3.5,Break Points Won,2024-04-11T07:00:00-04:00
+116,Novak Djokovic,T,Novak Djokovic,TENNIS,L. Musetti (Monte Carlo),No Game ID,22.0,Fantasy Score,2024-04-11T07:00:00-04:00
+116,Novak Djokovic,T,Novak Djokovic,TENNIS,L. Musetti (Monte Carlo),No Game ID,21.0,Total Games,2024-04-11T07:00:00-04:00
+186795,N. Mahut/E. Roger Vasselin,T,N. Mahut/E. Roger Vasselin,TENNIS,R. Arneodo/S. Weissborn (Monte Carlo Doubles),No Game ID,2.5,Break Points Won,2024-04-11T07:10:00-04:00
+186795,N. Mahut/E. Roger Vasselin,T,N. Mahut/E. Roger Vasselin,TENNIS,R. Arneodo/S. Weissborn (Monte Carlo Doubles),No Game ID,17.5,Fantasy Score,2024-04-11T07:10:00-04:00
+186795,N. Mahut/E. Roger Vasselin,T,N. Mahut/E. Roger Vasselin,TENNIS,R. Arneodo/S. Weissborn (Monte Carlo Doubles),No Game ID,20.5,Total Games,2024-04-11T07:10:00-04:00
+169088,PlesseN,G,Alliance,CS2,Zero Tenacity,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+169088,PlesseN,G,Alliance,CS2,Zero Tenacity,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+166147,avid,G,Alliance,CS2,Zero Tenacity,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+166147,avid,G,Alliance,CS2,Zero Tenacity,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+168433,b0denmaster,G,Alliance,CS2,Zero Tenacity,No Game ID,10.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+168433,b0denmaster,G,Alliance,CS2,Zero Tenacity,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+169085,robiin,G,Alliance,CS2,Zero Tenacity,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+169085,robiin,G,Alliance,CS2,Zero Tenacity,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+169198,twist,G,Alliance,CS2,Zero Tenacity,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+169198,twist,G,Alliance,CS2,Zero Tenacity,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+167753,Cjoffo,G,Zero Tenacity,CS2,Alliance,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+167753,Cjoffo,G,Zero Tenacity,CS2,Alliance,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+168900,aVN,G,Zero Tenacity,CS2,Alliance,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+168900,aVN,G,Zero Tenacity,CS2,Alliance,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+167750,brutmonster,G,Zero Tenacity,CS2,Alliance,No Game ID,9.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+167750,brutmonster,G,Zero Tenacity,CS2,Alliance,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+167754,nEMANHA,G,Zero Tenacity,CS2,Alliance,No Game ID,16.5,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+167754,nEMANHA,G,Zero Tenacity,CS2,Alliance,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+167752,simke,G,Zero Tenacity,CS2,Alliance,No Game ID,18.0,MAPS 1-2 Headshots,2024-04-11T08:00:00-04:00
+167752,simke,G,Zero Tenacity,CS2,Alliance,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T08:00:00-04:00
+194107,Aaron Beeney,D,Aaron Beeney,DARTS,Robert Thornton,No Game ID,0.5,180's Thrown,2024-04-11T08:20:00-04:00
+3372,Corey Conners,G,Corey Conners,PGA,Stephan Jaeger,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T08:24:00-04:00
+125457,Leandro Riedi,T,Leandro Riedi,TENNIS,V. Sachko (Madrid),No Game ID,19.5,Fantasy Score,2024-04-11T08:30:00-04:00
+125457,Leandro Riedi,T,Leandro Riedi,TENNIS,V. Sachko (Madrid),No Game ID,21.5,Total Games,2024-04-11T08:30:00-04:00
+193717,Colin Osborne,D,Colin Osborne,DARTS,Owen Bowden,No Game ID,0.5,180's Thrown,2024-04-11T08:40:00-04:00
+194108,Owen Bowden,D,Owen Bowden,DARTS,Colin Osborne,No Game ID,0.5,180's Thrown,2024-04-11T08:40:00-04:00
+64534,Bryson DeChambeau,G,B.DeChambeau,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T08:48:00-04:00
+478,Bryson DeChambeau,G,Bryson DeChambeau,PGA,Hideki Matsuyama,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T08:48:00-04:00
+478,Bryson DeChambeau,G,Bryson DeChambeau,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T08:48:00-04:00
+322,Joaquin Niemann,G,Joaquin Niemann,PGA,Bryson DeChambeau,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T08:48:00-04:00
+194107,Aaron Beeney,D,Aaron Beeney,DARTS,Kieran Smith,No Game ID,0.5,180's Thrown,2024-04-11T08:55:00-04:00
+64188,Corey Conners,G,C.Conners,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T09:00:00-04:00
+64188,Corey Conners,G,C.Conners,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T09:00:00-04:00
+11,Phil Mickelson,G,Phil Mickelson,PGA,Zach Johnson,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:00:00-04:00
+31,Sergio Garcia,G,Sergio Garcia,PGA,Corey Conners,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:00:00-04:00
+168698,Djoko,G,3DMAX,CS2,Passion UA,No Game ID,18.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+168698,Djoko,G,3DMAX,CS2,Passion UA,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+168028,Ex3rcice,G,3DMAX,CS2,Passion UA,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+168028,Ex3rcice,G,3DMAX,CS2,Passion UA,No Game ID,27.5,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+193007,Graviti,G,3DMAX,CS2,Passion UA,No Game ID,17.5,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+193007,Graviti,G,3DMAX,CS2,Passion UA,No Game ID,29.0,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+168029,Lucky,G,3DMAX,CS2,Passion UA,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+168029,Lucky,G,3DMAX,CS2,Passion UA,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+169058,Maka,G,3DMAX,CS2,Passion UA,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+169058,Maka,G,3DMAX,CS2,Passion UA,No Game ID,32.0,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+10958,Jannik Sinner,T,Jannik Sinner,TENNIS,J. Struff (Monte Carlo),No Game ID,4.0,Aces,2024-04-11T09:00:00-04:00
+10958,Jannik Sinner,T,Jannik Sinner,TENNIS,J. Struff (Monte Carlo),No Game ID,22.5,Fantasy Score,2024-04-11T09:00:00-04:00
+10958,Jannik Sinner,T,Jannik Sinner,TENNIS,J. Struff (Monte Carlo),No Game ID,19.5,Total Games,2024-04-11T09:00:00-04:00
+189857,fear,G,Passion UA,CS2,3DMAX,No Game ID,11.5,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+189857,fear,G,Passion UA,CS2,3DMAX,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+175683,jackasmo,G,Passion UA,CS2,3DMAX,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+175683,jackasmo,G,Passion UA,CS2,3DMAX,No Game ID,27.0,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+166332,jambo,G,Passion UA,CS2,3DMAX,No Game ID,11.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+166332,jambo,G,Passion UA,CS2,3DMAX,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+175684,s-chilla,G,Passion UA,CS2,3DMAX,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+175684,s-chilla,G,Passion UA,CS2,3DMAX,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+175686,zeRRoFIX,G,Passion UA,CS2,3DMAX,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T09:00:00-04:00
+175686,zeRRoFIX,G,Passion UA,CS2,3DMAX,No Game ID,23.0,MAPS 1-2 Kills,2024-04-11T09:00:00-04:00
+64192,Sergio Garcia,G,S.Garcia,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T09:12:00-04:00
+64192,Sergio Garcia,G,S.Garcia,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T09:12:00-04:00
+193717,Colin Osborne,D,Colin Osborne,DARTS,Mason Whitlock,No Game ID,0.5,180's Thrown,2024-04-11T09:15:00-04:00
+218,Tony Finau,G,Tony Finau,PGA,Byeong Hun An,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:24:00-04:00
+194108,Owen Bowden,D,Owen Bowden,DARTS,Robert Thornton,No Game ID,0.5,180's Thrown,2024-04-11T09:30:00-04:00
+65972,Phil Mickelson,G,P.Mickelson,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,2.5,Birdies Or Better,2024-04-11T09:36:00-04:00
+65972,Phil Mickelson,G,P.Mickelson,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,74.5,Strokes,2024-04-11T09:36:00-04:00
+63564,Tony Finau,G,T.Finau,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T09:36:00-04:00
+11,Phil Mickelson,G,Phil Mickelson,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,9.5,Greens In Regulation,2024-04-11T09:36:00-04:00
+6,Rickie Fowler,G,Rickie Fowler,PGA,Sepp Straka,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:36:00-04:00
+17,Tiger Woods,G,Tiger Woods,PGA,Phil Mickelson,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:36:00-04:00
+23711,Will Zalatoris,G,Will Zalatoris,PGA,Tony Finau,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:36:00-04:00
+64541,Joaquin Niemann,G,J.Niemann,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.5,Strokes,2024-04-11T09:48:00-04:00
+49,Hideki Matsuyama,G,Hideki Matsuyama,PGA,Joaquin Niemann,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:48:00-04:00
+536,Matt Fitzpatrick,G,Matthew Fitzpatrick,PGA,Russell Henley,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T09:48:00-04:00
+193717,Colin Osborne,D,Colin Osborne,DARTS,Kieran Smith,No Game ID,0.5,180's Thrown,2024-04-11T09:50:00-04:00
+169066,RCF,G,Case,CS2,FURIA Academy,No Game ID,10.0,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+169066,RCF,G,Case,CS2,FURIA Academy,No Game ID,30.0,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+187589,RICIOLI,G,Case,CS2,FURIA Academy,No Game ID,10.0,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+187589,RICIOLI,G,Case,CS2,FURIA Academy,No Game ID,22.0,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+167313,snow,G,Case,CS2,FURIA Academy,No Game ID,16.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+167313,snow,G,Case,CS2,FURIA Academy,No Game ID,32.5,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+187590,urban0,G,Case,CS2,FURIA Academy,No Game ID,17.0,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+187590,urban0,G,Case,CS2,FURIA Academy,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+168742,yepz,G,Case,CS2,FURIA Academy,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+168742,yepz,G,Case,CS2,FURIA Academy,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+167923,Bruninho,G,FURIA Academy,CS2,Case,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+167923,Bruninho,G,FURIA Academy,CS2,Case,No Game ID,22.0,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+187599,GYZER,G,FURIA Academy,CS2,Case,No Game ID,10.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+187599,GYZER,G,FURIA Academy,CS2,Case,No Game ID,18.5,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+187598,cerolzin,G,FURIA Academy,CS2,Case,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+187598,cerolzin,G,FURIA Academy,CS2,Case,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+168401,kye,G,FURIA Academy,CS2,Case,No Game ID,17.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+168401,kye,G,FURIA Academy,CS2,Case,No Game ID,30.0,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+166932,mello,G,FURIA Academy,CS2,Case,No Game ID,8.5,MAPS 1-2 Headshots,2024-04-11T10:00:00-04:00
+166932,mello,G,FURIA Academy,CS2,Case,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T10:00:00-04:00
+124359,Geoffrey Blancaneaux,T,Geoffrey Blancaneaux,TENNIS,M. Polmans (Sarasota),No Game ID,14.0,Fantasy Score,2024-04-11T10:00:00-04:00
+124359,Geoffrey Blancaneaux,T,Geoffrey Blancaneaux,TENNIS,M. Polmans (Sarasota),No Game ID,21.5,Total Games,2024-04-11T10:00:00-04:00
+95565,Juan Pablo Varillas,T,Juan Pablo Varillas,TENNIS,C. Hemery (Sarasota),No Game ID,21.0,Fantasy Score,2024-04-11T10:00:00-04:00
+95565,Juan Pablo Varillas,T,Juan Pablo Varillas,TENNIS,C. Hemery (Sarasota),No Game ID,21.0,Total Games,2024-04-11T10:00:00-04:00
+194107,Aaron Beeney,D,Aaron Beeney,DARTS,Owen Bowden,No Game ID,0.5,180's Thrown,2024-04-11T10:05:00-04:00
+194108,Owen Bowden,D,Owen Bowden,DARTS,Aaron Beeney,No Game ID,0.5,180's Thrown,2024-04-11T10:05:00-04:00
+124235,Min Woo Lee,G,M.Lee,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T10:06:00-04:00
+64528,Patrick Cantlay,G,P.Cantlay,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:06:00-04:00
+64528,Patrick Cantlay,G,P.Cantlay,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:06:00-04:00
+64191,Rickie Fowler,G,R.Fowler,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T10:06:00-04:00
+64191,Rickie Fowler,G,R.Fowler,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,74.0,Strokes,2024-04-11T10:06:00-04:00
+714,Patrick Cantlay,G,Patrick Cantlay,PGA,Xander Schauffele,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:06:00-04:00
+714,Patrick Cantlay,G,Patrick Cantlay,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T10:06:00-04:00
+10920,Viktor Hovland,G,Viktor Hovland,PGA,Patrick Cantlay,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:06:00-04:00
+132,Casper Ruud,T,Casper Ruud,TENNIS,H. Hurkacz (Monte Carlo),No Game ID,3.5,Aces,2024-04-11T10:15:00-04:00
+132,Casper Ruud,T,Casper Ruud,TENNIS,H. Hurkacz (Monte Carlo),No Game ID,2.0,Break Points Won,2024-04-11T10:15:00-04:00
+132,Casper Ruud,T,Casper Ruud,TENNIS,H. Hurkacz (Monte Carlo),No Game ID,17.5,Fantasy Score,2024-04-11T10:15:00-04:00
+132,Casper Ruud,T,Casper Ruud,TENNIS,H. Hurkacz (Monte Carlo),No Game ID,23.0,Total Games,2024-04-11T10:15:00-04:00
+10958,Jannik Sinner,T,Jannik Sinner,TENNIS,J. Struff (Monte Carlo),No Game ID,3.5,Break Points Won,2024-04-11T10:15:00-04:00
+694,Ugo Humbert,T,Ugo Humbert,TENNIS,L. Sonego (Monte Carlo),No Game ID,2.5,Aces,2024-04-11T10:15:00-04:00
+694,Ugo Humbert,T,Ugo Humbert,TENNIS,L. Sonego (Monte Carlo),No Game ID,3.0,Break Points Won,2024-04-11T10:15:00-04:00
+694,Ugo Humbert,T,Ugo Humbert,TENNIS,L. Sonego (Monte Carlo),No Game ID,15.5,Fantasy Score,2024-04-11T10:15:00-04:00
+694,Ugo Humbert,T,Ugo Humbert,TENNIS,L. Sonego (Monte Carlo),No Game ID,23.0,Total Games,2024-04-11T10:15:00-04:00
+64527,Hideki Matsuyama,G,H.Matsuyama,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:18:00-04:00
+64527,Hideki Matsuyama,G,H.Matsuyama,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.5,Strokes,2024-04-11T10:18:00-04:00
+64520,Justin Thomas,G,J.Thomas,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:18:00-04:00
+64520,Justin Thomas,G,J.Thomas,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:18:00-04:00
+64537,Will Zalatoris,G,W.Zalatoris,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:18:00-04:00
+49,Hideki Matsuyama,G,Hideki Matsuyama,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T10:18:00-04:00
+36,Justin Thomas,G,Justin Thomas,PGA,Will Zalatoris,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:18:00-04:00
+23711,Will Zalatoris,G,Will Zalatoris,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T10:18:00-04:00
+63569,Jon Rahm,G,J.Rahm,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:30:00-04:00
+63569,Jon Rahm,G,J.Rahm,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,71.5,Strokes,2024-04-11T10:30:00-04:00
+64190,Matt Fitzpatrick,G,M.Fitzpatrick,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T10:30:00-04:00
+64190,Matt Fitzpatrick,G,M.Fitzpatrick,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:30:00-04:00
+9,Jon Rahm,G,Jon Rahm,PGA,Scottie Scheffler,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:30:00-04:00
+9,Jon Rahm,G,Jon Rahm,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,11.5,Greens In Regulation,2024-04-11T10:30:00-04:00
+536,Matt Fitzpatrick,G,Matthew Fitzpatrick,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T10:30:00-04:00
+23,Rory McIlroy,G,Rory McIlroy,PGA,Jon Rahm,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:30:00-04:00
+67021,Wyndham Clark,G,W.Clark,PGA,Matt Fitzpatrick,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:30:00-04:00
+194107,Aaron Beeney,D,Aaron Beeney,DARTS,Colin Osborne,No Game ID,0.5,180's Thrown,2024-04-11T10:40:00-04:00
+64198,Rory McIlroy,G,R.McIlroy,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:42:00-04:00
+64198,Rory McIlroy,G,R.McIlroy,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.0,Strokes,2024-04-11T10:42:00-04:00
+64519,Scottie Scheffler,G,S.Scheffler,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,4.0,Birdies Or Better,2024-04-11T10:42:00-04:00
+64519,Scottie Scheffler,G,S.Scheffler,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,71.0,Strokes,2024-04-11T10:42:00-04:00
+64526,Xander Schauffele,G,X.Schauffele,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:42:00-04:00
+64526,Xander Schauffele,G,X.Schauffele,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.0,Strokes,2024-04-11T10:42:00-04:00
+23,Rory McIlroy,G,Rory McIlroy,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,11.5,Greens In Regulation,2024-04-11T10:42:00-04:00
+11851,Scottie Scheffler,G,Scottie Scheffler,PGA,Rory McIlroy,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:42:00-04:00
+11851,Scottie Scheffler,G,Scottie Scheffler,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,12.0,Greens In Regulation,2024-04-11T10:42:00-04:00
+1892,Xander Schauffele,G,Xander Schauffele,PGA,Cameron Smith,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:42:00-04:00
+1892,Xander Schauffele,G,Xander Schauffele,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,11.0,Greens In Regulation,2024-04-11T10:42:00-04:00
+64523,Cameron Smith,G,C.Smith,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:54:00-04:00
+64523,Cameron Smith,G,C.Smith,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:54:00-04:00
+64522,Viktor Hovland,G,V.Hovland,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:54:00-04:00
+64522,Viktor Hovland,G,V.Hovland,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.5,Strokes,2024-04-11T10:54:00-04:00
+67021,Wyndham Clark,G,W.Clark,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T10:54:00-04:00
+67021,Wyndham Clark,G,W.Clark,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T10:54:00-04:00
+2299,Cameron Smith,G,Cameron Smith,PGA,Wyndham Clark,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T10:54:00-04:00
+10920,Viktor Hovland,G,Viktor Hovland,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T10:54:00-04:00
+188682,Joao Fonseca,T,Joao Fonseca,TENNIS,H. Mayot (Madrid),No Game ID,14.5,Fantasy Score,2024-04-11T11:00:00-04:00
+188682,Joao Fonseca,T,Joao Fonseca,TENNIS,H. Mayot (Madrid),No Game ID,22.0,Total Games,2024-04-11T11:00:00-04:00
+28694,ANGE1,G,Natus Vincere,VAL,Team Liquid,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+45461,SUYGETSU,G,Natus Vincere,VAL,Team Liquid,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+45461,SUYGETSU,G,Natus Vincere,VAL,Team Liquid,No Game ID,2.5,Maps 1-2 First Blood,2024-04-11T11:00:00-04:00
+28695,Shao,G,Natus Vincere,VAL,Team Liquid,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+28697,Zyppan,G,Natus Vincere,VAL,Team Liquid,No Game ID,33.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+59865,ardiis,G,Natus Vincere,VAL,Team Liquid,No Game ID,34.0,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+59865,ardiis,G,Natus Vincere,VAL,Team Liquid,No Game ID,7.0,Maps 1-2 First Blood,2024-04-11T11:00:00-04:00
+64448,Enzo,G,Team Liquid,VAL,Natus Vincere,No Game ID,23.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+39437,Jamppi,G,Team Liquid,VAL,Natus Vincere,No Game ID,31.5,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+144083,Keiko,G,Team Liquid,VAL,Natus Vincere,No Game ID,33.0,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+144083,Keiko,G,Team Liquid,VAL,Natus Vincere,No Game ID,8.0,Maps 1-2 First Blood,2024-04-11T11:00:00-04:00
+39444,Mistic,G,Team Liquid,VAL,Natus Vincere,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+39444,Mistic,G,Team Liquid,VAL,Natus Vincere,No Game ID,3.5,Maps 1-2 First Blood,2024-04-11T11:00:00-04:00
+38606,nAts,G,Team Liquid,VAL,Natus Vincere,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T11:00:00-04:00
+147474,Gabriel Diallo,T,Gabriel Diallo,TENNIS,T. Boyer (Sarasota),No Game ID,15.5,Fantasy Score,2024-04-11T11:15:00-04:00
+147474,Gabriel Diallo,T,Gabriel Diallo,TENNIS,T. Boyer (Sarasota),No Game ID,22.0,Total Games,2024-04-11T11:15:00-04:00
+194108,Owen Bowden,D,Owen Bowden,DARTS,Mason Whitlock,No Game ID,0.5,180's Thrown,2024-04-11T11:15:00-04:00
+49955,Thanasi Kokkinakis,T,Thanasi Kokkinakis,TENNIS,A. Ritschard (Sarasota),No Game ID,21.0,Fantasy Score,2024-04-11T11:15:00-04:00
+49955,Thanasi Kokkinakis,T,Thanasi Kokkinakis,TENNIS,A. Ritschard (Sarasota),No Game ID,21.5,Total Games,2024-04-11T11:15:00-04:00
+67150,Denny McCarthy,G,D.McCarthy,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T11:18:00-04:00
+127758,Vijay Singh,G,V.Singh,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,78.5,Strokes,2024-04-11T11:42:00-04:00
+194107,Aaron Beeney,D,Aaron Beeney,DARTS,Mason Whitlock,No Game ID,0.5,180's Thrown,2024-04-11T11:50:00-04:00
+127761,Fred Couples,G,F.Couples,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,77.5,Strokes,2024-04-11T11:54:00-04:00
+2331,Sungjae Im,G,Sungjae Im,PGA,Adam Hadwin,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T11:54:00-04:00
+167792,Grashog,G,500,CS2,PARIVISION,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+167792,Grashog,G,500,CS2,PARIVISION,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+168897,REDSTAR,G,500,CS2,PARIVISION,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+168897,REDSTAR,G,500,CS2,PARIVISION,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169072,Rainwaker,G,500,CS2,PARIVISION,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169072,Rainwaker,G,500,CS2,PARIVISION,No Game ID,31.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+168109,SHiPZ,G,500,CS2,PARIVISION,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+168109,SHiPZ,G,500,CS2,PARIVISION,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169074,dennyslaw,G,500,CS2,PARIVISION,No Game ID,8.5,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169074,dennyslaw,G,500,CS2,PARIVISION,No Game ID,27.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+167837,KaiR0N-,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+167837,KaiR0N-,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+167059,Magnojez,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+167059,Magnojez,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169077,nafany,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169077,nafany,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,27.0,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+168420,s1ren,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,17.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+168420,s1ren,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169052,zorte,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,11.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169052,zorte,G,BetBoom,CS2,Ninjas in Pyjamas,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+193010,BluePho3nix,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+193010,BluePho3nix,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169201,REZ,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,15.5,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169201,REZ,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169115,alex,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,12.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169115,alex,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,24.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+193011,maxster,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,17.5,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+193011,maxster,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,30.0,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+193178,r1nkle,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,11.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+193178,r1nkle,G,Ninjas in Pyjamas,CS2,BetBoom,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+167836,ArtFr0st,G,PARIVISION,CS2,500,No Game ID,8.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+167836,ArtFr0st,G,PARIVISION,CS2,500,No Game ID,31.0,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169163,Jerry,G,PARIVISION,CS2,500,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169163,Jerry,G,PARIVISION,CS2,500,No Game ID,27.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169028,Patsi,G,PARIVISION,CS2,500,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169028,Patsi,G,PARIVISION,CS2,500,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+169139,Qikert,G,PARIVISION,CS2,500,No Game ID,16.5,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+169139,Qikert,G,PARIVISION,CS2,500,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+194094,bl1x1,G,PARIVISION,CS2,500,No Game ID,18.0,MAPS 1-2 Headshots,2024-04-11T12:00:00-04:00
+194094,bl1x1,G,PARIVISION,CS2,500,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T12:00:00-04:00
+194108,Owen Bowden,D,Owen Bowden,DARTS,Kieran Smith,No Game ID,0.5,180's Thrown,2024-04-11T12:10:00-04:00
+64782,Justin Rose,G,J.Rose,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T12:12:00-04:00
+67558,Austin Riley,IF,ATL,MLB,NYM,97ce2e9d-c73d-467b-bdf8-d154e4916250,7.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+67614,Matt Olson,IF,ATL,MLB,NYM,97ce2e9d-c73d-467b-bdf8-d154e4916250,7.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+127250,Ozzie Albies,IF,ATL,MLB,NYM,97ce2e9d-c73d-467b-bdf8-d154e4916250,8.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+67555,Ronald Acuña Jr.,OF,ATL,MLB,NYM,97ce2e9d-c73d-467b-bdf8-d154e4916250,9.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+139591,Francisco Álvarez,C,NYM,MLB,ATL,97ce2e9d-c73d-467b-bdf8-d154e4916250,6.0,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+67572,Pete Alonso,IF,NYM,MLB,ATL,97ce2e9d-c73d-467b-bdf8-d154e4916250,6.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+67574,Starling Marte,OF,NYM,MLB,ATL,97ce2e9d-c73d-467b-bdf8-d154e4916250,6.5,Hitter Fantasy Score,2024-04-11T12:20:00-04:00
+124168,Akshay Bhatia,G,A.Bhatia,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T12:24:00-04:00
+124168,Akshay Bhatia,G,A.Bhatia,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,74.0,Strokes,2024-04-11T12:24:00-04:00
+64539,Shane Lowry,G,S.Lowry,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T12:24:00-04:00
+64539,Shane Lowry,G,S.Lowry,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T12:24:00-04:00
+64788,Bubba Watson,G,B.Watson,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,74.5,Strokes,2024-04-11T12:36:00-04:00
+12,Patrick Reed,G,Patrick Reed,PGA,Nicolai Hojgaard,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T12:36:00-04:00
+194048,Alexander Djiku,Defender,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,1.5,Interceptions,2024-04-11T12:45:00-04:00
+194049,Bright Osayi-Samuel,Defender,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,42.5,Passes Attempted,2024-04-11T12:45:00-04:00
+194049,Bright Osayi-Samuel,Defender,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,2.5,Tackles,2024-04-11T12:45:00-04:00
+194034,Dominik Livakovic,Goalkeeper,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,3.0,Goalie Saves,2024-04-11T12:45:00-04:00
+194041,Dusan Tadic,Attacker,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,1.5,Shots,2024-04-11T12:45:00-04:00
+194041,Dusan Tadic,Attacker,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+194040,Edin Dzeko,Attacker,Fenerbahçe,SOCCER,Olympiakos,65g7j65qwzu2ko0agaxwdygpg,2.0,Shots,2024-04-11T12:45:00-04:00
+194037,André Horta,Midfielder,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,1.5,Shots Assisted,2024-04-11T12:45:00-04:00
+194037,André Horta,Midfielder,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+194033,Konstantinos Tzolakis,Goalkeeper,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,3.0,Goalie Saves,2024-04-11T12:45:00-04:00
+161800,Rodinei,Defender,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,1.5,Interceptions,2024-04-11T12:45:00-04:00
+176418,Santiago Hezze,Midfielder,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,59.5,Passes Attempted,2024-04-11T12:45:00-04:00
+176418,Santiago Hezze,Midfielder,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,2.5,Tackles,2024-04-11T12:45:00-04:00
+161626,Stevan Jovetic,Attacker,Olympiakos,SOCCER,Fenerbahçe,65g7j65qwzu2ko0agaxwdygpg,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+187526,Andrea Belotti,Attacker,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,2.5,Shots,2024-04-11T12:45:00-04:00
+149765,Cristiano Biraghi,Defender,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,2.5,Shots Assisted,2024-04-11T12:45:00-04:00
+149771,Giacomo Bonaventura,Midfielder,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+151564,Luca Ranieri,Defender,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,71.5,Passes Attempted,2024-04-11T12:45:00-04:00
+160342,Lucas Beltrán,Attacker,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,1.5,Shots,2024-04-11T12:45:00-04:00
+149772,Lucas Martínez,Defender,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,2.0,Clearances,2024-04-11T12:45:00-04:00
+162695,Michael Kayode,Defender,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,1.5,Tackles,2024-04-11T12:45:00-04:00
+149770,Nicolás González,Attacker,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,3.0,Shots,2024-04-11T12:45:00-04:00
+149472,Pietro Terracciano,Goalkeeper,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,2.5,Goalie Saves,2024-04-11T12:45:00-04:00
+152661,Riccardo Sottil,Attacker,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+149769,Rolando Mandragora,Midfielder,Fiorentina,SOCCER,Viktoria Plzeň,665ls7p7xvzmoem74h9zk45qs,1.5,Shots,2024-04-11T12:45:00-04:00
+194077,Cadu,Midfielder,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,3.0,Tackles,2024-04-11T12:45:00-04:00
+194075,Lukás Kalvach,Midfielder,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,31.5,Passes Attempted,2024-04-11T12:45:00-04:00
+194082,Martin Jedlicka,Goalkeeper,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,3.5,Goalie Saves,2024-04-11T12:45:00-04:00
+194074,Matej Vydra,Attacker,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,1.5,Shots,2024-04-11T12:45:00-04:00
+194074,Matej Vydra,Attacker,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,0.5,Shots On Target,2024-04-11T12:45:00-04:00
+194073,Pavel Sulc,Midfielder,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,0.5,Shots Assisted,2024-04-11T12:45:00-04:00
+194081,Robin Hranác,Defender,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,4.5,Clearances,2024-04-11T12:45:00-04:00
+194072,Tomás Chory,Attacker,Viktoria Plzeň,SOCCER,Fiorentina,665ls7p7xvzmoem74h9zk45qs,1.5,Shots,2024-04-11T12:45:00-04:00
+63572,Patrick Reed,G,P.Reed,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T12:48:00-04:00
+63572,Patrick Reed,G,P.Reed,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T12:48:00-04:00
+64802,Sungjae Im,G,S.Im,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T12:48:00-04:00
+64802,Sungjae Im,G,S.Im,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T12:48:00-04:00
+12,Patrick Reed,G,Patrick Reed,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T12:48:00-04:00
+46,Tommy Fleetwood,G,Tommy Fleetwood,PGA,Patrick Reed,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T12:48:00-04:00
+2107,Tyrrell Hatton,G,Tyrrell Hatton,PGA,Sungjae Im,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T12:48:00-04:00
+64186,Keegan Bradley,G,K.Bradley,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T13:00:00-04:00
+64186,Keegan Bradley,G,K.Bradley,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T13:00:00-04:00
+64193,Tyrrell Hatton,G,T.Hatton,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:00:00-04:00
+55,Jason Day,G,Jason Day,PGA,Matthieu Pavon,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:00:00-04:00
+168513,Noktse,G,BESTIA,CS2,Galorys,No Game ID,9.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+168513,Noktse,G,BESTIA,CS2,Galorys,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+168583,luchov,G,BESTIA,CS2,Galorys,No Game ID,17.5,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+168583,luchov,G,BESTIA,CS2,Galorys,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+169261,meyern,G,BESTIA,CS2,Galorys,No Game ID,16.5,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+169261,meyern,G,BESTIA,CS2,Galorys,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+192349,naz,G,BESTIA,CS2,Galorys,No Game ID,15.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+192349,naz,G,BESTIA,CS2,Galorys,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+166940,tomaszin,G,BESTIA,CS2,Galorys,No Game ID,16.5,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+166940,tomaszin,G,BESTIA,CS2,Galorys,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+184218,detr0ittJ,G,Galorys,CS2,BESTIA,No Game ID,10.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+184218,detr0ittJ,G,Galorys,CS2,BESTIA,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+184215,happ,G,Galorys,CS2,BESTIA,No Game ID,13.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+184215,happ,G,Galorys,CS2,BESTIA,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+184214,hoax,G,Galorys,CS2,BESTIA,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+184214,hoax,G,Galorys,CS2,BESTIA,No Game ID,27.5,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+184216,koala,G,Galorys,CS2,BESTIA,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+184217,ninjaZ,G,Galorys,CS2,BESTIA,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T13:00:00-04:00
+184217,ninjaZ,G,Galorys,CS2,BESTIA,No Game ID,24.0,MAPS 1-2 Kills,2024-04-11T13:00:00-04:00
+67560,Riley Greene,OF,DET,MLB,MIN,64c03531-fab2-4814-bf19-bb041b51ab26,6.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+68434,Spencer Torkelson,IF,DET,MLB,MIN,64c03531-fab2-4814-bf19-bb041b51ab26,6.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+67509,Byron Buxton,OF,MIN,MLB,DET,64c03531-fab2-4814-bf19-bb041b51ab26,6.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+67511,Carlos Correa,IF,MIN,MLB,DET,64c03531-fab2-4814-bf19-bb041b51ab26,6.5,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+146407,Christian Encarnacion-Strand,IF,CIN,MLB,MIL,770d9bbf-aabd-4978-98da-83c820708628,6.5,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+142356,Elly De La Cruz,IF,CIN,MLB,MIL,770d9bbf-aabd-4978-98da-83c820708628,7.5,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+67552,Jonathan India,IF,CIN,MLB,MIL,770d9bbf-aabd-4978-98da-83c820708628,7.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+67527,Christian Yelich,OF,MIL,MLB,CIN,770d9bbf-aabd-4978-98da-83c820708628,8.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+127196,William Contreras,C,MIL,MLB,CIN,770d9bbf-aabd-4978-98da-83c820708628,6.5,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+67528,Willy Adames,IF,MIL,MLB,CIN,770d9bbf-aabd-4978-98da-83c820708628,7.0,Hitter Fantasy Score,2024-04-11T13:10:00-04:00
+64543,Adam Scott,G,A.Scott,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T13:12:00-04:00
+64543,Adam Scott,G,A.Scott,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T13:12:00-04:00
+64797,Cameron Young,G,C.Young,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:12:00-04:00
+64538,Sam Burns,G,S.Burns,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T13:12:00-04:00
+61,Adam Scott,G,Adam Scott,PGA,Jason Day,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:12:00-04:00
+61179,Cameron Young,G,Cameron Young,PGA,Max Homa,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:12:00-04:00
+52837,Max Homa,G,Max Homa,PGA,Sam Burns,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:12:00-04:00
+3487,Sam Burns,G,Sam Burns,PGA,Cameron Young,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:12:00-04:00
+64189,Jason Day,G,J.Day,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T13:24:00-04:00
+64189,Jason Day,G,J.Day,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:24:00-04:00
+64200,Max Homa,G,M.Homa,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:24:00-04:00
+64518,Tiger Woods,G,T.Woods,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,2.5,Birdies Or Better,2024-04-11T13:24:00-04:00
+64518,Tiger Woods,G,T.Woods,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,74.5,Strokes,2024-04-11T13:24:00-04:00
+17,Tiger Woods,G,Tiger Woods,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,9.5,Greens In Regulation,2024-04-11T13:24:00-04:00
+64535,Brian Harman,G,B.Harman,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T13:36:00-04:00
+64535,Brian Harman,G,B.Harman,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T13:36:00-04:00
+64529,Brooks Koepka,G,B.Koepka,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T13:36:00-04:00
+64529,Brooks Koepka,G,B.Koepka,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.5,Strokes,2024-04-11T13:36:00-04:00
+87168,Tom Kim,G,T.Kim,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.5,Strokes,2024-04-11T13:36:00-04:00
+2304,Brian Harman,G,Brian Harman,PGA,Tom Kim,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:36:00-04:00
+41,Brooks Koepka,G,Brooks Koepka,PGA,Jordan Spieth,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:36:00-04:00
+64524,Jordan Spieth,G,J.Spieth,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T13:48:00-04:00
+64524,Jordan Spieth,G,J.Spieth,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,72.5,Strokes,2024-04-11T13:48:00-04:00
+126066,Ludvig Aberg,G,L.Aberg,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:48:00-04:00
+67019,Sahith Theegala,G,S.Theegala,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T13:48:00-04:00
+10919,Collin Morikawa,G,Collin Morikawa,PGA,Sahith Theegala,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:48:00-04:00
+5,Jordan Spieth,G,Jordan Spieth,PGA,Ludvig Aberg,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:48:00-04:00
+5,Jordan Spieth,G,Jordan Spieth,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T13:48:00-04:00
+126066,Ludvig Aberg,G,L.Aberg,PGA,Dustin Johnson,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:48:00-04:00
+16184,Sahith Theegala,G,Sahith Theegala,PGA,Tommy Fleetwood,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T13:48:00-04:00
+16184,Sahith Theegala,G,Sahith Theegala,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T13:48:00-04:00
+64521,Collin Morikawa,G,C.Morikawa,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.0,Birdies Or Better,2024-04-11T14:00:00-04:00
+64521,Collin Morikawa,G,C.Morikawa,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T14:00:00-04:00
+64525,Dustin Johnson,G,D.Johnson,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,3.5,Birdies Or Better,2024-04-11T14:00:00-04:00
+64525,Dustin Johnson,G,D.Johnson,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T14:00:00-04:00
+64544,Tommy Fleetwood,G,T.Fleetwood,PGA,Augusta National RD 1,0e387540-a829-4258-b082-53ff9d3b351d,73.0,Strokes,2024-04-11T14:00:00-04:00
+10919,Collin Morikawa,G,Collin Morikawa,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T14:00:00-04:00
+27,Dustin Johnson,G,Dustin Johnson,PGA,Collin Morikawa,90948834-c772-404c-842d-655cc84aad2c,0.0,Birdies or Better Matchup,2024-04-11T14:00:00-04:00
+46,Tommy Fleetwood,G,Tommy Fleetwood,PGA,RD1,90948834-c772-404c-842d-655cc84aad2c,10.5,Greens In Regulation,2024-04-11T14:00:00-04:00
+137968,Adam Walton,T,Adam Walton,TENNIS,A. Bellier (Morelos),No Game ID,22.0,Fantasy Score,2024-04-11T14:00:00-04:00
+137968,Adam Walton,T,Adam Walton,TENNIS,A. Bellier (Morelos),No Game ID,23.0,Total Games,2024-04-11T14:00:00-04:00
+51077,Brave,G,BBL Esports,VAL,KOI,No Game ID,24.0,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+184272,Elite,G,BBL Esports,VAL,KOI,No Game ID,32.5,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+184272,Elite,G,BBL Esports,VAL,KOI,No Game ID,5.0,Maps 1-2 First Blood,2024-04-11T14:00:00-04:00
+59874,QutionerX,G,BBL Esports,VAL,KOI,No Game ID,35.0,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+59874,QutionerX,G,BBL Esports,VAL,KOI,No Game ID,8.5,Maps 1-2 First Blood,2024-04-11T14:00:00-04:00
+51075,pAura,G,BBL Esports,VAL,KOI,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+142984,reazy,G,BBL Esports,VAL,KOI,No Game ID,30.0,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+145811,Beibit Zhukayev,T,Beibit Zhukayev,TENNIS,C. Langmo (Morelos),No Game ID,21.0,Fantasy Score,2024-04-11T14:00:00-04:00
+145811,Beibit Zhukayev,T,Beibit Zhukayev,TENNIS,C. Langmo (Morelos),No Game ID,23.5,Total Games,2024-04-11T14:00:00-04:00
+174252,GRUBINHO,G,KOI,VAL,BBL Esports,No Game ID,29.0,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+174252,GRUBINHO,G,KOI,VAL,BBL Esports,No Game ID,3.5,Maps 1-2 First Blood,2024-04-11T14:00:00-04:00
+28696,ShadoW,G,KOI,VAL,BBL Esports,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+38605,Sheydos,G,KOI,VAL,BBL Esports,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+143000,kamo,G,KOI,VAL,BBL Esports,No Game ID,33.5,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+143000,kamo,G,KOI,VAL,BBL Esports,No Game ID,8.0,Maps 1-2 First Blood,2024-04-11T14:00:00-04:00
+37418,starxo,G,KOI,VAL,BBL Esports,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T14:00:00-04:00
+67545,Jose Altuve,IF,HOU,MLB,KC,fa074edb-03e4-479e-ae74-96041108d668,7.5,Hitter Fantasy Score,2024-04-11T14:10:00-04:00
+67547,Kyle Tucker,OF,HOU,MLB,KC,fa074edb-03e4-479e-ae74-96041108d668,7.5,Hitter Fantasy Score,2024-04-11T14:10:00-04:00
+67700,Yordan Alvarez,OF,HOU,MLB,KC,fa074edb-03e4-479e-ae74-96041108d668,8.0,Hitter Fantasy Score,2024-04-11T14:10:00-04:00
+67565,Bobby Witt Jr.,IF,KC,MLB,HOU,fa074edb-03e4-479e-ae74-96041108d668,9.0,Hitter Fantasy Score,2024-04-11T14:10:00-04:00
+69741,Salvador Perez,C,KC,MLB,HOU,fa074edb-03e4-479e-ae74-96041108d668,6.5,Hitter Fantasy Score,2024-04-11T14:10:00-04:00
+186553,Luke Humphries,D,Luke Humphries,DARTS,Peter Wright,No Game ID,3.5,180's Thrown,2024-04-11T14:15:00-04:00
+186553,Luke Humphries,D,Luke Humphries,DARTS,Peter Wright,No Game ID,101.5,3 Dart Average,2024-04-11T14:15:00-04:00
+186554,Peter Wright,D,Peter Wright,DARTS,Luke Humphries,No Game ID,2.0,180's Thrown,2024-04-11T14:15:00-04:00
+186554,Peter Wright,D,Peter Wright,DARTS,Luke Humphries,No Game ID,94.5,3 Dart Average,2024-04-11T14:15:00-04:00
+192372,J.D. Davis,IF,OAK,MLB,TEX,8cb0a686-b2c7-4af9-84b7-4a78c9c0ea51,6.0,Hitter Fantasy Score,2024-04-11T14:35:00-04:00
+67652,Adolis García,OF,TEX,MLB,OAK,8cb0a686-b2c7-4af9-84b7-4a78c9c0ea51,8.0,Hitter Fantasy Score,2024-04-11T14:35:00-04:00
+67575,Corey Seager,IF,TEX,MLB,OAK,8cb0a686-b2c7-4af9-84b7-4a78c9c0ea51,8.0,Hitter Fantasy Score,2024-04-11T14:35:00-04:00
+67577,Marcus Semien,IF,TEX,MLB,OAK,8cb0a686-b2c7-4af9-84b7-4a78c9c0ea51,7.5,Hitter Fantasy Score,2024-04-11T14:35:00-04:00
+192803,Wyatt Langford,OF,TEX,MLB,OAK,8cb0a686-b2c7-4af9-84b7-4a78c9c0ea51,7.0,Hitter Fantasy Score,2024-04-11T14:35:00-04:00
+186552,Luke Littler,D,Luke Littler,DARTS,Rob Cross,No Game ID,3.5,180's Thrown,2024-04-11T14:45:00-04:00
+186552,Luke Littler,D,Luke Littler,DARTS,Rob Cross,No Game ID,100.5,3 Dart Average,2024-04-11T14:45:00-04:00
+186555,Rob Cross,D,Rob Cross,DARTS,Luke Littler,No Game ID,2.0,180's Thrown,2024-04-11T14:45:00-04:00
+186555,Rob Cross,D,Rob Cross,DARTS,Luke Littler,No Game ID,96.5,3 Dart Average,2024-04-11T14:45:00-04:00
+150645,Davide Calabria,Defender,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,0.5,Shots,2024-04-11T15:00:00-04:00
+185147,Matteo Gabbia,Defender,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,60.5,Passes Attempted,2024-04-11T15:00:00-04:00
+150637,Mike Maignan,Goalkeeper,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,2.5,Goalie Saves,2024-04-11T15:00:00-04:00
+150641,Olivier Giroud,Attacker,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,2.5,Shots,2024-04-11T15:00:00-04:00
+150634,Rafael Leão,Attacker,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,0.5,Goal + Assist,2024-04-11T15:00:00-04:00
+150634,Rafael Leão,Attacker,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,2.0,Shots Assisted,2024-04-11T15:00:00-04:00
+150646,Ruben Loftus-Cheek,Midfielder,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,1.5,Fouls Drawn,2024-04-11T15:00:00-04:00
+159819,Simon Kjær,Defender,Milan,SOCCER,Roma,4beh14vmxtl6wy2kycc2iiuqc,3.5,Clearances,2024-04-11T15:00:00-04:00
+150224,Bryan Cristante,Midfielder,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,44.5,Passes Attempted,2024-04-11T15:00:00-04:00
+150228,Diego Llorente,Defender,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,0.5,Fouls Drawn,2024-04-11T15:00:00-04:00
+150227,Gianluca Mancini,Defender,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,3.5,Clearances,2024-04-11T15:00:00-04:00
+151318,Lorenzo Pellegrini,Midfielder,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,1.5,Shots,2024-04-11T15:00:00-04:00
+176407,Mile Svilar,Goalkeeper,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,3.5,Goalie Saves,2024-04-11T15:00:00-04:00
+151317,Paulo Dybala,Attacker,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+160156,Romelu Lukaku,Attacker,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+150221,Stephan El Shaarawy,Attacker,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,0.5,Shots Assisted,2024-04-11T15:00:00-04:00
+176410,Zeki Çelik,Defender,Roma,SOCCER,Milan,4beh14vmxtl6wy2kycc2iiuqc,1.5,Tackles,2024-04-11T15:00:00-04:00
+150294,Ademola Lookman,Attacker,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+150298,Davide Zappacosta,Defender,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,26.5,Passes Attempted,2024-04-11T15:00:00-04:00
+150293,Gianluca Scamacca,Attacker,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+189772,Isak Hien,Defender,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,0.5,Fouls,2024-04-11T15:00:00-04:00
+149474,Marco Carnesecchi,Goalkeeper,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,4.5,Goalie Saves,2024-04-11T15:00:00-04:00
+150296,Marten de Roon,Midfielder,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,40.5,Passes Attempted,2024-04-11T15:00:00-04:00
+152435,Éderson,Midfielder,Atalanta,SOCCER,Liverpool,4igno0cxm1h7493ldkf34g0es,0.5,Shots,2024-04-11T15:00:00-04:00
+149194,Alexis Mac Allister,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.0,Shots,2024-04-11T15:00:00-04:00
+149194,Alexis Mac Allister,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.5,Tackles,2024-04-11T15:00:00-04:00
+170412,Caoimhín Kelleher,Goalkeeper,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.5,Goalie Saves,2024-04-11T15:00:00-04:00
+148372,Cody Gakpo,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,3.0,Shots,2024-04-11T15:00:00-04:00
+187311,Conor Bradley,Defender,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,49.5,Passes Attempted,2024-04-11T15:00:00-04:00
+187311,Conor Bradley,Defender,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.0,Tackles,2024-04-11T15:00:00-04:00
+149685,Curtis Jones,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,1.5,Shots,2024-04-11T15:00:00-04:00
+148370,Darwin Núñez,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,4.5,Shots,2024-04-11T15:00:00-04:00
+148370,Darwin Núñez,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.0,Shots On Target,2024-04-11T15:00:00-04:00
+149193,Dominik Szoboszlai,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+152461,Harvey Elliott,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.5,Shots,2024-04-11T15:00:00-04:00
+173138,Kostas Tsimikas,Defender,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,0.5,Shots,2024-04-11T15:00:00-04:00
+148374,Luis Díaz,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,3.0,Shots,2024-04-11T15:00:00-04:00
+148375,Mohamed Salah,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,0.5,Goals,2024-04-11T15:00:00-04:00
+148375,Mohamed Salah,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,3.5,Shots,2024-04-11T15:00:00-04:00
+148375,Mohamed Salah,Attacker,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,1.5,Shots On Target,2024-04-11T15:00:00-04:00
+169453,Ryan Gravenberch,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,1.5,Shots,2024-04-11T15:00:00-04:00
+148381,Virgil van Dijk,Defender,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,0.5,Shots,2024-04-11T15:00:00-04:00
+152460,Wataru Endo,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.0,Fouls,2024-04-11T15:00:00-04:00
+152460,Wataru Endo,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,63.5,Passes Attempted,2024-04-11T15:00:00-04:00
+152460,Wataru Endo,Midfielder,Liverpool,SOCCER,Atalanta,4igno0cxm1h7493ldkf34g0es,2.0,Tackles,2024-04-11T15:00:00-04:00
+170442,Adam Hlozek,Attacker,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.5,Shots,2024-04-11T15:00:00-04:00
+188126,Borja Iglesias,Attacker,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.5,Shots,2024-04-11T15:00:00-04:00
+151196,Florian Wirtz,Midfielder,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,0.5,Goal + Assist,2024-04-11T15:00:00-04:00
+151196,Florian Wirtz,Midfielder,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.5,Shots,2024-04-11T15:00:00-04:00
+149682,Granit Xhaka,Midfielder,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,106.5,Passes Attempted,2024-04-11T15:00:00-04:00
+149681,Jeremie Frimpong,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,1.5,Shots Assisted,2024-04-11T15:00:00-04:00
+149684,Jonathan Tah,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,88.5,Passes Attempted,2024-04-11T15:00:00-04:00
+149413,Lukás Hrádecký,Goalkeeper,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.0,Goalie Saves,2024-04-11T15:00:00-04:00
+151198,Odilon Kossounou,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.0,Clearances,2024-04-11T15:00:00-04:00
+174047,Patrik Schick,Attacker,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.5,Shots,2024-04-11T15:00:00-04:00
+176971,Piero Hincapié,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.0,Tackles,2024-04-11T15:00:00-04:00
+170439,Robert Andrich,Midfielder,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,1.5,Fouls,2024-04-11T15:00:00-04:00
+149360,Victor Boniface,Attacker,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,3.5,Shots,2024-04-11T15:00:00-04:00
+149360,Victor Boniface,Attacker,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,1.5,Shots On Target,2024-04-11T15:00:00-04:00
+149683,Álex Grimaldo,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,2.0,Shots,2024-04-11T15:00:00-04:00
+149683,Álex Grimaldo,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+149683,Álex Grimaldo,Defender,Leverkusen,SOCCER,West Ham,4og51rflx8or4n2kytwf0nrbo,1.5,Tackles,2024-04-11T15:00:00-04:00
+148566,Emerson,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,2.5,Tackles,2024-04-11T15:00:00-04:00
+150213,James Ward-Prowse,Midfielder,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,1.5,Shots Assisted,2024-04-11T15:00:00-04:00
+148570,Jarrod Bowen,Attacker,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,1.5,Shots,2024-04-11T15:00:00-04:00
+148570,Jarrod Bowen,Attacker,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+176412,Konstantinos Mavropanos,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,29.5,Passes Attempted,2024-04-11T15:00:00-04:00
+176412,Konstantinos Mavropanos,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,1.5,Tackles,2024-04-11T15:00:00-04:00
+148567,Kurt Zouma,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,5.0,Clearances,2024-04-11T15:00:00-04:00
+148569,Lucas Paquetá,Midfielder,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,2.0,Fouls,2024-04-11T15:00:00-04:00
+148272,Lukasz Fabianski,Goalkeeper,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,4.0,Goalie Saves,2024-04-11T15:00:00-04:00
+169443,Mohammed Kudus,Midfielder,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,1.5,Shots,2024-04-11T15:00:00-04:00
+148565,Tomás Soucek,Midfielder,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,1.5,Tackles,2024-04-11T15:00:00-04:00
+148572,Vladimír Coufal,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,26.5,Passes Attempted,2024-04-11T15:00:00-04:00
+148572,Vladimír Coufal,Defender,West Ham,SOCCER,Leverkusen,4og51rflx8or4n2kytwf0nrbo,2.0,Tackles,2024-04-11T15:00:00-04:00
+161450,Anatolii Trubin,Goalkeeper,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,3.0,Goalie Saves,2024-04-11T15:00:00-04:00
+161448,António Silva,Defender,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,4.0,Clearances,2024-04-11T15:00:00-04:00
+161440,Arthur Cabral,Attacker,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,2.5,Shots,2024-04-11T15:00:00-04:00
+173699,David Neres,Attacker,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+161445,João Neves,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,2.0,Interceptions,2024-04-11T15:00:00-04:00
+161445,João Neves,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,3.5,Tackles,2024-04-11T15:00:00-04:00
+188554,Marcos Leonardo,Attacker,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+161449,Nicolás Otamendi,Defender,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,59.5,Passes Attempted,2024-04-11T15:00:00-04:00
+161443,Rafa,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,2.0,Shots,2024-04-11T15:00:00-04:00
+161443,Rafa,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,1.5,Shots Assisted,2024-04-11T15:00:00-04:00
+161573,Tiago Gouveia,Attacker,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,2.0,Shots,2024-04-11T15:00:00-04:00
+161441,Ángel Di María,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,0.5,Goal + Assist,2024-04-11T15:00:00-04:00
+161441,Ángel Di María,Midfielder,Benfica,SOCCER,Marseille,4svoo7grwjqv1w1c19xg3y61g,3.0,Shots,2024-04-11T15:00:00-04:00
+148407,Geoffrey Kondogbia,Midfielder,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,1.5,Interceptions,2024-04-11T15:00:00-04:00
+148407,Geoffrey Kondogbia,Midfielder,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,43.5,Passes Attempted,2024-04-11T15:00:00-04:00
+148407,Geoffrey Kondogbia,Midfielder,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,2.5,Tackles,2024-04-11T15:00:00-04:00
+151203,Leonardo Balerdi,Defender,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,4.0,Clearances,2024-04-11T15:00:00-04:00
+149584,Pau López,Goalkeeper,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,3.0,Goalie Saves,2024-04-11T15:00:00-04:00
+148411,Pierre-Emerick Aubameyang,Attacker,Marseille,SOCCER,Benfica,4svoo7grwjqv1w1c19xg3y61g,2.5,Shots,2024-04-11T15:00:00-04:00
+194059,Brandon Mechele,Defender,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,4.5,Clearances,2024-04-11T15:00:00-04:00
+194059,Brandon Mechele,Defender,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,64.5,Passes Attempted,2024-04-11T15:00:00-04:00
+194053,Hugo Vetlesen,Midfielder,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,0.5,Interceptions,2024-04-11T15:00:00-04:00
+194053,Hugo Vetlesen,Midfielder,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,2.5,Tackles,2024-04-11T15:00:00-04:00
+194050,Nordin Jackers,Goalkeeper,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,2.5,Goalie Saves,2024-04-11T15:00:00-04:00
+194052,Thiago,Attacker,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,1.5,Shots,2024-04-11T15:00:00-04:00
+194052,Thiago,Attacker,Club Brugge,SOCCER,PAOK,6501wvnt8phukifqgrqd6ioes,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+194065,Andrija Zivkovic,Attacker,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+194051,Dominik Kotarski,Goalkeeper,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,3.0,Goalie Saves,2024-04-11T15:00:00-04:00
+194063,Giannis Konstantelias,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,2.0,Shots,2024-04-11T15:00:00-04:00
+194070,Konstantinos Koulierakis,Defender,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,4.0,Clearances,2024-04-11T15:00:00-04:00
+194067,Soualiho Meïté,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,0.5,Interceptions,2024-04-11T15:00:00-04:00
+194067,Soualiho Meïté,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,48.5,Passes Attempted,2024-04-11T15:00:00-04:00
+194067,Soualiho Meïté,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,0.5,Shots,2024-04-11T15:00:00-04:00
+194067,Soualiho Meïté,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,0.5,Shots Assisted,2024-04-11T15:00:00-04:00
+194066,Stefan Schwab,Midfielder,PAOK,SOCCER,Club Brugge,6501wvnt8phukifqgrqd6ioes,1.5,Shots,2024-04-11T15:00:00-04:00
+148754,Douglas Luiz,Midfielder,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+148275,Emiliano Martínez,Goalkeeper,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,2.5,Goalie Saves,2024-04-11T15:00:00-04:00
+148755,Ezri Konsa,Defender,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,2.0,Fouls Drawn,2024-04-11T15:00:00-04:00
+148757,John McGinn,Midfielder,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,1.5,Shots,2024-04-11T15:00:00-04:00
+148752,Leon Bailey,Midfielder,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+148759,Lucas Digne,Defender,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,1.5,Tackles,2024-04-11T15:00:00-04:00
+187287,Morgan Rogers,Attacker,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+148753,Ollie Watkins,Attacker,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,0.5,Goal + Assist,2024-04-11T15:00:00-04:00
+148753,Ollie Watkins,Attacker,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,3.0,Shots,2024-04-11T15:00:00-04:00
+150176,Pau Torres,Defender,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,2.5,Clearances,2024-04-11T15:00:00-04:00
+152463,Youri Tielemans,Midfielder,Aston Villa,SOCCER,Lille,65swdoz4vwm2s9wvcieiszh90,41.5,Passes Attempted,2024-04-11T15:00:00-04:00
+150186,Bafodé Diakité,Defender,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,44.5,Passes Attempted,2024-04-11T15:00:00-04:00
+148194,Benjamin André,Midfielder,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,0.5,Shots,2024-04-11T15:00:00-04:00
+151504,Edon Zhegrova,Midfielder,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,0.5,Shots On Target,2024-04-11T15:00:00-04:00
+148197,Jonathan David,Attacker,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,2.5,Shots,2024-04-11T15:00:00-04:00
+151505,Leny Yoro,Defender,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,3.5,Clearances,2024-04-11T15:00:00-04:00
+148196,Lucas Chevalier,Goalkeeper,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,3.5,Goalie Saves,2024-04-11T15:00:00-04:00
+176946,Nabil Bentaleb,Midfielder,Lille,SOCCER,Aston Villa,65swdoz4vwm2s9wvcieiszh90,0.5,Fouls Drawn,2024-04-11T15:00:00-04:00
+186556,Gerwyn Price,D,Gerwyn Price,DARTS,Michael Smith,No Game ID,3.0,180's Thrown,2024-04-11T15:15:00-04:00
+186556,Gerwyn Price,D,Gerwyn Price,DARTS,Michael Smith,No Game ID,99.5,3 Dart Average,2024-04-11T15:15:00-04:00
+186558,Michael Smith,D,Michael Smith,DARTS,Gerwyn Price,No Game ID,3.5,180's Thrown,2024-04-11T15:15:00-04:00
+186558,Michael Smith,D,Michael Smith,DARTS,Gerwyn Price,No Game ID,97.5,3 Dart Average,2024-04-11T15:15:00-04:00
+186559,Michael van Gerwen,D,Michael van Gerwen,DARTS,Nathan Aspinall,No Game ID,2.5,180's Thrown,2024-04-11T15:45:00-04:00
+186559,Michael van Gerwen,D,Michael van Gerwen,DARTS,Nathan Aspinall,No Game ID,98.5,3 Dart Average,2024-04-11T15:45:00-04:00
+186557,Nathan Aspinall,D,Nathan Aspinall,DARTS,Michael van Gerwen,No Game ID,2.5,180's Thrown,2024-04-11T15:45:00-04:00
+186557,Nathan Aspinall,D,Nathan Aspinall,DARTS,Michael van Gerwen,No Game ID,98.5,3 Dart Average,2024-04-11T15:45:00-04:00
+41497,Oderus,G,Moist x Shopify,VAL,together we are terrific,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+64445,brawk,G,Moist x Shopify,VAL,together we are terrific,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+64928,flyuh,G,Moist x Shopify,VAL,together we are terrific,No Game ID,27.0,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+59898,mada,G,Moist x Shopify,VAL,together we are terrific,No Game ID,36.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+141709,v1c,G,Moist x Shopify,VAL,together we are terrific,No Game ID,33.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+166487,doc,G,Sharks,CS2,paiN,No Game ID,15.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+166487,doc,G,Sharks,CS2,paiN,No Game ID,29.0,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+167673,drg,G,Sharks,CS2,paiN,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+167673,drg,G,Sharks,CS2,paiN,No Game ID,22.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+166935,rdnzao,G,Sharks,CS2,paiN,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+166935,rdnzao,G,Sharks,CS2,paiN,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+193256,supLexN1,G,Sharks,CS2,paiN,No Game ID,9.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+193256,supLexN1,G,Sharks,CS2,paiN,No Game ID,25.0,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+166820,togs,G,Sharks,CS2,paiN,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+166820,togs,G,Sharks,CS2,paiN,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+168351,biguzera,G,paiN,CS2,Sharks,No Game ID,18.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+168351,biguzera,G,paiN,CS2,Sharks,No Game ID,32.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+168403,kauez,G,paiN,CS2,Sharks,No Game ID,17.0,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+168403,kauez,G,paiN,CS2,Sharks,No Game ID,28.0,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+168648,lux,G,paiN,CS2,Sharks,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+168648,lux,G,paiN,CS2,Sharks,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+168649,nqz,G,paiN,CS2,Sharks,No Game ID,8.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+168649,nqz,G,paiN,CS2,Sharks,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+166933,nyezin,G,paiN,CS2,Sharks,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T16:00:00-04:00
+166933,nyezin,G,paiN,CS2,Sharks,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T16:00:00-04:00
+188643,Conan Whitehead,D,Conan Whitehead,DARTS,Pete Burgoyne,No Game ID,1.5,180's Thrown,2024-04-11T17:05:00-04:00
+194109,David Wawrzewski,D,David Wawrzewski,DARTS,Corne Groeneveld,No Game ID,0.5,180's Thrown,2024-04-11T17:20:00-04:00
+188643,Conan Whitehead,D,Conan Whitehead,DARTS,David Wawrzewski,No Game ID,1.5,180's Thrown,2024-04-11T17:55:00-04:00
+194109,David Wawrzewski,D,David Wawrzewski,DARTS,Conan Whitehead,No Game ID,0.5,180's Thrown,2024-04-11T17:55:00-04:00
+67872,Alexander Barboza,Defender,Botafogo,SOCCER,LDU Quito,LDUBOT123,38.5,Passes Attempted,2024-04-11T18:00:00-04:00
+147338,Danilo Barbosa,Midfielder,Botafogo,SOCCER,LDU Quito,LDUBOT123,0.5,Shots,2024-04-11T18:00:00-04:00
+65576,Gatito Fernandez,Goalkeeper,Botafogo,SOCCER,LDU Quito,LDUBOT123,3.5,Goalie Saves,2024-04-11T18:00:00-04:00
+65964,Hugo,Defender,Botafogo,SOCCER,LDU Quito,LDUBOT123,3.0,Tackles,2024-04-11T18:00:00-04:00
+146634,Júnior Santos,Attacker,Botafogo,SOCCER,LDU Quito,LDUBOT123,1.5,Shots,2024-04-11T18:00:00-04:00
+144050,Lucas Halter,Defender,Botafogo,SOCCER,LDU Quito,LDUBOT123,4.0,Clearances,2024-04-11T18:00:00-04:00
+67582,Luiz Henrique,Attacker,Botafogo,SOCCER,LDU Quito,LDUBOT123,0.5,Shots Assisted,2024-04-11T18:00:00-04:00
+67582,Luiz Henrique,Attacker,Botafogo,SOCCER,LDU Quito,LDUBOT123,0.5,Shots On Target,2024-04-11T18:00:00-04:00
+78971,Oscar Romero,Midfielder,Botafogo,SOCCER,LDU Quito,LDUBOT123,0.5,Shots On Target,2024-04-11T18:00:00-04:00
+146633,Tiquinho Soares,Attacker,Botafogo,SOCCER,LDU Quito,LDUBOT123,2.5,Shots,2024-04-11T18:00:00-04:00
+194088,Alex Arce,Attacker,LDU Quito,SOCCER,Botafogo,LDUBOT123,3.5,Shots,2024-04-11T18:00:00-04:00
+194088,Alex Arce,Attacker,LDU Quito,SOCCER,Botafogo,LDUBOT123,0.5,Shots Assisted,2024-04-11T18:00:00-04:00
+41522,Alexander Alvarado,Midfielder,LDU Quito,SOCCER,Botafogo,LDUBOT123,1.5,Tackles,2024-04-11T18:00:00-04:00
+67285,Alexander Domínguez,Goalkeeper,LDU Quito,SOCCER,Botafogo,LDUBOT123,2.5,Goalie Saves,2024-04-11T18:00:00-04:00
+174657,Ezequiel Piovi,Midfielder,LDU Quito,SOCCER,Botafogo,LDUBOT123,55.5,Passes Attempted,2024-04-11T18:00:00-04:00
+42454,Ricardo Adé,Defender,LDU Quito,SOCCER,Botafogo,LDUBOT123,3.5,Clearances,2024-04-11T18:00:00-04:00
+137976,Giovanni Mpetshi Perricard,T,Giovanni Mpetshi Perricard,TENNIS,A. Mayo (Morelos),No Game ID,22.5,Fantasy Score,2024-04-11T18:00:00-04:00
+137976,Giovanni Mpetshi Perricard,T,Giovanni Mpetshi Perricard,TENNIS,A. Mayo (Morelos),No Game ID,24.5,Total Games,2024-04-11T18:00:00-04:00
+194109,David Wawrzewski,D,David Wawrzewski,DARTS,Pete Burgoyne,No Game ID,0.5,180's Thrown,2024-04-11T18:30:00-04:00
+73988,Bryce Harper,IF,PHI,MLB,PIT,e27de04a-cda3-4cde-b587-8eaed1c27c4a,8.0,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+67532,Kyle Schwarber,DH,PHI,MLB,PIT,e27de04a-cda3-4cde-b587-8eaed1c27c4a,7.5,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+127032,Trea Turner,IF,PHI,MLB,PIT,e27de04a-cda3-4cde-b587-8eaed1c27c4a,8.0,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+67525,Bryan Reynolds,OF,PIT,MLB,PHI,e27de04a-cda3-4cde-b587-8eaed1c27c4a,6.5,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+67524,Ke'Bryan Hayes,IF,PIT,MLB,PHI,e27de04a-cda3-4cde-b587-8eaed1c27c4a,6.5,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+67526,Oneil Cruz,IF,PIT,MLB,PHI,e27de04a-cda3-4cde-b587-8eaed1c27c4a,6.5,Hitter Fantasy Score,2024-04-11T18:40:00-04:00
+188643,Conan Whitehead,D,Conan Whitehead,DARTS,Corne Groeneveld,No Game ID,1.5,180's Thrown,2024-04-11T18:50:00-04:00
+169151,HEN1,G,Imperial,CS2,adalYamigos,No Game ID,9.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+169151,HEN1,G,Imperial,CS2,adalYamigos,No Game ID,28.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+169153,VINI,G,Imperial,CS2,adalYamigos,No Game ID,11.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+169153,VINI,G,Imperial,CS2,adalYamigos,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+168677,decenty,G,Imperial,CS2,adalYamigos,No Game ID,15.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+168677,decenty,G,Imperial,CS2,adalYamigos,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+167040,felps,G,Imperial,CS2,adalYamigos,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+167040,felps,G,Imperial,CS2,adalYamigos,No Game ID,32.0,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+173744,noway,G,Imperial,CS2,adalYamigos,No Game ID,16.0,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+173744,noway,G,Imperial,CS2,adalYamigos,No Game ID,30.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+141706,Reduxx,G,Oxygen Esports,VAL,YFP Gaming,No Game ID,37.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+141705,Verno,G,Oxygen Esports,VAL,YFP Gaming,No Game ID,34.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+28674,dapr,G,Oxygen Esports,VAL,YFP Gaming,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+56862,mitch,G,Oxygen Esports,VAL,YFP Gaming,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+41498,skuba,G,Oxygen Esports,VAL,YFP Gaming,No Game ID,29.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+168269,delboNi,G,adalYamigos,CS2,Imperial,No Game ID,12.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+168269,delboNi,G,adalYamigos,CS2,Imperial,No Game ID,26.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+169069,f4stzin,G,adalYamigos,CS2,Imperial,No Game ID,14.0,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+169069,f4stzin,G,adalYamigos,CS2,Imperial,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+168765,piriajr,G,adalYamigos,CS2,Imperial,No Game ID,14.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+168765,piriajr,G,adalYamigos,CS2,Imperial,No Game ID,25.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+169158,shz,G,adalYamigos,CS2,Imperial,No Game ID,13.5,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+169158,shz,G,adalYamigos,CS2,Imperial,No Game ID,26.0,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+168270,zqkS,G,adalYamigos,CS2,Imperial,No Game ID,7.0,MAPS 1-2 Headshots,2024-04-11T19:00:00-04:00
+168270,zqkS,G,adalYamigos,CS2,Imperial,No Game ID,20.5,MAPS 1-2 Kills,2024-04-11T19:00:00-04:00
+194109,David Wawrzewski,D,David Wawrzewski,DARTS,Bradley Brooks,No Game ID,0.5,180's Thrown,2024-04-11T19:05:00-04:00
+69589,Adley Rutschman,C,BAL,MLB,BOS,1cfd5134-11b7-4900-81a2-261ea7278680,7.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+68860,Anthony Santander,OF,BAL,MLB,BOS,1cfd5134-11b7-4900-81a2-261ea7278680,6.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+74215,Gunnar Henderson,IF,BAL,MLB,BOS,1cfd5134-11b7-4900-81a2-261ea7278680,7.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+194083,Jackson Holliday,IF,BAL,MLB,BOS,1cfd5134-11b7-4900-81a2-261ea7278680,6.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+67645,Jarren Duran,OF,BOS,MLB,BAL,1cfd5134-11b7-4900-81a2-261ea7278680,7.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+67585,Rafael Devers,IF,BOS,MLB,BAL,1cfd5134-11b7-4900-81a2-261ea7278680,7.5,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+193267,Tyler O'Neill,OF,BOS,MLB,BAL,1cfd5134-11b7-4900-81a2-261ea7278680,7.0,Hitter Fantasy Score,2024-04-11T19:10:00-04:00
+188643,Conan Whitehead,D,Conan Whitehead,DARTS,Bradley Brooks,No Game ID,1.5,180's Thrown,2024-04-11T19:40:00-04:00
+177210,Maxime Janvier,T,Maxime Janvier,TENNIS,R. Pacheco Mendez (Morelos),No Game ID,10.5,Fantasy Score,2024-04-11T20:30:00-04:00
+177210,Maxime Janvier,T,Maxime Janvier,TENNIS,R. Pacheco Mendez (Morelos),No Game ID,22.5,Total Games,2024-04-11T20:30:00-04:00
+44474,James Duckworth,T,James Duckworth,TENNIS,I. Marchenko (Busan),No Game ID,21.5,Fantasy Score,2024-04-11T22:00:00-04:00
+44474,James Duckworth,T,James Duckworth,TENNIS,I. Marchenko (Busan),No Game ID,22.0,Total Games,2024-04-11T22:00:00-04:00
+17267,Lloyd Harris,T,Lloyd Harris,TENNIS,S. Kwon (Busan),No Game ID,11.0,Fantasy Score,2024-04-11T22:00:00-04:00
+17267,Lloyd Harris,T,Lloyd Harris,TENNIS,S. Kwon (Busan),No Game ID,23.0,Total Games,2024-04-11T22:00:00-04:00
+140037,K.Krawietz/T. Puetz,T,K.Krawietz/T. Puetz,TENNIS,S. Gille/J. Vliegen (Monte Carlo Doubles),No Game ID,2.0,Break Points Won,2024-04-12T05:00:00-04:00
+140037,K.Krawietz/T. Puetz,T,K.Krawietz/T. Puetz,TENNIS,S. Gille/J. Vliegen (Monte Carlo Doubles),No Game ID,15.5,Fantasy Score,2024-04-12T05:00:00-04:00
+140037,K.Krawietz/T. Puetz,T,K.Krawietz/T. Puetz,TENNIS,S. Gille/J. Vliegen (Monte Carlo Doubles),No Game ID,20.5,Total Games,2024-04-12T05:00:00-04:00
+150313,Ciro Immobile,Attacker,Lazio,SOCCER,Salernitana,actvyciy1en05ymxzr9ikps0k,0.5,Goals,2024-04-12T14:45:00-04:00
+16710,Cellium,G,ATL,COD,MIN,No Game ID,22.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+16710,Cellium,G,ATL,COD,MIN,No Game ID,6.5,MAP 2 Kills,2024-04-12T15:00:00-04:00
+16710,Cellium,G,ATL,COD,MIN,No Game ID,20.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+16710,Cellium,G,ATL,COD,MIN,No Game ID,50.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+59298,Drazah,G,ATL,COD,MIN,No Game ID,23.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+59298,Drazah,G,ATL,COD,MIN,No Game ID,7.0,MAP 2 Kills,2024-04-12T15:00:00-04:00
+59298,Drazah,G,ATL,COD,MIN,No Game ID,21.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+59298,Drazah,G,ATL,COD,MIN,No Game ID,51.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+16644,Simp,G,ATL,COD,MIN,No Game ID,25.0,MAP 1 Kills,2024-04-12T15:00:00-04:00
+16644,Simp,G,ATL,COD,MIN,No Game ID,7.5,MAP 2 Kills,2024-04-12T15:00:00-04:00
+16644,Simp,G,ATL,COD,MIN,No Game ID,23.0,MAP 3 Kills,2024-04-12T15:00:00-04:00
+16644,Simp,G,ATL,COD,MIN,No Game ID,53.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+49870,aBeZy,G,ATL,COD,MIN,No Game ID,24.0,MAP 1 Kills,2024-04-12T15:00:00-04:00
+49870,aBeZy,G,ATL,COD,MIN,No Game ID,7.5,MAP 2 Kills,2024-04-12T15:00:00-04:00
+49870,aBeZy,G,ATL,COD,MIN,No Game ID,22.0,MAP 3 Kills,2024-04-12T15:00:00-04:00
+49870,aBeZy,G,ATL,COD,MIN,No Game ID,52.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+59309,Accuracy,G,MIN,COD,ATL,No Game ID,20.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+59309,Accuracy,G,MIN,COD,ATL,No Game ID,6.0,MAP 2 Kills,2024-04-12T15:00:00-04:00
+59309,Accuracy,G,MIN,COD,ATL,No Game ID,18.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+59309,Accuracy,G,MIN,COD,ATL,No Game ID,46.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+28500,Gunless,G,MIN,COD,ATL,No Game ID,19.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+28500,Gunless,G,MIN,COD,ATL,No Game ID,5.5,MAP 2 Kills,2024-04-12T15:00:00-04:00
+28500,Gunless,G,MIN,COD,ATL,No Game ID,17.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+28500,Gunless,G,MIN,COD,ATL,No Game ID,44.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+180626,Lynz,G,MIN,COD,ATL,No Game ID,23.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+180626,Lynz,G,MIN,COD,ATL,No Game ID,7.0,MAP 2 Kills,2024-04-12T15:00:00-04:00
+180626,Lynz,G,MIN,COD,ATL,No Game ID,21.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+180626,Lynz,G,MIN,COD,ATL,No Game ID,50.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+59301,Standy,G,MIN,COD,ATL,No Game ID,21.5,MAP 1 Kills,2024-04-12T15:00:00-04:00
+59301,Standy,G,MIN,COD,ATL,No Game ID,6.5,MAP 2 Kills,2024-04-12T15:00:00-04:00
+59301,Standy,G,MIN,COD,ATL,No Game ID,19.5,MAP 3 Kills,2024-04-12T15:00:00-04:00
+59301,Standy,G,MIN,COD,ATL,No Game ID,47.5,MAPS 1-3 Kills,2024-04-12T15:00:00-04:00
+94421,Assault,G,LAG,COD,LV,No Game ID,20.5,MAP 1 Kills,2024-04-12T16:30:00-04:00
+94421,Assault,G,LAG,COD,LV,No Game ID,6.0,MAP 2 Kills,2024-04-12T16:30:00-04:00
+94421,Assault,G,LAG,COD,LV,No Game ID,20.5,MAP 3 Kills,2024-04-12T16:30:00-04:00
+94421,Assault,G,LAG,COD,LV,No Game ID,45.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+180683,Diamondcon,G,LAG,COD,LV,No Game ID,22.5,MAP 1 Kills,2024-04-12T16:30:00-04:00
+180683,Diamondcon,G,LAG,COD,LV,No Game ID,6.5,MAP 2 Kills,2024-04-12T16:30:00-04:00
+180683,Diamondcon,G,LAG,COD,LV,No Game ID,22.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+180683,Diamondcon,G,LAG,COD,LV,No Game ID,48.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+180684,Estreal,G,LAG,COD,LV,No Game ID,23.5,MAP 1 Kills,2024-04-12T16:30:00-04:00
+180684,Estreal,G,LAG,COD,LV,No Game ID,6.5,MAP 2 Kills,2024-04-12T16:30:00-04:00
+180684,Estreal,G,LAG,COD,LV,No Game ID,23.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+180684,Estreal,G,LAG,COD,LV,No Game ID,51.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+92144,Fame,G,LAG,COD,LV,No Game ID,22.0,MAP 1 Kills,2024-04-12T16:30:00-04:00
+92144,Fame,G,LAG,COD,LV,No Game ID,6.0,MAP 2 Kills,2024-04-12T16:30:00-04:00
+92144,Fame,G,LAG,COD,LV,No Game ID,22.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+92144,Fame,G,LAG,COD,LV,No Game ID,48.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+16718,Attach,G,LV,COD,LAG,No Game ID,23.0,MAP 1 Kills,2024-04-12T16:30:00-04:00
+16718,Attach,G,LV,COD,LAG,No Game ID,7.0,MAP 2 Kills,2024-04-12T16:30:00-04:00
+16718,Attach,G,LV,COD,LAG,No Game ID,23.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+16718,Attach,G,LV,COD,LAG,No Game ID,51.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+188250,Gio,G,LV,COD,LAG,No Game ID,23.0,MAP 1 Kills,2024-04-12T16:30:00-04:00
+188250,Gio,G,LV,COD,LAG,No Game ID,6.5,MAP 2 Kills,2024-04-12T16:30:00-04:00
+188250,Gio,G,LV,COD,LAG,No Game ID,22.5,MAP 3 Kills,2024-04-12T16:30:00-04:00
+188250,Gio,G,LV,COD,LAG,No Game ID,50.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+59289,Nero,G,LV,COD,LAG,No Game ID,25.0,MAP 1 Kills,2024-04-12T16:30:00-04:00
+59289,Nero,G,LV,COD,LAG,No Game ID,7.0,MAP 2 Kills,2024-04-12T16:30:00-04:00
+59289,Nero,G,LV,COD,LAG,No Game ID,24.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+59289,Nero,G,LV,COD,LAG,No Game ID,53.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+180631,Purj,G,LV,COD,LAG,No Game ID,22.0,MAP 1 Kills,2024-04-12T16:30:00-04:00
+180631,Purj,G,LV,COD,LAG,No Game ID,6.5,MAP 2 Kills,2024-04-12T16:30:00-04:00
+180631,Purj,G,LV,COD,LAG,No Game ID,22.0,MAP 3 Kills,2024-04-12T16:30:00-04:00
+180631,Purj,G,LV,COD,LAG,No Game ID,48.5,MAPS 1-3 Kills,2024-04-12T16:30:00-04:00
+3999,Antonio Carlos Junior (PFL),F,Antonio Carlos Junior (PFL),MMA,Simon Biyong,No Game ID,104.5,Fantasy Score,2024-04-12T18:10:00-04:00
+3999,Antonio Carlos Junior (PFL),F,Antonio Carlos Junior (PFL),MMA,Simon Biyong,No Game ID,10.0,Fight Time (Mins),2024-04-12T18:10:00-04:00
+3999,Antonio Carlos Junior (PFL),F,Antonio Carlos Junior (PFL),MMA,Simon Biyong,No Game ID,30.5,Strikes,2024-04-12T18:10:00-04:00
+3999,Antonio Carlos Junior (PFL),F,Antonio Carlos Junior (PFL),MMA,Simon Biyong,No Game ID,2.0,Takedowns,2024-04-12T18:10:00-04:00
+59761,Bruno Miranda (PFL),F,Bruno Miranda  (PFL),MMA,Brent Primus,No Game ID,75.5,Fantasy Score,2024-04-12T18:10:00-04:00
+59761,Bruno Miranda (PFL),F,Bruno Miranda  (PFL),MMA,Brent Primus,No Game ID,76.5,Strikes,2024-04-12T18:10:00-04:00
+46322,Clay Collard (PFL),F,Clay Collard (PFL),MMA,Patricky Pitbull,No Game ID,102.5,Fantasy Score,2024-04-12T18:10:00-04:00
+46322,Clay Collard (PFL),F,Clay Collard (PFL),MMA,Patricky Pitbull,No Game ID,14.75,Fight Time (Mins),2024-04-12T18:10:00-04:00
+46322,Clay Collard (PFL),F,Clay Collard (PFL),MMA,Patricky Pitbull,No Game ID,105.5,Strikes,2024-04-12T18:10:00-04:00
+70035,Elvin Espinoza (PFL),F,Elvin Espinoza (PFL),MMA,Anthony Romero,No Game ID,86.5,Fantasy Score,2024-04-12T18:10:00-04:00
+70035,Elvin Espinoza (PFL),F,Elvin Espinoza (PFL),MMA,Anthony Romero,No Game ID,68.5,Strikes,2024-04-12T18:10:00-04:00
+70035,Elvin Espinoza (PFL),F,Elvin Espinoza (PFL),MMA,Anthony Romero,No Game ID,3.0,Takedowns,2024-04-12T18:10:00-04:00
+55323,Gadzhi Rabadanov (PFL),F,Gadzhi Rabadanov (PFL),MMA,Solomon Renfro,No Game ID,84.5,Fantasy Score,2024-04-12T18:10:00-04:00
+55323,Gadzhi Rabadanov (PFL),F,Gadzhi Rabadanov (PFL),MMA,Solomon Renfro,No Game ID,60.5,Strikes,2024-04-12T18:10:00-04:00
+55323,Gadzhi Rabadanov (PFL),F,Gadzhi Rabadanov (PFL),MMA,Solomon Renfro,No Game ID,2.5,Takedowns,2024-04-12T18:10:00-04:00
+17255,Impa Kasanganay (PFL),F,Impa Kasanganay (PFL),MMA,Alex Polizzi,No Game ID,87.5,Fantasy Score,2024-04-12T18:10:00-04:00
+17255,Impa Kasanganay (PFL),F,Impa Kasanganay (PFL),MMA,Alex Polizzi,No Game ID,68.5,Strikes,2024-04-12T18:10:00-04:00
+169428,Jakob Nedoh (PFL),F,Jakob Nedoh (PFL),MMA,Dovletdzhan Yagshimuradov,No Game ID,95.5,Fantasy Score,2024-04-12T18:10:00-04:00
+169428,Jakob Nedoh (PFL),F,Jakob Nedoh (PFL),MMA,Dovletdzhan Yagshimuradov,No Game ID,8.5,Fight Time (Mins),2024-04-12T18:10:00-04:00
+169428,Jakob Nedoh (PFL),F,Jakob Nedoh (PFL),MMA,Dovletdzhan Yagshimuradov,No Game ID,35.5,Strikes,2024-04-12T18:10:00-04:00
+193891,Jay Jay Wilson (PFL),F,Jay Jay Wilson (PFL),MMA,Adam Piccolotti,No Game ID,83.5,Fantasy Score,2024-04-12T18:10:00-04:00
+193891,Jay Jay Wilson (PFL),F,Jay Jay Wilson (PFL),MMA,Adam Piccolotti,No Game ID,85.5,Strikes,2024-04-12T18:10:00-04:00
+79043,Mads Burnell (PFL),F,Mads Burnell (PFL),MMA,Michael Dufort,No Game ID,90.5,Fantasy Score,2024-04-12T18:10:00-04:00
+79043,Mads Burnell (PFL),F,Mads Burnell (PFL),MMA,Michael Dufort,No Game ID,60.5,Strikes,2024-04-12T18:10:00-04:00
+79043,Mads Burnell (PFL),F,Mads Burnell (PFL),MMA,Michael Dufort,No Game ID,3.0,Takedowns,2024-04-12T18:10:00-04:00
+70031,Marcelo Nunes (PFL),F,Marcelo Nunes (PFL),MMA,Jordan Heiderman,No Game ID,118.5,Fantasy Score,2024-04-12T18:10:00-04:00
+70031,Marcelo Nunes (PFL),F,Marcelo Nunes (PFL),MMA,Jordan Heiderman,No Game ID,4.75,Fight Time (Mins),2024-04-12T18:10:00-04:00
+70031,Marcelo Nunes (PFL),F,Marcelo Nunes (PFL),MMA,Jordan Heiderman,No Game ID,24.5,Strikes,2024-04-12T18:10:00-04:00
+56224,Rob Wilkinson (PFL),F,Rob Wilkinson (PFL),MMA,Tom Breese,No Game ID,112.5,Fantasy Score,2024-04-12T18:10:00-04:00
+56224,Rob Wilkinson (PFL),F,Rob Wilkinson (PFL),MMA,Tom Breese,No Game ID,5.5,Fight Time (Mins),2024-04-12T18:10:00-04:00
+56224,Rob Wilkinson (PFL),F,Rob Wilkinson (PFL),MMA,Tom Breese,No Game ID,25.5,Strikes,2024-04-12T18:10:00-04:00
+56224,Rob Wilkinson (PFL),F,Rob Wilkinson (PFL),MMA,Tom Breese,No Game ID,1.5,Takedowns,2024-04-12T18:10:00-04:00
+70451,Sadibou Sy (PFL),F,Sadibou Sy (PFL),MMA,Josh Silveira,No Game ID,70.5,Fantasy Score,2024-04-12T18:10:00-04:00
+70451,Sadibou Sy (PFL),F,Sadibou Sy (PFL),MMA,Josh Silveira,No Game ID,59.5,Strikes,2024-04-12T18:10:00-04:00
+149122,Alejandro Garnacho,Attacker,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,3.0,Shots,2024-04-13T12:30:00-04:00
+149319,André Onana,Goalkeeper,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,3.5,Goalie Saves,2024-04-13T12:30:00-04:00
+149126,Antony,Attacker,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.0,Shots,2024-04-13T12:30:00-04:00
+149123,Bruno Fernandes,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,0.5,Goal + Assist,2024-04-13T12:30:00-04:00
+149123,Bruno Fernandes,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,3.0,Shots,2024-04-13T12:30:00-04:00
+149123,Bruno Fernandes,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.0,Tackles,2024-04-13T12:30:00-04:00
+149130,Casemiro,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,54.5,Passes Attempted,2024-04-13T12:30:00-04:00
+149130,Casemiro,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,3.5,Tackles,2024-04-13T12:30:00-04:00
+151213,Diogo Dalot,Defender,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.5,Tackles,2024-04-13T12:30:00-04:00
+175097,Harry Maguire,Defender,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,56.5,Passes Attempted,2024-04-13T12:30:00-04:00
+175097,Harry Maguire,Defender,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,0.5,Shots,2024-04-13T12:30:00-04:00
+186323,Kobbie Mainoo,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.0,Tackles,2024-04-13T12:30:00-04:00
+148136,Marcus Rashford,Attacker,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.5,Shots,2024-04-13T12:30:00-04:00
+152453,Rasmus Højlund,Attacker,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.0,Shots,2024-04-13T12:30:00-04:00
+160985,Scott McTominay,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,0.5,Shots On Target,2024-04-13T12:30:00-04:00
+160985,Scott McTominay,Midfielder,Man Utd,SOCCER,Bournemouth,ecboxq663uqpa3x9sw69688b8,2.5,Tackles,2024-04-13T12:30:00-04:00
+16175,AJ Allmendinger,D,AJ Allmendinger,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,32.5,NASCAR Points,2024-04-13T13:30:00-04:00
+59581,Austin Hill,D,Austin Hill,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,36.5,NASCAR Points,2024-04-13T13:30:00-04:00
+123657,Chandler Smith,D,Chandler Smith,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,38.5,NASCAR Points,2024-04-13T13:30:00-04:00
+60419,Cole Custer,D,Cole Custer,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,36.5,NASCAR Points,2024-04-13T13:30:00-04:00
+188232,Jesse Love,D,Jesse Love,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,30.5,NASCAR Points,2024-04-13T13:30:00-04:00
+16081,Justin Allgaier,D,Justin Allgaier,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,37.5,NASCAR Points,2024-04-13T13:30:00-04:00
+16083,Riley Herbst,D,Riley Herbst,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,33.5,NASCAR Points,2024-04-13T13:30:00-04:00
+61106,Ryan Truex,D,Ryan Truex,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,35.5,NASCAR Points,2024-04-13T13:30:00-04:00
+59590,Sam Mayer,D,Sam Mayer,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,32.5,NASCAR Points,2024-04-13T13:30:00-04:00
+67483,Sammy Smith,D,Sammy Smith,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,31.5,NASCAR Points,2024-04-13T13:30:00-04:00
+59579,Sheldon Creed,D,Sheldon Creed,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,33.5,NASCAR Points,2024-04-13T13:30:00-04:00
+192545,Taylor Gray,D,Taylor Gray,XFINITY,Texas - Andy's Frozen Custard 300,No Game ID,30.5,NASCAR Points,2024-04-13T13:30:00-04:00
+3930,Jessica Andrade,F,"""Bate Estaca""",MMA,Marina Rodriguez,No Game ID,75.5,Fantasy Score,2024-04-13T18:10:00-04:00
+3930,Jessica Andrade,F,"""Bate Estaca""",MMA,Marina Rodriguez,No Game ID,60.5,Significant Strikes,2024-04-13T18:10:00-04:00
+3570,Deiveson Figueiredo,F,"""Deus da Guerra""",MMA,Cody Garbrandt,No Game ID,96.5,Fantasy Score,2024-04-13T18:10:00-04:00
+3570,Deiveson Figueiredo,F,"""Deus da Guerra""",MMA,Cody Garbrandt,No Game ID,11.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+3570,Deiveson Figueiredo,F,"""Deus da Guerra""",MMA,Cody Garbrandt,No Game ID,37.5,Significant Strikes,2024-04-13T18:10:00-04:00
+4220,Aljamain Sterling,F,"""Funk Master""",MMA,Calvin Kattar,No Game ID,86.5,Fantasy Score,2024-04-13T18:10:00-04:00
+4220,Aljamain Sterling,F,"""Funk Master""",MMA,Calvin Kattar,No Game ID,60.5,Significant Strikes,2024-04-13T18:10:00-04:00
+4220,Aljamain Sterling,F,"""Funk Master""",MMA,Calvin Kattar,No Game ID,2.0,Takedowns,2024-04-13T18:10:00-04:00
+5033,Arman Tsarukyan,F,"""MFP Team""",MMA,Charles Oliveira,No Game ID,91.5,Fantasy Score,2024-04-13T18:10:00-04:00
+5033,Arman Tsarukyan,F,"""MFP Team""",MMA,Charles Oliveira,No Game ID,8.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+5033,Arman Tsarukyan,F,"""MFP Team""",MMA,Charles Oliveira,No Game ID,34.5,Significant Strikes,2024-04-13T18:10:00-04:00
+5033,Arman Tsarukyan,F,"""MFP Team""",MMA,Charles Oliveira,No Game ID,2.0,Takedowns,2024-04-13T18:10:00-04:00
+3341,Weili Zhang,F,"""Magnum""",MMA,Yan Xiaonan,No Game ID,120.5,Fantasy Score,2024-04-13T18:10:00-04:00
+3341,Weili Zhang,F,"""Magnum""",MMA,Yan Xiaonan,No Game ID,19.75,Fight Time (Mins),2024-04-13T18:10:00-04:00
+3341,Weili Zhang,F,"""Magnum""",MMA,Yan Xiaonan,No Game ID,110.5,Significant Strikes,2024-04-13T18:10:00-04:00
+3341,Weili Zhang,F,"""Magnum""",MMA,Yan Xiaonan,No Game ID,3.5,Takedowns,2024-04-13T18:10:00-04:00
+55783,Alex Pereira,F,"""Poatan""",MMA,Jamahal Hill,No Game ID,82.5,Fantasy Score,2024-04-13T18:10:00-04:00
+55783,Alex Pereira,F,"""Poatan""",MMA,Jamahal Hill,No Game ID,9.75,Fight Time (Mins),2024-04-13T18:10:00-04:00
+55783,Alex Pereira,F,"""Poatan""",MMA,Jamahal Hill,No Game ID,47.5,Significant Strikes,2024-04-13T18:10:00-04:00
+7069,Justin Gaethje,F,"""The Highlight""",MMA,Max Holloway,No Game ID,117.5,Fantasy Score,2024-04-13T18:10:00-04:00
+7069,Justin Gaethje,F,"""The Highlight""",MMA,Max Holloway,No Game ID,22.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+7069,Justin Gaethje,F,"""The Highlight""",MMA,Max Holloway,No Game ID,100.5,Significant Strikes,2024-04-13T18:10:00-04:00
+7069,Justin Gaethje,F,"""The Highlight""",MMA,Max Holloway,No Game ID,122.5,Significant Strikes,2024-04-13T18:10:00-04:00
+2959,Jalin Turner,F,"""The Tarantula""",MMA,Renato Moicano,No Game ID,103.5,Fantasy Score,2024-04-13T18:10:00-04:00
+2959,Jalin Turner,F,"""The Tarantula""",MMA,Renato Moicano,No Game ID,7.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+2959,Jalin Turner,F,"""The Tarantula""",MMA,Renato Moicano,No Game ID,40.5,Significant Strikes,2024-04-13T18:10:00-04:00
+70188,Bo Nickal	,F,Bo Nickal	,MMA,Cody Brundage,No Game ID,118.5,Fantasy Score,2024-04-13T18:10:00-04:00
+70188,Bo Nickal	,F,Bo Nickal	,MMA,Cody Brundage,No Game ID,4.0,Fight Time (Mins),2024-04-13T18:10:00-04:00
+70188,Bo Nickal	,F,Bo Nickal	,MMA,Cody Brundage,No Game ID,14.5,Significant Strikes,2024-04-13T18:10:00-04:00
+16281,Bobby Green,F,Bobby Green,MMA,Jim Miller,No Game ID,89.5,Fantasy Score,2024-04-13T18:10:00-04:00
+16281,Bobby Green,F,Bobby Green,MMA,Jim Miller,No Game ID,14.75,Fight Time (Mins),2024-04-13T18:10:00-04:00
+50101,Diego Lopes,F,Diego Lopes,MMA,Sodiq Yusuff,No Game ID,85.5,Fantasy Score,2024-04-13T18:10:00-04:00
+50101,Diego Lopes,F,Diego Lopes,MMA,Sodiq Yusuff,No Game ID,10.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+50101,Diego Lopes,F,Diego Lopes,MMA,Sodiq Yusuff,No Game ID,39.5,Significant Strikes,2024-04-13T18:10:00-04:00
+4200,Aleksandar Rakic,F,Gym 23,MMA,Jiri Prochazka,No Game ID,75.5,Fantasy Score,2024-04-13T18:10:00-04:00
+4200,Aleksandar Rakic,F,Gym 23,MMA,Jiri Prochazka,No Game ID,10.5,Fight Time (Mins),2024-04-13T18:10:00-04:00
+4200,Aleksandar Rakic,F,Gym 23,MMA,Jiri Prochazka,No Game ID,42.5,Significant Strikes,2024-04-13T18:10:00-04:00
+49157,Kayla Harrison,F,Kayla Harrison,MMA,Holly Holm,No Game ID,84.5,Fantasy Score,2024-04-13T18:10:00-04:00
+49157,Kayla Harrison,F,Kayla Harrison,MMA,Holly Holm,No Game ID,44.5,Significant Strikes,2024-04-13T18:10:00-04:00
+49157,Kayla Harrison,F,Kayla Harrison,MMA,Holly Holm,No Game ID,2.5,Takedowns,2024-04-13T18:10:00-04:00
+150597,Ben White,Defender,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,51.5,Passes Attempted,2024-04-14T11:30:00-04:00
+148283,Bukayo Saka,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,1.5,Fouls Drawn,2024-04-14T11:30:00-04:00
+148283,Bukayo Saka,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.5,Shots,2024-04-14T11:30:00-04:00
+160987,David Raya,Goalkeeper,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.5,Goalie Saves,2024-04-14T11:30:00-04:00
+148284,Declan Rice,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,55.5,Passes Attempted,2024-04-14T11:30:00-04:00
+148284,Declan Rice,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.0,Tackles,2024-04-14T11:30:00-04:00
+152450,Gabriel Jesus,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.5,Shots,2024-04-14T11:30:00-04:00
+148286,Gabriel Martinelli,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.0,Shots,2024-04-14T11:30:00-04:00
+148287,Kai Havertz,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.5,Shots,2024-04-14T11:30:00-04:00
+148288,Leandro Trossard,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.0,Shots,2024-04-14T11:30:00-04:00
+148288,Leandro Trossard,Attacker,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,0.5,Shots On Target,2024-04-14T11:30:00-04:00
+148289,Martin Ødegaard,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,0.5,Goal + Assist,2024-04-14T11:30:00-04:00
+148289,Martin Ødegaard,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.0,Shots,2024-04-14T11:30:00-04:00
+148289,Martin Ødegaard,Midfielder,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,2.5,Shots Assisted,2024-04-14T11:30:00-04:00
+151205,Oleksandr Zinchenko,Defender,Arsenal,SOCCER,Aston Villa,eckk35w1ox90r9siasf7r0is4,0.5,Shots,2024-04-14T11:30:00-04:00
+4398,Alex Bowman,D,Alex Bowman,NASCAR,Texas - EchoPark Automotive 400,No Game ID,30.5,NASCAR Points,2024-04-14T15:41:00-04:00
+20,Brad Keselowski,D,Brad Keselowski,NASCAR,Texas - EchoPark Automotive 400,No Game ID,29.5,NASCAR Points,2024-04-14T15:41:00-04:00
+15261,Bubba Wallace,D,Bubba Wallace,NASCAR,Texas - EchoPark Automotive 400,No Game ID,31.5,NASCAR Points,2024-04-14T15:41:00-04:00
+26,Chase Elliott,D,Chase Elliott,NASCAR,Texas - EchoPark Automotive 400,No Game ID,32.5,NASCAR Points,2024-04-14T15:41:00-04:00
+4400,Chris Buescher,D,Chris Buescher,NASCAR,Texas - EchoPark Automotive 400,No Game ID,29.5,NASCAR Points,2024-04-14T15:41:00-04:00
+15010,Christopher Bell,D,Christopher Bell,NASCAR,Texas - EchoPark Automotive 400,No Game ID,34.5,NASCAR Points,2024-04-14T15:41:00-04:00
+10,Denny Hamlin,D,Denny Hamlin,NASCAR,Texas - EchoPark Automotive 400,No Game ID,36.5,NASCAR Points,2024-04-14T15:41:00-04:00
+15,Joey Logano,D,Joey Logano,NASCAR,Texas - EchoPark Automotive 400,No Game ID,31.5,NASCAR Points,2024-04-14T15:41:00-04:00
+25,Kyle Busch,D,Kyle Busch,NASCAR,Texas - EchoPark Automotive 400,No Game ID,27.5,NASCAR Points,2024-04-14T15:41:00-04:00
+21,Kyle Larson,D,Kyle Larson,NASCAR,Texas - EchoPark Automotive 400,No Game ID,37.5,NASCAR Points,2024-04-14T15:41:00-04:00
+22,Martin Truex Jr.,D,Martin Truex Jr.,NASCAR,Texas - EchoPark Automotive 400,No Game ID,33.5,NASCAR Points,2024-04-14T15:41:00-04:00
+15264,Ross Chastain,D,Ross Chastain,NASCAR,Texas - EchoPark Automotive 400,No Game ID,32.5,NASCAR Points,2024-04-14T15:41:00-04:00
+8,Ryan Blaney,D,Ryan Blaney,NASCAR,Texas - EchoPark Automotive 400,No Game ID,35.5,NASCAR Points,2024-04-14T15:41:00-04:00
+69749,Ty Gibbs,D,Ty Gibbs,NASCAR,Texas - EchoPark Automotive 400,No Game ID,31.5,NASCAR Points,2024-04-14T15:41:00-04:00
+15368,Tyler Reddick,D,Tyler Reddick,NASCAR,Texas - EchoPark Automotive 400,No Game ID,36.5,NASCAR Points,2024-04-14T15:41:00-04:00
+4401,William Byron,D,William Byron,NASCAR,Texas - EchoPark Automotive 400,No Game ID,36.5,NASCAR Points,2024-04-14T15:41:00-04:00
+39234,Saquon Barkley,RB,PHI,NFLSZN,PHI,.21khbjbn,6.5,Rush TDs,2024-09-05T20:00:00-04:00
+39234,Saquon Barkley,RB,PHI,NFLSZN,PHI,1vc23f45621,1055.5,Rush Yards,2024-09-05T20:00:00-04:00
+17568,Myles Garrett,DE,CLE,NFLSZN,CLE,3xcv5432sfd,13.75,Sacks,2024-09-05T20:00:00-04:00
+39139,Kirk Cousins,QB,ATL,NFLSZN,ATL,4253413,28.5,Pass TDs,2024-09-05T20:00:00-04:00
+38799,Josh Jacobs,RB,GB,NFLSZN,GB,456321fes,7.5,Rush TDs,2024-09-05T20:00:00-04:00
+39285,Lamar Jackson,QB,BAL,NFLSZN,BAL,53ff321bvc,23.5,Pass TDs,2024-09-05T20:00:00-04:00
+38581,Trevor Lawrence,QB,JAC,NFLSZN,JAC,543412e,3999.5,Pass Yards,2024-09-05T20:00:00-04:00
+69249,Amon-Ra St. Brown	,WR,DET,NFLSZN,DET,584768531,7.5,Rec TDs,2024-09-05T20:00:00-04:00
+69249,Amon-Ra St. Brown	,WR,DET,NFLSZN,DET,584768531,1249.5,Receiving Yards,2024-09-05T20:00:00-04:00
+39115,Jared Goff,QB,DET,NFLSZN,DET,584768531,27.5,Pass TDs,2024-09-05T20:00:00-04:00
+39015,Derrick Henry,RB,BAL,NFLSZN,BAL,65431564SF6S5,999.5,Rush Yards,2024-09-05T20:00:00-04:00
+38715,Michael Pittman Jr.,WR,IND,NFLSZN,IND,68bv21 ,1050.5,Receiving Yards,2024-09-05T20:00:00-04:00
+39285,Lamar Jackson,QB,BAL,NFLSZN,BAL,86453210,3600.5,Pass Yards,2024-09-05T20:00:00-04:00
+38718,CeeDee Lamb,WR,DAL,NFLSZN,DAL,9rw8e45ds,9.5,Rec TDs,2024-09-05T20:00:00-04:00
+38718,CeeDee Lamb,WR,DAL,NFLSZN,DAL,9rw8e45ds,1399.5,Receiving Yards,2024-09-05T20:00:00-04:00
+39181,Dak Prescott,QB,DAL,NFLSZN,DAL,9rw8e45ds,31.5,Pass TDs,2024-09-05T20:00:00-04:00
+39181,Dak Prescott,QB,DAL,NFLSZN,DAL,9rw8e45ds,4225.5,Pass Yards,2024-09-05T20:00:00-04:00
+39063,Stefon Diggs,WR,HOU,NFLSZN,HOU,No Game ID,7.5,Rec TDs,2024-09-05T20:00:00-04:00
+39063,Stefon Diggs,WR,HOU,NFLSZN,HOU,No Game ID,950.5,Receiving Yards,2024-09-05T20:00:00-04:00
+140303,Bryce Young,QB,CAR,NFLSZN,CAR,SDAGFD24,3150.5,Pass Yards,2024-09-05T20:00:00-04:00
+39015,Derrick Henry,RB,BAL,NFLSZN,BAL,SDF98465S3F,10.5,Rush TDs,2024-09-05T20:00:00-04:00
+38670,Jalen Hurts,QB,PHI,NFLSZN,PHI,bnvhjkhj,11.0,Rush TDs,2024-09-05T20:00:00-04:00
+38774,D.K. Metcalf,WR,SEA,NFLSZN,SEA,bv531c2,1025.5,Receiving Yards,2024-09-05T20:00:00-04:00
+38711,Justin Jefferson,WR,MIN,NFLSZN,MIN,cx45231fd,1375.5,Receiving Yards,2024-09-05T20:00:00-04:00
+38666,Zack Moss,RB,CIN,NFLSZN,CIN,cx453210hg,7.5,Rush TDs,2024-09-05T20:00:00-04:00
+38717,Jerry Jeudy,WR,CLE,NFLSZN,CLE,cx468v512,725.5,Receiving Yards,2024-09-05T20:00:00-04:00
+140303,Bryce Young,QB,CAR,NFLSZN,CAR,cx53g42,18.5,Pass TDs,2024-09-05T20:00:00-04:00
+38879,Tony Pollard,RB,TEN,NFLSZN,TEN,cx684512,780.5,Rush Yards,2024-09-05T20:00:00-04:00
+38666,Zack Moss,RB,CIN,NFLSZN,CIN,"cxfdskjf,nm",899.5,Rush Yards,2024-09-05T20:00:00-04:00
+17557,T.J. Watt,OLB,PIT,NFLSZN,PIT,cxoifjns,15.25,Sacks,2024-09-05T20:00:00-04:00
+38586,Ja'Marr Chase,WR,CIN,NFLSZN,CIN,cxoiufjsn,9.5,Rec TDs,2024-09-05T20:00:00-04:00
+190730,Chris Jones,DT,KC,NFLSZN,KC,cxv5321fd,11.75,Sacks,2024-09-05T20:00:00-04:00
+69457,Brian Burns,DE,NYG,NFLSZN,NYG,cxvljnm,8.75,Sacks,2024-09-05T20:00:00-04:00
+38581,Trevor Lawrence,QB,JAC,NFLSZN,JAC,df7685231,3.5,Rush TDs,2024-09-05T20:00:00-04:00
+39194,Tyreek Hill,WR,MIA,NFLSZN,MIA,dfb531vc2,1425.5,Receiving Yards,2024-09-05T20:00:00-04:00
+190732,Justin Madubuike,DL,BAL,NFLSZN,BAL,"dfdsfnc,m",9.25,Sacks,2024-09-05T20:00:00-04:00
+142601,Christian McCaffrey,RB,SF,NFLSZN,SF,dhgf654fas,5.0,Rec TDs,2024-09-05T20:00:00-04:00
+38715,Michael Pittman Jr.,WR,IND,NFLSZN,IND,"dshucx,nm",4.5,Rec TDs,2024-09-05T20:00:00-04:00
+140378,C.J. Stroud,QB,HOU,NFLSZN,HOU,egsdvfd,4150.5,Pass Yards,2024-09-05T20:00:00-04:00
+38684,Tua Tagovailoa,QB,MIA,NFLSZN,MIA,f354h78,27.5,Pass TDs,2024-09-05T20:00:00-04:00
+38717,Jerry Jeudy,WR,CLE,NFLSZN,CLE,f46v531x20,3.5,Rec TDs,2024-09-05T20:00:00-04:00
+38581,Trevor Lawrence,QB,JAC,NFLSZN,JAC,fd10vsdf,299.5,Rush Yards,2024-09-05T20:00:00-04:00
+142601,Christian McCaffrey,RB,SF,NFLSZN,SF,fgh45fs5d4,499.5,Receiving Yards,2024-09-05T20:00:00-04:00
+39285,Lamar Jackson,QB,BAL,NFLSZN,BAL,fh4520e,770.5,Rush Yards,2024-09-05T20:00:00-04:00
+38786,Diontae Johnson,WR,CAR,NFLSZN,CAR,gdshfx,825.5,Receiving Yards,2024-09-05T20:00:00-04:00
+39194,Tyreek Hill,WR,MIA,NFLSZN,MIA,iuuljksfmd,9.5,Rec TDs,2024-09-05T20:00:00-04:00
+64215,A.J. Brown,WR,PHI,NFLSZN,PHI,kjcxdlfs,7.5,Rec TDs,2024-09-05T20:00:00-04:00
+64215,A.J. Brown,WR,PHI,NFLSZN,PHI,kjcxdlfs,1275.5,Receiving Yards,2024-09-05T20:00:00-04:00
+38670,Jalen Hurts,QB,PHI,NFLSZN,PHI,kjcxdlfs,22.5,Pass TDs,2024-09-05T20:00:00-04:00
+38670,Jalen Hurts,QB,PHI,NFLSZN,PHI,kjcxdlfs,3675.5,Pass Yards,2024-09-05T20:00:00-04:00
+140378,C.J. Stroud,QB,HOU,NFLSZN,HOU,n23j468hg4,26.5,Pass TDs,2024-09-05T20:00:00-04:00
+38879,Tony Pollard,RB,TEN,NFLSZN,TEN,nmbu51,6.5,Rush TDs,2024-09-05T20:00:00-04:00
+38774,D.K. Metcalf,WR,SEA,NFLSZN,SEA,oucxilofs,7.5,Rec TDs,2024-09-05T20:00:00-04:00
+39139,Kirk Cousins,QB,ATL,NFLSZN,ATL,r8t21csd,4099.5,Pass Yards,2024-09-05T20:00:00-04:00
+142598,Calvin Ridley,WR,TEN,NFLSZN,TEN,sadgterhyf,5.5,Rec TDs,2024-09-05T20:00:00-04:00
+142601,Christian McCaffrey,RB,SF,NFLSZN,SF,sd4f53sg4s,1150.5,Rush Yards,2024-09-05T20:00:00-04:00
+142601,Christian McCaffrey,RB,SF,NFLSZN,SF,sgds45g41,10.5,Rush TDs,2024-09-05T20:00:00-04:00
+38786,Diontae Johnson,WR,CAR,NFLSZN,CAR,svstgsdrfd,4.5,Rec TDs,2024-09-05T20:00:00-04:00
+38686,D'Andre Swift,RB,CHI,NFLSZN,CHI,vc12s,850.5,Rush Yards,2024-09-05T20:00:00-04:00
+38586,Ja'Marr Chase,WR,CIN,NFLSZN,CIN,vc45321,1310.5,Receiving Yards,2024-09-05T20:00:00-04:00
+38686,D'Andre Swift,RB,CHI,NFLSZN,CHI,vvhjknlkm,6.5,Rush TDs,2024-09-05T20:00:00-04:00
+39278,Baker Mayfield,QB,TB,NFLSZN,TB,w89fe6s4d5c2,23.5,Pass TDs,2024-09-05T20:00:00-04:00
+39278,Baker Mayfield,QB,TB,NFLSZN,TB,w89fe6s4d5c2,3650.5,Pass Yards,2024-09-05T20:00:00-04:00
+39091,Mike Evans,WR,TB,NFLSZN,TB,w89fe6s4d5c2,9.5,Rec TDs,2024-09-05T20:00:00-04:00
+39091,Mike Evans,WR,TB,NFLSZN,TB,w89fe6s4d5c2,1124.5,Receiving Yards,2024-09-05T20:00:00-04:00
+142598,Calvin Ridley,WR,TEN,NFLSZN,TEN,wasfgdfh,875.5,Receiving Yards,2024-09-05T20:00:00-04:00
+38799,Josh Jacobs,RB,GB,NFLSZN,GB,xcsf421,999.5,Rush Yards,2024-09-05T20:00:00-04:00
+69474,Micah Parsons	,LB,DAL,NFLSZN,DAL,xcv2sdags,12.75,Sacks,2024-09-05T20:00:00-04:00
+38711,Justin Jefferson,WR,MIN,NFLSZN,MIN,xf45sdsf,8.5,Rec TDs,2024-09-05T20:00:00-04:00
+69465,Danielle Hunter	,DE,HOU,NFLSZN,HOU,yhjfdgsedf,10.75,Sacks,2024-09-05T20:00:00-04:00
+39078,Patrick Mahomes,QB,KC,NFLSZN,KC,yujtfg,34.5,Pass TDs,2024-09-05T20:00:00-04:00
+39078,Patrick Mahomes,QB,KC,NFLSZN,KC,yujtfg,4350.5,Pass Yards,2024-09-05T20:00:00-04:00
+39131,Travis Kelce,TE,KC,NFLSZN,KC,yujtfg,8.5,Rec TDs,2024-09-05T20:00:00-04:00
+39131,Travis Kelce,TE,KC,NFLSZN,KC,yujtfg,1045.5,Receiving Yards,2024-09-05T20:00:00-04:00

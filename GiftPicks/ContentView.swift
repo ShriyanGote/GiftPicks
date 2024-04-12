@@ -13,28 +13,37 @@ class GlobalSettings: ObservableObject {
     @Published var betID: Int = 0
     @Published var entries: [(id: Int, bet: String, amount: String)] = []
     @Published var playerEntries: [PlayerEntry] = []
+    
+
 
     init() {
         loadCSVData()
     }
+    
 
     private func loadCSVData() {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd" // Custom date format
+        dateFormatter.timeZone = TimeZone(identifier: "America/Los_Angeles")
+        let currentDate = Date()
+        let formattedDate = dateFormatter.string(from: currentDate) + "_All_Odds"
         let csvService = CSVParserService()
-        self.playerEntries = csvService.loadCSVData(fileName: "2024-04-09_All_Odds")
+        self.playerEntries = csvService.loadCSVData(fileName: "2024-04-10_All_Odds")
     }
 }
 
+
 struct ContentView: View {
     @EnvironmentObject var settings: GlobalSettings
-    
+    let goldColor = Color(red: 225/255, green: 200/255, blue: 134/255)
     
     @Binding public var isAuthenticated: Bool
     @State private var currentPage: AppPage = .board
-    @State private var isScrolling: Bool = false
-    @State private var highlightedPlayer: Int? = nil
-    @State private var isEntryWindowOpen = false
-    @State private var overUnder: String = ""
-    @State private var playerEntryCount = 0
+    @State private var isScrolling: Bool = false // checks if scrolling
+    @State private var highlightedPlayer: Int? = nil //highlighted player index
+    @State private var isEntryWindowOpen = false // entry place window
+    @State private var overUnder: String = "" // green/red
+    @State private var playerEntryCount = 0 // id?
 
     private var sports: [String] {
         Set(settings.playerEntries.map { $0.sport }).sorted()
@@ -57,30 +66,40 @@ struct ContentView: View {
             }
     }
     @State private var playerColors: [String: [String: [Color]]]
-
-    init(isAuthenticated: Binding<Bool>, settings: GlobalSettings) {
-        self._isAuthenticated = isAuthenticated
-
-        // Initialize playerColors based on the player entries in settings
-        var initialColors = [String: [String: [Color]]]()
-        for entry in settings.playerEntries {
-            if initialColors[entry.sport] == nil {
-                initialColors[entry.sport] = [String: [Color]]()
-            }
-            if initialColors[entry.sport]?[entry.statType] == nil {
-                let count = settings.playerEntries.filter { $0.sport == entry.sport && $0.statType == entry.statType }.count
-                initialColors[entry.sport]?[entry.statType] = Array(repeating: Color.clear, count: count)
-            }
-        }
-        self._playerColors = State(initialValue: initialColors)
-    }
-    
+    @State private var selectedStat: String?
     @State private var selectedSport: String = "NBA" {
-            didSet {
+        didSet {
+            if oldValue != selectedSport {
                 selectedStat = sportsStats[selectedSport]?.first
             }
         }
-    @State private var selectedStat: String?
+    }
+
+    init(isAuthenticated: Binding<Bool>, settings: GlobalSettings) {
+            self._isAuthenticated = isAuthenticated
+            
+            // Temporary variable to hold sports stats until it's used to initialize selectedStat
+            let tempSportsStats = Dictionary(grouping: settings.playerEntries, by: { $0.sport })
+                .mapValues { entries in
+                    Set(entries.map { $0.statType }).sorted()
+                }
+            
+            // Initialize playerColors and selectedStat
+            var initialColors = [String: [String: [Color]]]()
+            for entry in settings.playerEntries {
+                if initialColors[entry.sport] == nil {
+                    initialColors[entry.sport] = [String: [Color]]()
+                }
+                if initialColors[entry.sport]?[entry.statType] == nil {
+                    let count = settings.playerEntries.filter { $0.sport == entry.sport && $0.statType == entry.statType }.count
+                    initialColors[entry.sport]?[entry.statType] = Array(repeating: Color.clear, count: count)
+                }
+            }
+
+            self._playerColors = State(initialValue: initialColors)
+            self._selectedStat = State(initialValue: tempSportsStats[selectedSport]?.first)
+        }
+    
     
 
 
@@ -98,7 +117,7 @@ struct ContentView: View {
                                 .padding(.horizontal, 12)
                                 .padding(.vertical, 6)
                                 .foregroundColor(selectedSport == sport ? .white : .black)
-                                .background(selectedSport == sport ? Color.purple : Color.clear)
+                                .background(selectedSport == sport ? goldColor : Color.clear)
                                 .cornerRadius(8)
                                 .onTapGesture {
                                     withAnimation {
@@ -165,6 +184,7 @@ struct ContentView: View {
                 }
                 
                 Button("Place Entry") {
+                    print("checking time")
                     isEntryWindowOpen.toggle()
                 }
                 //.frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.08)
@@ -172,7 +192,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .padding(.vertical, 8)
                     .padding(.horizontal, 12)
-                    .background(Color.purple)
+                    .background(goldColor)
                     .cornerRadius(8)
                     .sheet(isPresented: $isEntryWindowOpen) {
                         CurrentEntry(playerColors: playerColors)
@@ -201,8 +221,15 @@ struct ContentView: View {
     
     
     var body: some View {
+//        Image("logo 1") // Assumes "AppLogo" is the name of your image set
+//            .resizable()
+//            .aspectRatio(contentMode: .fit)
+//            .frame(width: 100, height: 100) // Adjust size as needed
+        
             GeometryReader { geometry in
                 ZStack {
+                    Color(.systemGray5) // Very light grey background
+                        .edgesIgnoringSafeArea(.all)
                     VStack {
                         //Spacer()
                         
@@ -248,7 +275,7 @@ struct ContentView: View {
         .foregroundColor(.white)
         .padding(.vertical, 8)
         .padding(.horizontal, 12)
-        .background(Color.purple)
+        .background(goldColor)
         .padding(.trailing, 30)
     }
     
@@ -273,14 +300,11 @@ struct ContentView: View {
 
 
     func changePlayerColor(sport: String, statType: String, playerIndex: Int, color: Color) {
-        print(playerIndex)
-        let statColors = playerColors[sport]?[statType]
-        print(statColors?.count ?? "Idk" as Any)
+        
         guard playerIndex >= 0, let statColors = playerColors[sport]?[statType], playerIndex < statColors.count else {
             return
         }
         playerColors[sport]?[statType]?[playerIndex] = color
-        print(playerColors[sport]?[statType]?[playerIndex] ?? "Not found!" as Any)
     }
 
 
@@ -340,8 +364,10 @@ struct ContentView: View {
                                     .cornerRadius(8)
                                     .onTapGesture {
                                         withAnimation {
-                                            selectedStat = (selectedStat == stat) ? nil : stat
-                                            scrollView.scrollTo(stat, anchor: .center)
+                                            if selectedStat != stat {
+                                                selectedStat = stat
+                                                scrollView.scrollTo(stat, anchor: .center)
+                                        }
                                     }
                                 }
                             }
@@ -414,23 +440,25 @@ struct ContentView: View {
 
 // Define your PrimaryButtonStyle for a consistent look across buttons
 struct PrimaryButtonStyle: ButtonStyle {
+    let goldColor = Color(red: 225/255, green: 200/255, blue: 134/255)
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .foregroundColor(.white)
             .padding()
-            .background(Color.purple)
+            .background(goldColor)
             .cornerRadius(8)
     }
 }
 
 struct BottomButtons: ButtonStyle {
+    let goldColor = Color(red: 225/255, green: 200/255, blue: 134/255)
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .font(.subheadline) // Adjust font size
             .padding(.horizontal, 6) // Adjust horizontal padding
             .padding(.vertical, 4) // Adjust vertical padding
             .foregroundColor(.white)
-            .background(Color.purple)
+            .background(goldColor)
             .cornerRadius(6) // Adjust corner radius
     }
 }
@@ -440,6 +468,7 @@ struct CurrentEntry: View {
     @EnvironmentObject var settings: GlobalSettings
     @Environment(\.presentationMode) var presentationMode
     var playerColors: [String: [String: [Color]]]
+    
 
     @State private var printedPlayers: [(sport: String, name: String, statType: String, color: Color)] = []
     @State private var dollarAmount: String = ""
@@ -507,7 +536,6 @@ struct CurrentEntry: View {
         }
     }
 }
-
 
 
 // Your other view structs like EntriesView, BoardView, etc...
