@@ -26,7 +26,7 @@ class GlobalSettings: ObservableObject {
         dateFormatter.dateFormat = "yyyy-MM-dd" // Custom date format
         dateFormatter.timeZone = TimeZone(identifier: "America/Los_Angeles")
         let currentDate = Date()
-        let formattedDate = dateFormatter.string(from: currentDate) + "_All_Odds"
+        //let formattedDate = dateFormatter.string(from: currentDate) + "_All_Odds"
         let csvService = CSVParserService()
         self.playerEntries = csvService.loadCSVData(fileName: "2024-04-10_All_Odds")
     }
@@ -184,7 +184,7 @@ struct ContentView: View {
                 }
                 
                 Button("Place Entry") {
-                    print("checking time")
+                    //print("checking time")
                     isEntryWindowOpen.toggle()
                 }
                 //.frame(width: geometry.size.width * 0.5, height: geometry.size.height * 0.08)
@@ -286,7 +286,7 @@ struct ContentView: View {
     
     private func printSelection() {
         if let playerIndex = highlightedPlayer, let playerName = playerEntry[selectedSport]?[selectedStat ?? "IDK"] {
-            print("Highlighted Player: \(playerName), Selection: \(overUnder)")
+            print("Highlighted Player: \(playerName[playerIndex]), Selection: \(overUnder)")
         }
     }
     
@@ -300,7 +300,6 @@ struct ContentView: View {
 
 
     func changePlayerColor(sport: String, statType: String, playerIndex: Int, color: Color) {
-        
         guard playerIndex >= 0, let statColors = playerColors[sport]?[statType], playerIndex < statColors.count else {
             return
         }
@@ -347,7 +346,7 @@ struct ContentView: View {
         }
 
         let stats = sportsStats[sport] ?? []
-        print(players, stats)
+        //print(players, stats)
         let playerEntries = settings.playerEntries.filter { $0.sport == sport && (selectedStat == nil || $0.statType == selectedStat) }
 
         return VStack {
@@ -386,19 +385,19 @@ struct ContentView: View {
                                 print("everything is cleared before")
                                 clearAllHighlightedPlayers()
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
-                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
+                                //print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = playerIndex
                             }
                             else if colorCheck == .gray || colorCheck == .red || colorCheck == .green {
                                 print("unhighlighting")
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .clear)
-                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
+                                //print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = nil
                             }
                             else {
                                 print("there was/is something highlighted before")
                                 changePlayerColor(sport: sport, statType: entry.statType, playerIndex: playerIndex, color: .gray)
-                                print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
+                                //print(playerColors[sport]?[entry.statType] ?? ["NBA"] as Any)
                                 highlightedPlayer = playerIndex
                             }
                         }) {
@@ -519,6 +518,7 @@ struct CurrentEntry: View {
                         .padding()
 
                     Button("Confirm and Place") {
+                        print(coloredPlayers)
                         settings.checkIfPlaced = true
                         for player in printedPlayers {
                             settings.entries.append((id: settings.betID, bet: "\(player.sport): \(player.name) - \(player.statType)", amount: dollarAmount))
