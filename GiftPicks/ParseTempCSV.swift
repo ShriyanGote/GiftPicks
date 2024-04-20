@@ -1,4 +1,5 @@
 import Foundation
+import AWSS3
 
 // Define the model to represent each entry in the CSV file
 struct PlayerEntry: Identifiable {
