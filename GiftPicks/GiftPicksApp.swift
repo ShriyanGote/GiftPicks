@@ -21,7 +21,7 @@ struct GiftPicksApp: App {
                 ContentView(isAuthenticated: $isAuthenticated, settings: globalSettings)
                     .environmentObject(globalSettings)
                     .onAppear {
-                        // Ensure the AWS configuration is already loaded.
+                        print("hello")
                         s3Downloader.downloadJsonFile()
                     }
             } else {

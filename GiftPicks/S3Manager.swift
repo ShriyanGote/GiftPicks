@@ -39,6 +39,7 @@ class S3Downloader: ObservableObject {
             fromBucket: "savedatafromlambda",
             key: "SHYR-12345.json",
             expression: AWSS3TransferUtilityDownloadExpression()) { (task, url, data, error) in
+                print("checking if working")
                 if let error = error {
                     print("Error downloading data: \(error.localizedDescription)")
                     
