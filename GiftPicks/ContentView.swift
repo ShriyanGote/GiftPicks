@@ -1,22 +1,31 @@
 import SwiftUI
 import UIKit
 import Foundation
-//import AWSS3
+import AWSS3
+
+
+import SwiftUI
+
+
+
+
+
+
+
+
 
 enum AppPage {
     case board
     case entries
     case account
     case help
-}
+} // end app page
 
 class GlobalSettings: ObservableObject {
     @Published var checkIfPlaced: Bool = false
     @Published var betID: Int = 0
     @Published var entries: [(id: Int, bet: String, amount: String)] = []
     @Published var playerEntries: [PlayerEntry] = []
-    
-
 
     init() {
         loadCSVData()
@@ -32,10 +41,11 @@ class GlobalSettings: ObservableObject {
         let csvService = CSVParserService()
         self.playerEntries = csvService.loadCSVData(fileName: "2024-04-10_All_Odds")
     }
-}
+} // end global settings
 
 
 struct ContentView: View {
+    
     @EnvironmentObject var settings: GlobalSettings
     let goldColor = Color(red: 225/255, green: 200/255, blue: 134/255)
     
@@ -100,7 +110,7 @@ struct ContentView: View {
 
             self._playerColors = State(initialValue: initialColors)
             self._selectedStat = State(initialValue: tempSportsStats[selectedSport]?.first)
-        }
+        } // end global settings conversion
     
     
 
@@ -219,7 +229,7 @@ struct ContentView: View {
 
         }
         
-    }
+    } // end board view
     
     
     var body: some View {
@@ -261,7 +271,7 @@ struct ContentView: View {
                     settings.checkIfPlaced = false
                 }
             }
-        }
+        } // end var body view
     
     
     private func navigationBar(geometry: GeometryProxy) -> some View {
@@ -279,7 +289,7 @@ struct ContentView: View {
         .padding(.horizontal, 12)
         .background(goldColor)
         .padding(.trailing, 30)
-    }
+    } // end nav bar
     
     
     private var scrollViewOffset: CGFloat {
@@ -436,8 +446,7 @@ struct ContentView: View {
             }
         }
     } // end genreate sports
-    
-}
+} // end content view
 
 // Define your PrimaryButtonStyle for a consistent look across buttons
 struct PrimaryButtonStyle: ButtonStyle {
@@ -537,7 +546,7 @@ struct CurrentEntry: View {
             .padding()
         }
     }
-}
+} // end entry view
 
 
 // Your other view structs like EntriesView, BoardView, etc...
